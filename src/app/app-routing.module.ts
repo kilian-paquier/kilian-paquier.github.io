@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { NOTFOUND } from 'dns';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { EducationComponent } from './education/education.component';
@@ -11,15 +12,16 @@ import { ProjectsComponent } from './projects/projects.component';
 import { SkillsComponent } from './skills/skills.component';
 
 const routes: Routes = [
-  { path: 'footer', outlet: 'footer', component: FooterComponent },
-  { path: 'nav', outlet: 'nav', component: NavComponent },
-  { path: 'projects', outlet: 'projects', component: ProjectsComponent },
-  { path: 'skills', outlet: 'skills', component: SkillsComponent },
-  { path: 'about', outlet: 'about', component: AboutComponent },
-  { path: 'education', outlet: 'education', component: EducationComponent },
-  { path: 'interets', outlet: 'interests', component: InterestsComponent },
-  { path: 'contact', outlet: 'contact', component: ContactComponent },
-  { path: 'experiences', outlet: 'experiences', component: ExperiencesComponent }
+  { path: '', outlet: 'footer', component: FooterComponent },
+  { path: '', outlet: 'nav', component: NavComponent },
+  { path: '', outlet: 'projects', component: ProjectsComponent },
+  { path: '', outlet: 'skills', component: SkillsComponent },
+  { path: '', outlet: 'about', component: AboutComponent },
+  { path: '', outlet: 'education', component: EducationComponent },
+  { path: '', outlet: 'interests', component: InterestsComponent },
+  { path: '', outlet: 'contact', component: ContactComponent },
+  { path: '', outlet: 'experiences', component: ExperiencesComponent },
+  { path: '**', redirectTo: '' }
 ]
 
 @NgModule({
