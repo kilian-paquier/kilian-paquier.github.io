@@ -15,24 +15,20 @@ import { EducationComponent } from './education/education.component';
 import { AboutComponent } from './about/about.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    FooterComponent,
-    NavComponent,
-    SkillsComponent,
-    ProjectsComponent,
-    ExperiencesComponent,
-    InterestsComponent,
-    ContactComponent,
-    EducationComponent,
-    AboutComponent
-  ],
-  imports: [
-    BrowserModule,
-    BrowserAnimationsModule,
-    AppRoutingModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+	declarations: [
+		AppComponent,
+		FooterComponent,
+		NavComponent,
+		SkillsComponent,
+		ProjectsComponent,
+		ExperiencesComponent,
+		InterestsComponent,
+		ContactComponent,
+		EducationComponent,
+		AboutComponent,
+	],
+	imports: [BrowserModule, BrowserAnimationsModule, AppRoutingModule],
+	providers: [],
+	bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
