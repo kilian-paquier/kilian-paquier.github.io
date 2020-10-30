@@ -1,0 +1,35 @@
+/* Couleurs */
+
+$primary: mat-palette($mat-blue, 700);
+
+/* Thème clair */
+
+$light-accent: mat-palette($mat-orange, 700);
+$light-warn: mat-palette($mat-red, 700);
+$light-theme: mat-light-theme(
+	(
+		color: (
+			primary: $primary,
+			accent: $light-accent,
+			warn: $light-warn,
+		),
+	)
+);
+@include angular-material-theme($light-theme);
+
+/* Thème sombre */
+
+$dark-accent: mat-palette($mat-orange, 800);
+$dark-warn: mat-palette($mat-red, 700);
+$dark-theme: mat-dark-theme(
+	(
+		color: (
+			primary: $primary,
+			accent: $dark-accent,
+			warn: $dark-warn,
+		),
+	)
+);
+.dark-theme {
+	@include angular-material-color($dark-theme);
+}

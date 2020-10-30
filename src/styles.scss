@@ -10,61 +10,6 @@ body {
 	height: 100%;
 }
 
-.pointer {
-	cursor: pointer;
-}
-
-button:focus {
-	outline: none;
-	box-shadow: none;
-}
-
-.nav-button {
-	position: absolute;
-	bottom: 2rem;
-	left: 2rem;
-}
-
-.nav-item {
-	height: 55px;
-	text-align: left !important;
-	text-transform: uppercase !important;
-	padding-right: 1rem;
-}
-
-.sidenav {
-	padding-top: 1rem !important;
-	min-width: 100px;
-}
-
-/* Définition des styles de texte */
-
-@mixin serif-font {
-	font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-		Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
-		'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-}
-
-@mixin script-font {
-	font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-		Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
-		'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-}
-
-@mixin body-font {
-	font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-		Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
-		'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-}
-
-@mixin heading-font {
-	font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-		Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
-		'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-}
-
-/* Définition des styles globaux */
-
 body {
 	overflow-x: hidden;
 	@include body-font;
@@ -118,7 +63,6 @@ section {
 	}
 }
 
-// Highlight color customization
 ::-moz-selection {
 	background: $primary;
 	text-shadow: none;
@@ -137,47 +81,29 @@ img::-moz-selection {
 	background: transparent;
 }
 
-/* Couleurs thème clair */
+.pointer {
+	cursor: pointer;
+}
 
-$primary: mat-palette($mat-blue, 700);
-$light-accent: mat-palette($mat-orange, 700);
-$light-warn: mat-palette($mat-red, 700);
+button:focus {
+	outline: none;
+	box-shadow: none;
+}
 
-/* Définition du thème clair */
+.nav-button {
+	position: absolute;
+	bottom: 2rem;
+	left: 2rem;
+}
 
-$light-theme: mat-light-theme(
-	(
-		color: (
-			primary: $primary,
-			accent: $light-accent,
-			warn: $light-warn,
-		),
-	)
-);
+.nav-item {
+	height: 55px;
+	text-align: left !important;
+	text-transform: uppercase !important;
+	padding-right: 1rem;
+}
 
-/* Enrgistrement du thème clair */
-
-@include angular-material-theme($light-theme);
-
-/* Couleurs du thème sombre */
-
-$dark-accent: mat-palette($mat-orange, 800);
-$dark-warn: mat-palette($mat-red, 700);
-
-/* Définition du thème sombre */
-
-$dark-theme: mat-dark-theme(
-	(
-		color: (
-			primary: $primary,
-			accent: $dark-accent,
-			warn: $dark-warn,
-		),
-	)
-);
-
-/* Enregistrement du thème sombre */
-
-.dark-theme {
-	@include angular-material-color($dark-theme);
+.sidenav {
+	padding-top: 1rem !important;
+	min-width: 100px;
 }
