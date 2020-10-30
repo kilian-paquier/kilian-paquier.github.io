@@ -1,4 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
+/* Theming */
+
+@import '~@angular/material/theming';
+// @import '~@angular/material/prebuilt-themes/indigo-pink.css';
+@include mat-core();
+
+/* CSS */
 
 html,
 body {
@@ -10,14 +16,34 @@ body {
 	font-family: Roboto, 'Helvetica Neue', sans-serif;
 }
 
-/* Theming */
+.pointer {
+	cursor: pointer;
+}
 
-@import '~@angular/material/theming';
-@include mat-core();
-$light-primary: mat-palette();
-$light-accent: mat-palette();
-$light-warn: mat-palette();
-// Définition du thème clair
+.navbar-shadow {
+	-webkit-box-shadow: 0 0px 2px 1px mat-color(mat-palette($mat-grey, 900));
+	-moz-box-shadow: 0 0px 2px 1px mat-color(mat-palette($mat-grey, 900));
+	box-shadow: 0 0px 2px 1px mat-color(mat-palette($mat-grey, 900));
+}
+
+button:focus {
+	outline: none;
+	box-shadow: none;
+}
+
+.navbar-brand:hover {
+	text-decoration: none;
+	color: inherit !important;
+}
+
+/* Couleurs thème clair */
+
+$light-primary: mat-palette($mat-blue, 700);
+$light-accent: mat-palette($mat-orange, 700);
+$light-warn: mat-palette($mat-red, 700);
+
+/* Définition du thème clair */
+
 $light-theme: mat-light-theme(
 	(
 		color: (
@@ -27,10 +53,19 @@ $light-theme: mat-light-theme(
 		),
 	)
 );
+
+/* Enrgistrement du thème clair */
+
 @include angular-material-theme($light-theme);
-$dark-primary: mat-palette();
-$dark-accent: mat-palette();
-$dark-warn: mat-palette();
+
+/* Couleurs du thème sombre */
+
+$dark-primary: mat-palette($mat-blue, 700);
+$dark-accent: mat-palette($mat-orange, 800);
+$dark-warn: mat-palette($mat-red, 700);
+
+/* Définition du thème sombre */
+
 $dark-theme: mat-dark-theme(
 	(
 		color: (
@@ -40,7 +75,14 @@ $dark-theme: mat-dark-theme(
 		),
 	)
 );
-// Définition du thème sombre
+
+/* Enregistrement du thème sombre */
+
 .dark-theme {
 	@include angular-material-color($dark-theme);
+	// @import '~@angular/material/prebuilt-themes/purple-green.css';
 }
+
+// .light-theme {
+// 	@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+// }

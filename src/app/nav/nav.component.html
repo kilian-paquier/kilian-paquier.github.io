@@ -1,1 +1,23 @@
-<p>nav works!</p>
+<mat-toolbar class="bg-transparent">
+    <a class="navbar-brand" href="#page-top">
+        <img src="../../assets/images/logo.jpg" class="mb-1" width="31" height="31" />
+        <span class="px-1">Kilian Paquier</span>
+    </a>
+    <button mat-icon-button type="button" class="pointer navbar-toggler ml-auto mb-1" data-toggle="collapse"
+        data-target="#navbar" aria-controls="navbar" aria-expanded="false" fxHide.gt-md="true" fxShow="true">
+        <mat-icon>menu</mat-icon>
+    </button>
+    <div class="collapse navbar-collapse ml-auto" id="navbar" fxHide.lt-md="true" fxShow="true">
+        <mat-list class="navbar-nav text-uppercase ml-auto">
+            <mat-list-item class="nav-item">
+                <a class="nav-link stati18n s18n-about" href="#about"></a>
+            </mat-list-item>
+            <mat-list-item class="stati18n s18n-experiences"></mat-list-item>
+            <mat-list-item class="stati18n s18n-formations"></mat-list-item>
+            <mat-list-item class="stati18n s18n-skills"></mat-list-item>
+            <mat-list-item class="stati18n s18n-portfolio"></mat-list-item>
+            <mat-list-item class="stati18n s18n-interets"></mat-list-item>
+            <mat-list-item class="stati18n s18n-contact"></mat-list-item>
+        </mat-list>
+    </div>
+</mat-toolbar>
