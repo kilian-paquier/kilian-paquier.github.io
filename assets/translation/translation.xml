@@ -1,0 +1,653 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<stati18n>
+    <host>
+        <name>https://kilian-paquier.fr/</name>
+    </host>
+
+    <file>
+        <name>stati18n</name>
+        <minified>false</minified>
+    </file>
+
+    <language>
+        <!-- Menus -->
+        <text id="about">
+            <translation lang="fr">À propos</translation>
+            <translation lang="en">About</translation>
+        </text>
+        <text id="experiences">
+            <translation lang="fr">Expériences</translation>
+            <translation lang="en">Experiences</translation>
+        </text>
+        <text id="formations">
+            <translation lang="fr">Formations</translation>
+            <translation lang="en">Education</translation>
+        </text>
+        <text id="skills">
+            <translation lang="fr">Compétences</translation>
+            <translation lang="en">Skills</translation>
+        </text>
+        <text id="portfolio">
+            <translation lang="fr">Projets</translation>
+            <translation lang="en">Projects</translation>
+        </text>
+        <text id="interets">
+            <translation lang="fr">Intérêts</translation>
+            <translation lang="en">Interests</translation>
+        </text>
+        <text id="contact">
+            <translation lang="fr">Contact</translation>
+            <translation lang="en">Contact</translation>
+        </text>
+
+        <!-- Intro -->
+        <text id="intro-lead-in">
+            <translation lang="fr">Stagiaire Consultant Innovation</translation>
+            <translation lang="en">Innovation Consultant Intern</translation>
+        </text>
+        <text id="see-more">
+            <translation lang="fr">Mon CV</translation>
+            <translation lang="en">My resume</translation>
+        </text>
+
+        <!-- Dates -->
+        <text id="today">
+            <translation lang="fr">Aujourd'hui</translation>
+            <translation lang="en">Today</translation>
+        </text>
+        <text id="june">
+            <translation lang="fr">Juin</translation>
+            <translation lang="en">June</translation>
+        </text>
+        <text id="august">
+            <translation lang="fr">Août</translation>
+            <translation lang="en">August</translation>
+        </text>
+        <text id="september">
+            <translation lang="fr">Septembre</translation>
+            <translation lang="en">September</translation>
+        </text>
+
+        <!-- À propos -->
+        <text id="text-about">
+            <translation lang="fr">Bienvenue sur mon portfolio et bonne lecture ! Je suis étudiant en double diplôme
+                ingénieur informatique et maîtrise informatique (avec Polytech Tours et l'Université du Québec à
+                Chicoutimi).
+            </translation>
+            <translation lang="en">Welcome on my portfolio and have a great reading ! I'm a student following a dual
+                degree computer science engineer and master degree in computer science (with Polytech Tours and the
+                University of Québec at Chicoutimi).
+            </translation>
+        </text>
+        <text id="text-about-two">
+            <!--<translation lang="fr">Je suis actuellement à la recherche d'un stage de fin d'études d'une durée de 6 mois
+                en tant qu'ingénieur logiciel Java/JEE ou C#/.NET à Rennes.
+            </translation>
+            <translation lang="en">I'm currently looking for a 6 months final year internship as software engineer in
+                Java/JEE or C#/.NET in Rennes.
+            </translation>-->
+        </text>
+        <text id="text-about-three">
+            <translation lang="fr">Passionné par l'informatique depuis la classe de 4e (où j'ai pu suivre un cours de
+                HTML et CSS sur le Site du Zéro), ma principale qualité se porte sur le souci du détail car il est
+                important pour moi de fournir des applications complètes qui facilitent l'expérience utilisateur (en
+                prenant en compte le ressenti des utilisateurs finaux à chaque démonstration).
+            </translation>
+            <translation lang="en">Passionate by computer science since the 8th grade in the USA or the year 9 in the UK
+                (where i attended a course in HTML/CSS on the website \"Site du Zéro\"), my main quality is my attention
+                to detail because it is important for me to produce complete applications which facilitate the user
+                experience (in taking into account the perception of the final users at every application presentation).
+            </translation>
+        </text>
+        <text id="age">
+            <translation lang="fr">Âgé de</translation>
+            <translation lang="en">Aged of</translation>
+        </text>
+        <text id="age-part-2">
+            <translation lang="fr">ans</translation>
+            <translation lang="en">years</translation>
+        </text>
+
+        <!-- Expériences -->
+        <text id="title-experiences">
+            <translation lang="fr">Expériences professionnelles</translation>
+            <translation lang="en">Professional experiences</translation>
+        </text>
+        <text id="subheading-alten">
+            <translation lang="fr">Août 2020 à février 2021</translation>
+            <translation lang="en">August 2020 to February 2021</translation>
+        </text>
+        <text id="subheading-eurosys">
+            <translation lang="fr">Juin à août 2019</translation>
+            <translation lang="en">June to August 2019</translation>
+        </text>
+        <text id="text-eurosys">
+            <translation lang="fr">Pour mon stage de 4e année à Polytech Tours, j'ai travaillé chez Euro-Sys où j'avais
+                deux missions. La première, analyser et comparer la version du framework (ExtJS) utilisé et la nouvelle
+                version afin d'estimer les modifications et le temps nécessaires pour le changement de version sur
+                l'ERP. La seconde, implémenter plusieurs fonctionnalité dans ce même ERP.
+            </translation>
+            <translation lang="en">For my 4th year internship in Polytech Tours, i worked at Euro-Sys where i had two
+                missions. First, analyze and compare the used version of the framework (ExtJS) and the new version in
+                order to estimate the required duration and modifications to update the ERP. Secondly, implement
+                multiple features in this same ERP.
+            </translation>
+        </text>
+        <text id="subheading-ddt">
+            <translation lang="fr">Août 2018</translation>
+            <translation lang="en">August 2018</translation>
+        </text>
+        <text id="text-ddt">
+            <translation lang="fr">J'ai travaillé dans le cadre d'un CDD à la Direction Départementale des Territoires
+                (DDT) dans le but de développer une application de recherche de dossiers manquants (taxes d'aménagement)
+                et de génération de tableaux croisés : T.A.GEDOFIS.
+            </translation>
+            <translation lang="en">I worked within the scope of a fixed-term job at the Direction Départementale des
+                Territoires (DDT) in order to develop an application to search missing case file (land planning tax) and
+                to generate pivot tables : T.A.GEDOFIS.
+            </translation>
+        </text>
+        <text id="subheading-ufcv">
+            <translation lang="fr">Février, avril et août 2017</translation>
+            <translation lang="en">February, April and August 2017</translation>
+        </text>
+        <text id="text-ufcv">
+            <translation lang="fr">J'ai travaillé à l'Union Française des Centres de Vacances et de loisirs (UFCV) en
+                tant que formateur BAFA. J'ai participé à trois sessions de formation, une session base (la découverte
+                de la règlementation, des caractéristiques des jeunes, l'élaboration d'animations) et deux sessions
+                d'approfondissement (diversification et agrandissement des connaissances).
+            </translation>
+            <translation lang="en">I worked at the Union Française des Centres de Vacances et de loisirs (UFCV) as youth
+                worker trainer. I participated in three training sessions, a base session (discovery of the regulations,
+                of the young's characteristics, creation of activities) and two \"in depth\" sessions (specialization
+                and in depth study of this knowledge).
+            </translation>
+        </text>
+        <text id="subheading-cgcv">
+            <translation lang="fr">Juillet 2016 et 2017</translation>
+            <translation lang="en">July 2016 and 2017</translation>
+        </text>
+        <text id="text-cgcv">
+            <translation lang="fr">Sur deux colonies de vacances de trois semaines chacunes en Alsace, j'ai travaillé au
+                CGCV (C'est Génial Comme Vacances) en tant qu'animateur. J'ai animé ces deux fois des jeunes de 6 à 12
+                ans avec l'organisation d'activités, animations, grandes animations, sorties et veillées.
+            </translation>
+            <translation lang="en">I worked as youth worker at the CGCV (C'est Génial Comme Vacances) for two summer
+                camps in Alsace. Those two times i animated the youngling from 6 to 12 years old with activities,
+                animations, outings and evenings.
+            </translation>
+        </text>
+        <text id="subheading-dreal">
+            <translation lang="fr">Juin 2016</translation>
+            <translation lang="en">June 2016</translation>
+        </text>
+        <text id="text-dreal">
+            <translation lang="fr">Dans le cadre de mon stage de première année de PeiP (à Polytech Tours), j'ai
+                travaillé à la Direction Régionale de l'Environnement, de l'Aménagement et du Logement (DREAL). Durant
+                ce stage j'ai pu découvrir la mise à jour des serveurs ainsi que participer à la mise en place de la
+                téléphone IP (branchements sur les switchs et dans les bureaux).
+            </translation>
+            <translation lang="en">For my 1st year internship in PeiP (at Polytech Tours), i worked at the Direction
+                Régionale de l'Environnement, de l'Aménagement et du Logement (DREAL). During this internship, i had the
+                opportunity to discover the update of servers and to participate in the establishment of the IP
+                telephony (connection on switches and in offices).
+            </translation>
+        </text>
+
+        <!-- Formations -->
+        <text id="text-uqac">
+            <translation lang="fr">Je réalise actuellement un double diplôme à l'Université du Québec à Chicoutimi
+                (UQAC) pour obtenir une maîtrise informatique et un diplôme d'ingénieur informatique (avec Polytech
+                Tours). J'ai pu approfondir mes connaissances en gestion de projet (cahier des spécifications,
+                méthodologies Agile/Scrum et prédictive tel que en cascade et en V), en programmation objet, génie
+                logiciel et qualité logicielle. Mais aussi mes compétences en développement.
+            </translation>
+            <translation lang="en">I'm currently fulfilling a dual degree at the University of Québec at Chicoutimi
+                (UQAC) to obtain a master degree in computer science and a computer science engineering degree (with
+                Polytech Tours). I improved my knowledge in projet management (functional specification, Scrum/Agile and
+                predictive methodologies like waterfall and V), in object oriented development, software engineering and
+                software quality. But also my skills in programming.
+            </translation>
+        </text>
+        <text id="text-polytech">
+            <translation lang="fr">J'étudie actuellement à Polytech Tours dans le cursus ingénieur informatique. J'ai pu
+                apprendre différents langages de programmation mais aussi pu en apprendre davantage sur les systèmes
+                répartis, le génie logiciel, la qualité logicielle, le cycle de vie d'un projet, l'algorithmie et la
+                gestion de projet.
+            </translation>
+            <translation lang="en">I'm currently achieving a computer science engineering degree at Polytech Tours. I
+                learned programming languages but i also reinforced my knowledge with courses about software
+                engineering, software quality, distributed systems, life cycle of a project, algorithm and project
+                management.
+            </translation>
+        </text>
+        <text id="text-peip">
+            <translation lang="fr">J'ai complété le Parcours des écoles d'ingénieurs Polytech (PeiP) en mathématiques et
+                informatique (MI) à Polytech Tours. J'ai découvert quelques langages ainsi que réalisé deux principaux
+                projets : le mouvement d'un moteur par la voix (en python avec une librairie de reconnaissance vocale
+                existante) et une étude de création d'une ligne B pour le tramway de Tours.
+            </translation>
+            <translation lang="en">I completed the Parcours des écoles d'ingénieurs Polytech (PeiP) in mathematics and
+                computer science at Polytech Tours. I discovered programming languages and realised two main projects :
+                an engine movement with the voice (in python with an existing voice recognition library) and a tram
+                creation study for a second line in Tours (France).
+            </translation>
+        </text>
+        <text id="text-lycee">
+            <translation lang="fr">Diplômé du baccalauréat filière S avec la spécialité mathématiques.</translation>
+            <translation lang="en">High school diploma in chemistry, physics and mathematics with speciality in
+                mathematics.
+            </translation>
+        </text>
+
+        <!-- Compétences -->
+        <text id="langages">
+            <translation lang="fr">Langages</translation>
+            <translation lang="en">Languages</translation>
+        </text>
+        <text id="tools">
+            <translation lang="fr">Outils</translation>
+            <translation lang="en">Tools</translation>
+        </text>
+
+        <!-- Projets -->
+        <text id="close-project">
+            <translation lang="fr">Fermer le projet</translation>
+            <translation lang="en">Close project</translation>
+        </text>
+
+        <!-- Pointeuse -->
+        <text id="title-pointeuse">
+            <translation lang="fr">Pointeuse</translation>
+            <translation lang="en">Punch clock</translation>
+        </text>
+        <text id="resume-pointeuse">
+            <translation lang="fr">Java / Swing / MVC</translation>
+            <translation lang="en">Java / Swing / MVC</translation>
+        </text>
+        <text id="abstract-pointeuse">
+            <translation lang="fr">Lors de ma première année à Polytech Tours, afin de valider mes compétences en
+                développement orienté objet avec Java, j'ai développé une pointeuse qui permet aux employés
+                d'une entreprise d'enregistrer leurs heures de pointage. Le logiciel communique via TCP/IP entre les
+                pointeuses et l'application centrale, celle-ci permettant de gérer les employés (ajout, modification,
+                suppression), les départements et les managers. Enfin, si les pointeuses ne peuvent communiquer avec
+                l'application centrale, elles enregistrent les pointages dans un fichier JSON qui sera par la suite
+                transmis lorsque la communication sera de nouveau fonctionnelle.
+            </translation>
+            <translation lang="en">During my first year at Polytech Tours (in the engineer degree), to achieve my course
+                in Java object oriented development i developed a software allowing employees (of companies) to punch in
+                (clock in). This software communicates with TCP/IP to exchange information between punch clocks and the
+                main app. This main app allows administrators to manage employees (creation, modification, deletion),
+                departments and managers. If the communication cannot be, punch clocks serialize all the checks in a
+                JSON file which is sent when that communication is ON again.
+            </translation>
+        </text>
+        <text id="date-pointeuse">
+            <translation lang="fr">Date : Janvier à juin 2018</translation>
+            <translation lang="en">Date : January to June 2018</translation>
+        </text>
+        <text id="cours-pointeuse">
+            <translation lang="fr">Cours : Programmation Java orientée objet</translation>
+            <translation lang="en">Class : Java object oriented development</translation>
+        </text>
+
+        <!-- T.A.GEDOFIS -->
+        <text id="resume-tagedofis">
+            <translation lang="fr">Java / Swing / MVC</translation>
+            <translation lang="en">Java / Swing / MVC</translation>
+        </text>
+        <text id="abstract-tagedofis">
+            <translation lang="fr">Durant deux mois j'ai travaillé pour le compte de la DDT (Direction Départementale
+                des Territoires) et j'ai été amené à développer une application de gestion des dossiers de taxes
+                d'aménagement. Cette application est complémentaire à un logiciel national (qui enregistre les
+                dossiers), car en effet celui-ci ne permet pas de rechercher les taxes non enregistrées (dossiers
+                manquants). Mon application permet donc de rechercher ces dossiers afin de pouvoir par la suite
+                contacter les communes pour les informer, mais permet aussi de générer des tableaux croisés pour fournir
+                des statistiques sur le nombre de dossiers manquants par commune, par année et par type de taxe.
+            </translation>
+            <translation lang="en">For two months i worked at the DDT (Direction Départementale des Territoires) and i
+                developed a software to manage records (taxes). This software is completing a national application
+                allowing the backing-up of those records, in fact that software doesn't allow to search for missing
+                records. Therefore, my application allows its users to search those missing records so this information
+                can be transmitted to the municipalities. Also, my app can generate pivot tables to supply statistics
+                about the number of missing records by year, municipality or by tax type.
+            </translation>
+        </text>
+        <text id="date-tagedofis">
+            <translation lang="fr">Date : Août 2018</translation>
+            <translation lang="en">Date : August 2018</translation>
+        </text>
+        <text id="client-tagedofis">
+            <translation lang="fr">Client : Direction Départementale des Territoires</translation>
+            <translation lang="en">Client : Direction Départementale des Territoires</translation>
+        </text>
+
+        <!-- Projet liste d'étudiants -->
+        <text id="title-students">
+            <translation lang="fr">Listes d'étudiants</translation>
+            <translation lang="en">Students' lists</translation>
+        </text>
+        <text id="resume-students">
+            <translation lang="fr">Java / Swing / MVC / Planification</translation>
+            <translation lang="en">Java / Swing / MVC / Planning</translation>
+        </text>
+        <text id="abstract-students">
+            <translation lang="fr">Durant ma deuxième année à Polytech Tours, j'ai développé une application de
+                génération de listes d'étudiants prenant en paramètre différentes caractéristiques (groupes, groupes
+                d'anglais, redoublements, mobilités). En entrée de l'application, l'utilisateur fourni la liste des
+                étudiants (avec les caractéristiques de chaque étudiant) puis, il peut choisir les différentes
+                générations qu'il souhaite avec les caractéristiques souhaitées. L'exportation se fait dans un fichier
+                Excel et les étudiants sont triés alphabétiquement.
+            </translation>
+            <translation lang="en">During my second year à Polytech Tours i developed a software allowing one of the
+                University lecturer (in charge of the students' groups) to generate students' lists. In fact, every year
+                he needs to generate the groups and it's a tedious task to do, therefore this application allows him to
+                generate those students' lists with in input the file with all the students and their characteristics.
+                Then he can choose how to generate those lists with the characteristics he wants (for instance the
+                mobility and the english group).
+            </translation>
+        </text>
+        <text id="date-students">
+            <translation lang="fr">Date : Septembre à décembre 2018</translation>
+            <translation lang="en">Date : September to December 2018</translation>
+        </text>
+        <text id="client-students">
+            <translation lang="fr">Client : Enseignant chercheur</translation>
+            <translation lang="en">Client : University lecturer and researcher</translation>
+        </text>
+
+        <!-- Qt patients -->
+        <text id="resume-patients">
+            <translation lang="fr">C++ / Qt / SQLite</translation>
+            <translation lang="en">C++ / Qt / SQLite</translation>
+        </text>
+        <text id="abstract-patients">
+            <translation lang="fr">Afin de valider un cours en développement logiciel C++ / Qt, j'ai développé une
+                application Qt permettant la gestion de patients pouvant être utilisée pour une clinique médicale. Cette
+                application permet la gestion des patients (création, modification et suppression), la gestion des
+                médecins et employés de la clinique, la prise de rendez-vous et l'ordonnancement des rendez-vous sur une
+                journée en fonctions des médecins et de la priorité des patients pour la raison de la consultation.
+            </translation>
+            <translation lang="en">To achieve a course in C++ / Qt software development, i developed an application to
+                manage patients which can be used in a medical clinic. This software allows the management of patients
+                (creation, modification, deletion), the management of doctors and employees, the appointments creation
+                and the scheduling of appointments for a given day with the available doctors and the priority of each
+                patient.
+            </translation>
+        </text>
+        <text id="date-patients">
+            <translation lang="fr">Date : Janvier à mars 2019</translation>
+            <translation lang="en">Date : January to March 2019</translation>
+        </text>
+        <text id="class-patients">
+            <translation lang="fr">Cours : Plateforme logicielle C++</translation>
+            <translation lang="en">Class : Software platform C++</translation>
+        </text>
+
+        <!-- Gestion EPI -->
+        <text id="title-epi">
+            <translation lang="fr">Gestion EPI</translation>
+            <translation lang="en">PPE Management</translation>
+        </text>
+        <text id="resume-epi">
+            <translation lang="fr">Web / Management / Planification</translation>
+            <translation lang="en">Web / Management / Planning</translation>
+        </text>
+        <text id="abstract-epi">
+            <translation lang="fr">Lors de ma deuxième année à Polytech Tours, j'ai travaillé avec sept autres étudiants
+                pour le compte du lycée agricole des Fondettes à Tours. Nous avons développé une application afin de
+                faciliter la gestion de leurs EPI, en effet jusqu'ici toute la vérification se faisait par papier et la
+                conservation dans un local (pratique mais fastidieux dans la durée). Notre application permet donc
+                aujourd'hui de faire la vérification de ces EPI directement ligne et le stockage se fait dans une base
+                de données. Nous avons développé plusieurs fonctionnalités, avec tout d'abord l'enregistrement et la
+                connexion de vérificateurs. Mais aussi l'insertion, vérification et suppression des EPI (automatique
+                selon leur durée de vie et / ou leur mise au rebut ou en quarantaine dans le cas où ils seraient
+                endommagés). Enfin, nous permettons le suivi des EPI via plusieurs tableaux (quarantaine, rebut, EPI en
+                fin de vie) et la génération de fichiers PDF pour les vérifications (afin d'avoir un format papier si
+                besoin) et pour les tableaux. Pour le développement, nous avons utilisé les langages HTML, CSS, JS et
+                PHP avec JQuery et CodeIgniter (framework PHP).
+            </translation>
+            <translation lang="en">During my second year at Polytech Tours, i worked with seven other students on behalf
+                of the agricultural high school of Fondettes in Tours. We developed a software allowing them to manage
+                their PPE, in fact until that time (May 2019) they were doing their checks on paper. Our software
+                allows them today to do those checks directly on the internet with storage inside a database. We created
+                some features as register and login for inspectors. But also insertion, check and deletion of PPE
+                (automation of the deletion when PPE are at the end of their lives, or if they are in reject or
+                quarantine). Finally, we allow the monitoring of those PPE with multiple tables (quarantine, reject, end
+                of life) and the generation of PDF files for PPE checks (paper format if needed) and for tables. For the
+                development of this application we used HTML, CSS, JS and PHP with JQuery and CodeIgniter (PHP
+                framework).
+            </translation>
+        </text>
+        <text id="date-epi">
+            <translation lang="fr">Date : Janvier à mai 2019</translation>
+            <translation lang="en">Date : January to May 2019</translation>
+        </text>
+        <text id="client-epi">
+            <translation lang="fr">Client : Lycée agricole des Fondettes - Tours</translation>
+            <translation lang="en">Client : Lycée agricole des Fondettes - Tours</translation>
+        </text>
+
+        <!-- Flotte de camions en Java -->
+        <text id="title-trucks-java">
+            <translation lang="fr">Flotte de camions</translation>
+            <translation lang="en">Trucks' fleet</translation>
+        </text>
+        <text id="resume-trucks-java">
+            <translation lang="fr">JEE / Struts 2 / JDBC / Bootstrap</translation>
+            <translation lang="en">JEE / Struts 2 / JDBC / Bootstrap</translation>
+        </text>
+        <text id="abstract-trucks-java">
+            <translation lang="fr">Lors de mon année de mobilité à l'Université du Québec à Chicoutimi, j'ai pu
+                travailler sur un projet de développement en Java (application struts 2 avec JDBC). Par équipe, nous
+                devions réaliser une application dite \"d'entreprise\" afin de manipuler le développement de grosses
+                applications (de nombreuses classes - au minimum uen vingtaine - avec de nombreuses fonctionnalités
+                incluant des modèles création / modification / visualisation / suppression des entités). Dans mon cas,
+                cette application portait sur la gestion d'une flotte de camions. Nous avons donc (mon équipe) organisé
+                l'application sous forme de commandes. Les clients peuvent s'enregistrer et se connecter puis passer une
+                commande dans laquelle ils vont fournir les marchandises qu'ils veulent transporter, la date de départ
+                souhaitée ainsi que le lieu de départ et le lieu d'arrivée. Par la suite le client peut consulter ses
+                commandes et les livraisons associées. Côté \"opérateur\", on peut gérer les camions, remorques, les
+                employés et les commandes. C'est-à-dire qu'une fois la commande réalisée par le client celle-ci sera
+                associée à une ou plusieurs livraisons par l'opérateur qui y ajoutera le camion de transport, le
+                conducteur, la remorque, la date de départ réelle et la date d'arrivée estimée.
+            </translation>
+            <translation lang="en">During my year abroad at the University of Québec at Chicoutimi, i worked on a web
+                application in Java (with struts 2 and JDBC). By teams we had to develop a business application with
+                multiple classes (at least twenty) with multiple features with CRUD (create, request, update,
+                delete). In my case, that software was about managing a truck fleet. Therefore, we organized our
+                application based on orders, in fact, clients can register and login then they can place orders in which
+                they supply information about their goods (merchandises), the desired departure date, the departure
+                address and the arrival address. Then clients can follow their orders and associated deliveries. On
+                the \"operator\" side, we can manage trucks, trailers, employees and orders. Namely, when a client place
+                an order, an operator has to create the associated delivery(ies) in which he will provide the
+                transport's truck, the trailer, the real departure date and the estimated arrival date.
+            </translation>
+        </text>
+        <text id="date-trucks-java">
+            <translation lang="fr">Date : Septembre à novembre 2019</translation>
+            <translation lang="en">Date : September to November 2019</translation>
+        </text>
+        <text id="course-trucks-java">
+            <translation lang="fr">Cours : Applications d'entreprise</translation>
+            <translation lang="en">Class : Business applications</translation>
+        </text>
+
+        <!-- Flotte de camion en .NET -->
+        <text id="title-trucks-net">
+            <translation lang="fr">Flotte de camions</translation>
+            <translation lang="en">Trucks' fleet</translation>
+        </text>
+        <text id="resume-trucks-net">
+            <translation lang="fr">C# / .NET / EF6 / Razor / MS SQL</translation>
+            <translation lang="en">C# / .NET / EF6 / Razor / MS SQL</translation>
+        </text>
+        <text id="abstract-trucks-net">
+            <translation lang="fr">Lors de mon année de mobilité à l'Université du Québec à Chicoutimi, j'ai pu
+                travailler sur un projet de développement en .NET (application web MVC avec Razor et EF6 - base de
+                données MS SQL -). Par équipe, nous devions réaliser une application dite \"d'entreprise\" afin de
+                manipuler le développement de grosses applications (de nombreuses classes - au minimum uen vingtaine -
+                avec de nombreuses fonctionnalités incluant des modèles création / modification / visualisation /
+                suppression des entités). Dans mon cas, cette application portait sur la gestion d'une flotte de
+                camions. Nous avons donc (mon équipe) organisé l'application sous forme de commandes pour les clients.
+                Les clients peuvent s'enregistrer et se connecter puis passer une commande dans laquelle ils vont
+                fournir les marchandises qu'ils veulent transporter, la date de départ souhaitée ainsi que le lieu de
+                départ et le lieu d'arrivée. Par la suite le client peut consulter ses commandes et les livraisons
+                associées. Côté \"opérateur\", on peut gérer les camions, remorques, les employés et les commandes.
+                C'est-à-dire qu'une fois la commande réalisée par le client celle-ci sera associée à une ou plusieurs
+                livraisons par l'opérateur qui y ajoutera le camion de transport, le conducteur, la remorque, la date de
+                départ réelle et la date d'arrivée estimée.
+            </translation>
+            <translation lang="en">During my year abroad at the University of Québec at Chicoutimi, i worked on a web
+                application in .NET (with web MVC, Razor and EF6 - MS SQL database -). By teams we had to develop a
+                business application with multiple classes (at least twenty) with multiple features with CRUD (create,
+                request, update, delete). In my case, that software was about managing a truck fleet. Therefore, we
+                organized our application based on orders, in fact, clients can register and login then they can place
+                orders in which they supply information about their goods (merchandises), the desired departure date,
+                the departure address and the arrival address. Then clients can follow their orders and associated
+                deliveries. On the \"operator\" side, we can manage trucks, trailers, employees and orders. Namely, when
+                a client place an order, an operator has to create the associated delivery(ies) in which he will provide
+                the transport's truck, the trailer, the real departure date and the estimated arrival date.
+            </translation>
+        </text>
+        <text id="date-trucks-net">
+            <translation lang="fr">Date : Novembre à décembre 2019</translation>
+            <translation lang="en">Date : November to December 2019</translation>
+        </text>
+        <text id="course-trucks-net">
+            <translation lang="fr">Cours : Applications d'entreprise</translation>
+            <translation lang="en">Class : Business applications</translation>
+        </text>
+
+        <!-- Application android Share Your Fit -->
+        <text id="title-androidapp">
+            <translation lang="fr">Share Your Fit</translation>
+            <translation lang="en">Share Your Fit</translation>
+        </text>
+        <text id="resume-androidapp">
+            <translation lang="fr">Android (Java) / Firebase</translation>
+            <translation lang="en">Android (Java) / Firebase</translation>
+        </text>
+        <text id="resume-androidapp-popup">
+            <translation lang="fr">Android (Java) / Firebase (Authenfication, Storage, Collections)</translation>
+            <translation lang="en">Android (Java) / Firebase (Authenfication, Storage, Collections)</translation>
+        </text>
+        <text id="abstract-androidapp">
+            <translation lang="fr">Dans l'objectif de valider mon cours de plateformes mobiles, j'ai travaillé avec deux
+                étudiants sur une application de partage d'entraînements sportifs à la salle de sport. L'objectif
+                principal étant de permettre aux adeptes (utilisateurs des salles de sport) de visualiser le
+                fonctionnement des machines dans les salles de sport (à travers des exercices partagés par les adeptes
+                et coachs). L'adepte peut prendre connaissance de ce fonctionnement avec le scan d'un QR Code présent
+                sur la machine, qui le renverra vers l'application avec la liste des exercices liés à cette machine.
+                Sinon, il peut toujours visualiser la liste de tous les exercices dans l'application et réaliser des
+                recherches à travers des tags.
+            </translation>
+            <translation lang="en">In the objective of confirming my course in mobile platforms, i worked with two
+                students on a workout sharing application for gyms. The principal purpose is to allow adepts (gym users)
+                to view the operation of a machine through clips (submitted by adepts and coaches). The adept can learn
+                how a machine works by scanning a QR Code placed on it. Moreover, adepts can also view the full list
+                of trainings in the application and make researches through tags.
+            </translation>
+        </text>
+        <text id="date-androidapp">
+            <translation lang="fr">Date : Avril 2020</translation>
+            <translation lang="en">Date : April 2020</translation>
+        </text>
+        <text id="course-androidapp">
+            <translation lang="fr">Cours : Plateformes mobiles</translation>
+            <translation lang="en">Class : Mobile platforms</translation>
+        </text>
+
+        <!-- Jeu for the berry -->
+        <text id="title-fortheberry">
+            <translation lang="fr">For The Berry</translation>
+            <translation lang="en">For The Berry</translation>
+        </text>
+        <text id="resume-fortheberry">
+            <translation lang="fr">Unity / C# / Perforce</translation>
+            <translation lang="en">Unity / C# / Perforce</translation>
+        </text>
+        <text id="abstract-fortheberry">
+            <translation lang="fr">Dans le cadre d'un cours de développement de jeux vidéo, j'ai travaillé avec sept
+                autres étudiants sur un jeu nommé For The Berry. Nous avons développé (hors animations que nous avons
+                récupéré sur Mixamo et designs des objets, personnages et armes que nous avons récupéré dans des banques
+                de mesh et prefabs) le prototype du jeu de A à Z en passant par l'écriture de l'histoire (background),
+                l'incrustation des personnages et ennemis dans le jeu, le comportement des ennemis, l'incrustation des
+                armes avec les dégâts. Pour le développement nous avons utilisé l'outil de versionning Perforce
+                (très utilisé pour le développement de jeux vidéo), Unity pour le moteur de jeu et Rider en tant
+                qu'IDE. Nous avons fonctionné en méthodologie Scrum avec quatre sprints et une répartition des tâches
+                via Trello.
+            </translation>
+            <translation lang="en">For The Berry is a game developed with seven other students for a course in video
+                games. We used animations from Mixamo and mesh and prefabs from online banks. We developed the game's
+                prototype passing by the writing of the story (background), the embedding of the characters and enemies
+                (and their behaviour) in the game. For the development, we used Perforce as versioning tool, Unity as
+                game engine and Rider as IDE. We worked with the Scrum methodology with four sprints and Trello to
+                divide tasks.
+            </translation>
+        </text>
+        <text id="date-fortheberry">
+            <translation lang="fr">Date : Janvier à avril 2020</translation>
+            <translation lang="en">Date : January to April 2020</translation>
+        </text>
+        <text id="course-fortheberry">
+            <translation lang="fr">Cours : Laboratoire de jeux vidéo</translation>
+            <translation lang="en">Class : Video games lab</translation>
+        </text>
+
+        <!-- Intérêts -->
+        <text id="tv-shows">
+            <translation lang="fr">Séries</translation>
+            <translation lang="en">TV Shows</translation>
+        </text>
+        <text id="video-games">
+            <translation lang="fr">Jeux vidéo</translation>
+            <translation lang="en">Video games</translation>
+        </text>
+        <text id="travels">
+            <translation lang="fr">Voyages</translation>
+            <translation lang="en">Travels</translation>
+        </text>
+        <text id="movies">
+            <translation lang="fr">Films</translation>
+            <translation lang="en">Movies</translation>
+        </text>
+
+        <!-- Contact -->
+        <text id="contact-me">
+            <translation lang="fr">Me Contacter</translation>
+            <translation lang="en">Contact me</translation>
+        </text>
+        <!-- Placeholders dans le fichier stati18n.js dans une fonction car impossible de set un input ici -->
+        <text id="button-send">
+            <translation lang="fr">Envoyer votre message</translation>
+            <translation lang="en">Send your message</translation>
+        </text>
+
+        <!-- Footer -->
+        <text id="internationalisation">
+            <translation lang="fr">Internationalisation avec</translation>
+            <translation lang="en">Internationalization with</translation>
+        </text>
+        <text id="framework">
+            <translation lang="fr">Réalisé avec</translation>
+            <translation lang="en">Designed with</translation>
+        </text>
+        <text id="references">
+            <translation lang="fr">Références sur les images</translation>
+            <translation lang="en">Image references</translation>
+        </text>
+        <text id="get-back">
+            <translation lang="fr">Retour au portfolio</translation>
+            <translation lang="en">Return to my portfolio</translation>
+        </text>
+        <text id="close-page">
+            <translation lang="fr">Fermer la page</translation>
+            <translation lang="en">Close page</translation>
+        </text>
+        <text id="references-click">
+            <translation lang="fr">Cliquez ici</translation>
+            <translation lang="en">Click here</translation>
+        </text>
+    </language>
+</stati18n>
