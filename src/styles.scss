@@ -20,20 +20,24 @@ body {
 	cursor: pointer;
 }
 
-.navbar-shadow {
-	-webkit-box-shadow: 0 0px 2px 1px mat-color(mat-palette($mat-grey, 900));
-	-moz-box-shadow: 0 0px 2px 1px mat-color(mat-palette($mat-grey, 900));
-	box-shadow: 0 0px 2px 1px mat-color(mat-palette($mat-grey, 900));
-}
-
 button:focus {
 	outline: none;
 	box-shadow: none;
 }
 
-.navbar-brand:hover {
-	text-decoration: none;
-	color: inherit !important;
+.nav-button {
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+}
+
+.nav-item {
+	height: 55px;
+	text-align: left !important;
+}
+
+.sidenav {
+	padding-top: 1rem !important;
 }
 
 /* Couleurs thème clair */

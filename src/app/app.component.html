@@ -1,9 +1,47 @@
-<router-outlet name="nav"></router-outlet>
-<router-outlet name="about"></router-outlet>
-<router-outlet name="experiences"></router-outlet>
-<router-outlet name="education"></router-outlet>
-<router-outlet name="skills"></router-outlet>
-<router-outlet name="projects"></router-outlet>
-<router-outlet name="interests"></router-outlet>
-<router-outlet name="contact"></router-outlet>
-<router-outlet name="footer"></router-outlet>
+<mat-sidenav-container autosize fxFlexFill>
+    <mat-sidenav #sidenav fxLayout="column" class="sidenav">
+        <div fxLayout="column" class="text-uppercase mr-2">
+            <button class="nav-item" mat-button>
+                <mat-icon class="mr-3 mb-1">search</mat-icon>
+                <span class="stati18n s18n-about"></span>
+            </button>
+            <button class="nav-item" mat-button>
+                <mat-icon class="mr-3 mb-1">search</mat-icon>
+                <span class="stati18n s18n-experiences"></span>
+            </button>
+            <button class="nav-item" mat-button>
+                <mat-icon class="mr-3 mb-1">search</mat-icon>
+                <span class="stati18n s18n-formations"></span>
+            </button>
+            <button class="nav-item" mat-button>
+                <mat-icon class="mr-3 mb-1">search</mat-icon>
+                <span class="stati18n s18n-skills"></span>
+            </button>
+            <button class="nav-item" mat-button>
+                <mat-icon class="mr-3 mb-1">search</mat-icon>
+                <span class="stati18n s18n-portfolio"></span>
+            </button>
+            <button class="nav-item" mat-button>
+                <mat-icon class="mr-3 mb-1">search</mat-icon>
+                <span class="stati18n s18n-interets"></span>
+            </button>
+            <button class="nav-item" mat-button>
+                <mat-icon class="mr-3 mb-1">search</mat-icon>
+                <span class="stati18n s18n-contact"></span>
+            </button>
+        </div>
+    </mat-sidenav>
+    <mat-sidenav-content fxFlexFill>
+        <router-outlet name="about"></router-outlet>
+        <router-outlet name="experiences"></router-outlet>
+        <router-outlet name="education"></router-outlet>
+        <router-outlet name="skills"></router-outlet>
+        <router-outlet name="projects"></router-outlet>
+        <router-outlet name="interests"></router-outlet>
+        <router-outlet name="contact"></router-outlet>
+        <router-outlet name="footer"></router-outlet>
+        <button mat-fab color="primary" (click)="sidenav.toggle()" class="pointer nav-button">
+            <mat-icon>menu</mat-icon>
+        </button>
+    </mat-sidenav-content>
+</mat-sidenav-container>

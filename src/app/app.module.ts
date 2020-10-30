@@ -6,10 +6,10 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatRippleModule } from '@angular/material/core';
 import { MatListModule } from '@angular/material/list';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { MatSidenavModule } from '@angular/material/sidenav';
 
 import { AppComponent } from './app.component';
 import { FooterComponent } from './footer/footer.component';
-import { NavComponent } from './nav/nav.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -24,7 +24,6 @@ import { AboutComponent } from './about/about.component';
 	declarations: [
 		AppComponent,
 		FooterComponent,
-		NavComponent,
 		SkillsComponent,
 		ProjectsComponent,
 		ExperiencesComponent,
@@ -43,6 +42,7 @@ import { AboutComponent } from './about/about.component';
 		MatRippleModule,
 		MatListModule,
 		FlexLayoutModule,
+		MatSidenavModule,
 	],
 	providers: [],
 	bootstrap: [AppComponent],

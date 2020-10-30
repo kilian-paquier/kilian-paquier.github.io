@@ -6,13 +6,11 @@ import { EducationComponent } from './education/education.component';
 import { ExperiencesComponent } from './experiences/experiences.component';
 import { FooterComponent } from './footer/footer.component';
 import { InterestsComponent } from './interests/interests.component';
-import { NavComponent } from './nav/nav.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { SkillsComponent } from './skills/skills.component';
 
 const routes: Routes = [
 	{ path: '', outlet: 'footer', component: FooterComponent },
-	{ path: '', outlet: 'nav', component: NavComponent },
 	{ path: '', outlet: 'projects', component: ProjectsComponent },
 	{ path: '', outlet: 'skills', component: SkillsComponent },
 	{ path: '', outlet: 'about', component: AboutComponent },
