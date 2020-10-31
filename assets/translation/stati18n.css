@@ -4,12 +4,12 @@
  * Created by Florian Rotagnon
  * Licensed under MIT
  */
- 
-#stati18n-infos{
-	content  : 'https://kilian-paquier.fr/ fr en';
-	customContent  : 'https://kilian-paquier.fr/ fr en';
+
+#stati18n-infos {
+	content: 'https://kilian-paquier.fr/ fr en';
+	customcontent: 'https://kilian-paquier.fr/ fr en';
 }
 #stati18n-fixed-values {
 	content: '';
-	customContent: '';
+	customcontent: '';
 }
