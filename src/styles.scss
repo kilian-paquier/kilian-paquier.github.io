@@ -17,14 +17,17 @@ p {
 	line-height: 1.75;
 }
 
-a {
-	text-decoration: none !important;
+a.link {
 	&:hover,
 	&:active {
 		-webkit-box-shadow: 0 0 0 0.2rem lighten(mat-color($primary), 15%) !important;
 		box-shadow: 0 0 0 0.2rem lighten(mat-color($primary), 15%) !important;
 		border-color: lighten(mat-color($primary), 15%) !important;
 	}
+}
+
+a {
+	text-decoration: none !important;
 }
 
 button.button {
@@ -37,8 +40,8 @@ button.button {
 }
 
 button:focus {
-	outline: none;
-	box-shadow: none;
+	outline: none !important;
+	box-shadow: none !important;
 }
 
 .text-primary {
