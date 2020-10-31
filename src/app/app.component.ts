@@ -1,5 +1,6 @@
 import { Component, ViewChild } from '@angular/core';
 import { MatSidenav } from '@angular/material/sidenav';
+import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 
 @Component({
 	selector: 'app-root',
@@ -8,6 +9,8 @@ import { MatSidenav } from '@angular/material/sidenav';
 })
 export class AppComponent {
 	@ViewChild('sidenav') sidenav: MatSidenav;
+	faGithub = faGithub;
+	faLinkedinIn = faLinkedinIn;
 
 	constructor() {}
 

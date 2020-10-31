@@ -19,6 +19,7 @@ import { InterestsComponent } from './interests/interests.component';
 import { ContactComponent } from './contact/contact.component';
 import { EducationComponent } from './education/education.component';
 import { AboutComponent } from './about/about.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
 	declarations: [
@@ -43,6 +44,7 @@ import { AboutComponent } from './about/about.component';
 		MatListModule,
 		FlexLayoutModule,
 		MatSidenavModule,
+		FontAwesomeModule,
 	],
 	providers: [],
 	bootstrap: [AppComponent],

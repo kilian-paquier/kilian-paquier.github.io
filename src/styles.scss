@@ -1,7 +1,5 @@
-/* Theming */
-
-@import '~@angular/material/theming';
-@include mat-core();
+@import 'mixins.scss';
+@import 'theme.scss';
 
 /* CSS */
 
@@ -20,14 +18,31 @@ p {
 }
 
 a {
-	color: $primary;
-	&:hover {
-		color: darken($primary, 10%);
+	text-decoration: none !important;
+	&:hover,
+	&:active {
+		-webkit-box-shadow: 0 0 0 0.2rem lighten(mat-color($primary), 15%) !important;
+		box-shadow: 0 0 0 0.2rem lighten(mat-color($primary), 15%) !important;
+		border-color: lighten(mat-color($primary), 15%) !important;
 	}
 }
 
+button.button {
+	&:hover,
+	&:active {
+		-webkit-box-shadow: 0 0 0 0.2rem lighten(mat-color($primary), 15%) !important;
+		box-shadow: 0 0 0 0.2rem lighten(mat-color($primary), 15%) !important;
+		border-color: lighten(mat-color($primary), 15%) !important;
+	}
+}
+
+button:focus {
+	outline: none;
+	box-shadow: none;
+}
+
 .text-primary {
-	color: $primary !important;
+	color: mat-color($primary) !important;
 }
 
 h1,
@@ -64,12 +79,12 @@ section {
 }
 
 ::-moz-selection {
-	background: $primary;
+	background: mat-color($primary);
 	text-shadow: none;
 }
 
 ::selection {
-	background: $primary;
+	background: mat-color($primary);
 	text-shadow: none;
 }
 
@@ -85,15 +100,18 @@ img::-moz-selection {
 	cursor: pointer;
 }
 
-button:focus {
-	outline: none;
-	box-shadow: none;
+.nav-button {
+	position: fixed;
+	bottom: 1rem;
+	right: 1.5rem;
 }
 
-.nav-button {
-	position: absolute;
-	bottom: 2rem;
-	left: 2rem;
+@media (max-width: 768px) {
+	.nav-button {
+		position: fixed;
+		bottom: 1rem;
+		right: 1rem;
+	}
 }
 
 .nav-item {
