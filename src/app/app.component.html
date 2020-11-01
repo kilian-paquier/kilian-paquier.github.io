@@ -3,46 +3,46 @@
 		<div fxLayout="column">
 			<button class="nav-item" mat-button (click)="scrollTo('about')">
 				<mat-icon class="mr-3 mb-1">person</mat-icon>
-				<span class="stati18n s18n-about"></span>
+				<span>À propos</span>
 			</button>
 			<button class="nav-item" mat-button>
 				<mat-icon class="mr-3 mb-1">business</mat-icon>
-				<span class="stati18n s18n-experiences"></span>
+				<span>Expériences</span>
 			</button>
 			<button class="nav-item" mat-button>
 				<mat-icon class="mr-3 mb-1">school</mat-icon>
-				<span class="stati18n s18n-formations"></span>
+				<span>Formations</span>
 			</button>
 			<button class="nav-item" mat-button>
 				<mat-icon class="mr-3 mb-1">code</mat-icon>
-				<span class="stati18n s18n-skills"></span>
+				<span>Compétences</span>
 			</button>
 			<button class="nav-item" mat-button>
 				<mat-icon class="mr-3 mb-1">collections_bookmark</mat-icon>
-				<span class="stati18n s18n-portfolio"></span>
+				<span>Projets</span>
 			</button>
 			<button class="nav-item" mat-button>
 				<mat-icon class="mr-3 mb-1">favorite</mat-icon>
-				<span class="stati18n s18n-interets"></span>
+				<span>Intérêts</span>
 			</button>
 			<button class="nav-item" mat-button>
 				<mat-icon class="mr-3 mb-1">contact_mail</mat-icon>
-				<span class="stati18n s18n-contact"></span>
+				<span>Contact</span>
 			</button>
 		</div>
 		<div fxLayout="row" fxLayoutAlign="center" class="my-2">
 			<a href="https://github.com/kilian-paquier" class="mx-1" target="_blank">
-				<fa-icon [icon]="faGithub" style="font-size: 1.75rem"></fa-icon>
+				<fa-icon [icon]="faGithub" style="font-size: 1.5rem"></fa-icon>
 			</a>
 			<a href="https://www.linkedin.com/in/kilian-paquier/" class="mx-1" target="_blank">
-				<fa-icon [icon]="faLinkedinIn" style="font-size: 1.75rem"></fa-icon>
+				<fa-icon [icon]="faLinkedinIn" style="font-size: 1.5rem"></fa-icon>
 			</a>
 			<a (click)="changeTheme()" class="mx-1 pointer">
-				<mat-icon style="font-size: 1.75rem">brightness_6</mat-icon>
+				<mat-icon style="font-size: 1.5rem">brightness_6</mat-icon>
 			</a>
-			<a class="stati18n-language-selector" class="mx-1" value="en">
+			<!-- <a class="stati18n-language-selector" class="mx-1" value="en">
 				<i class="flag-icon flag-icon-gb" class="pointer" style="font-size: 1.5em"></i>
-			</a>
+			</a> -->
 		</div>
 	</mat-sidenav>
 	<mat-sidenav-content fxFlexFill>
