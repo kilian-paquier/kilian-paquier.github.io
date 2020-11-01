@@ -1,27 +1,29 @@
-import { Component, ViewChild } from '@angular/core';
+import { DOCUMENT } from '@angular/common';
+import { Component, Inject, ViewChild } from '@angular/core';
 import { MatSidenav } from '@angular/material/sidenav';
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+import { PageScrollService } from 'ngx-page-scroll-core';
 
 @Component({
 	selector: 'app-root',
 	templateUrl: './app.component.html',
-	styleUrls: ['./app.component.css'],
+	styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
 	@ViewChild('sidenav') sidenav: MatSidenav;
 	faGithub = faGithub;
 	faLinkedinIn = faLinkedinIn;
 
-	constructor() {}
+	constructor(private pageScrollService: PageScrollService, @Inject(DOCUMENT) private document: any) {}
 
 	public changeTheme() {
 		const body = document.getElementById('body');
 		if (body.classList.contains('dark-theme')) {
 			body.classList.remove('dark-theme');
-			body.classList.add('light-theme');
+			// body.classList.add('light-theme');
 			localStorage.setItem('theme', 'light-theme');
 		} else {
-			body.classList.remove('light-theme');
+			// body.classList.remove('light-theme');
 			body.classList.add('dark-theme');
 			localStorage.setItem('theme', 'dark-theme');
 		}
@@ -34,5 +36,11 @@ export class AppComponent {
 		}
 	}
 
-	public showSidenav() {}
+	public scrollDownToSection(section: string) {
+		this.pageScrollService.scroll({
+			document: this.document,
+			scrollTarget: '#' + section,
+		});
+		// this.sidenav.toggle();
+	}
 }

@@ -1,0 +1,28 @@
+@import '../mixins.scss';
+
+.nav-button {
+	position: fixed;
+	bottom: 1rem;
+	right: 1.5rem;
+}
+
+@media (max-width: 768px) {
+	.nav-button {
+		position: fixed;
+		bottom: 1rem;
+		right: 1rem;
+	}
+}
+
+.nav-item {
+	height: 55px;
+	text-align: left !important;
+	text-transform: uppercase !important;
+	padding-right: 1rem;
+	@include heading-font;
+}
+
+.sidenav {
+	padding-top: 1rem !important;
+	min-width: 100px;
+}

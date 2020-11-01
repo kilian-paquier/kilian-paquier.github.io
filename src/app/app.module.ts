@@ -20,6 +20,8 @@ import { ContactComponent } from './contact/contact.component';
 import { EducationComponent } from './education/education.component';
 import { AboutComponent } from './about/about.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { NgxPageScrollCoreModule } from 'ngx-page-scroll-core';
+import { NgxPageScrollModule } from 'ngx-page-scroll';
 
 @NgModule({
 	declarations: [
@@ -45,6 +47,10 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 		FlexLayoutModule,
 		MatSidenavModule,
 		FontAwesomeModule,
+		NgxPageScrollModule,
+		NgxPageScrollCoreModule.forRoot({
+			duration: 1000,
+		}),
 	],
 	providers: [],
 	bootstrap: [AppComponent],

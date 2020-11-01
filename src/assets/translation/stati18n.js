@@ -45,10 +45,7 @@ $(document).ready(function () {
 	let defaultUserLanguage = 'fr';
 	$('link[rel="stylesheet"]').each(function () {
 		let fileName = $(this).attr('href');
-		if (
-			fileName !== 'translation/stati18n.css' &&
-			fileName.indexOf('stati18n') > -1
-		)
+		if (fileName !== 'translation/stati18n.css' && fileName.indexOf('stati18n') > -1)
 			defaultUserLanguage = fileName.slice(9, -4);
 	});
 
@@ -62,9 +59,7 @@ $(document).ready(function () {
 
 	let infos;
 	if (isIE()) {
-		let cssElem = window.getComputedStyle(
-			document.getElementById('stati18n-infos')
-		);
+		let cssElem = window.getComputedStyle(document.getElementById('stati18n-infos'));
 		infos = cssElem['customContent'];
 	} else {
 		infos = $('#stati18n-infos').css('content');
@@ -78,14 +73,10 @@ $(document).ready(function () {
 	$('#stati18n-infos').remove();
 
 	//get static content
-	$('body').append(
-		'<div id="stati18n-fixed-values" style="display:none;"></div>'
-	);
+	$('body').append('<div id="stati18n-fixed-values" style="display:none;"></div>');
 
 	if (isIE()) {
-		let cssElem = window.getComputedStyle(
-			document.getElementById('stati18n-fixed-values')
-		);
+		let cssElem = window.getComputedStyle(document.getElementById('stati18n-fixed-values'));
 		infos = cssElem['customContent'];
 	} else {
 		infos = $('#stati18n-fixed-values').css('content');
@@ -125,8 +116,7 @@ $(document).ready(function () {
 				let id = lineSplit[1];
 				let content = lineSplit[2];
 
-				if (typeof $('.s18n-' + id).attr('value') != 'undefined')
-					$('.s18n-' + id).attr('value', content);
+				if (typeof $('.s18n-' + id).attr('value') != 'undefined') $('.s18n-' + id).attr('value', content);
 				else $('.s18n-' + id).html(content);
 			}
 		}
@@ -137,29 +127,19 @@ $(document).ready(function () {
 		let precUserLanguage = userLanguage;
 		userLanguage = newLanguage;
 
-		let precFile =
-			host + '/translation/stati18n-' + precUserLanguage + '.css';
+		let precFile = host + '/translation/stati18n-' + precUserLanguage + '.css';
 		let file = host + '/translation/stati18n-' + userLanguage + '.css';
 
-		if (
-			!$("link[href='" + file + "']").length &&
-			$.inArray(userLanguage, languages) >= 0
-		) {
+		if (!$("link[href='" + file + "']").length && $.inArray(userLanguage, languages) >= 0) {
 			$("link[href='" + precFile + "']").remove();
-			$('head').append(
-				'<link rel="stylesheet" href="' + file + '" type="text/css" />'
-			);
+			$('head').append('<link rel="stylesheet" href="' + file + '" type="text/css" />');
 		}
 		createCookie('lang', userLanguage, 7);
 		$('.stati18n-language-selector').attr('value', userLanguage);
 		if ($('.stati18n-language-selector').attr('value') === 'fr') {
 			$('.stati18n-language-selector').attr('value', 'en');
-			$('.stati18n-language-selector')
-				.find('.flag-icon')
-				.removeClass('flag-icon-fr');
-			$('.stati18n-language-selector')
-				.find('.flag-icon')
-				.addClass('flag-icon-gb');
+			$('.stati18n-language-selector').find('.flag-icon').removeClass('flag-icon-fr');
+			$('.stati18n-language-selector').find('.flag-icon').addClass('flag-icon-gb');
 			$('.stati18n.s18n-see-more').attr(
 				'onclick',
 				"window.open('https://cvdesignr.com/p/5d9cd3013bcbb', '_blank')"
@@ -167,12 +147,8 @@ $(document).ready(function () {
 			changeContactForm(userLanguage);
 		} else {
 			$('.stati18n-language-selector').attr('value', 'fr');
-			$('.stati18n-language-selector')
-				.find('.flag-icon')
-				.removeClass('flag-icon-gb');
-			$('.stati18n-language-selector')
-				.find('.flag-icon')
-				.addClass('flag-icon-fr');
+			$('.stati18n-language-selector').find('.flag-icon').removeClass('flag-icon-gb');
+			$('.stati18n-language-selector').find('.flag-icon').addClass('flag-icon-fr');
 			$('.stati18n.s18n-see-more').attr(
 				'onclick',
 				"window.open('https://cvdesignr.com/p/5ddff0dda9765', '_blank')"
@@ -195,44 +171,26 @@ $(document).ready(function () {
 	function changeContactForm(newLanguage) {
 		if (newLanguage === 'fr') {
 			$('#name').attr('placeholder', 'Votre nom *');
-			$('#name').attr(
-				'data-validation-required-message',
-				'Veuillez saisir votre nom'
-			);
+			$('#name').attr('data-validation-required-message', 'Veuillez saisir votre nom');
 
 			$('#email').attr('placeholder', 'Votre adresse mail *');
-			$('#email').attr(
-				'data-validation-required-message',
-				'Veuillez saisir votre adresse mail'
-			);
+			$('#email').attr('data-validation-required-message', 'Veuillez saisir votre adresse mail');
 
 			$('#company').attr('placeholder', 'Nom de votre entreprise');
 
 			$('#message').attr('placeholder', 'Votre message *');
-			$('#message').attr(
-				'data-validation-required-message',
-				'Veuillez saisir votre message'
-			);
+			$('#message').attr('data-validation-required-message', 'Veuillez saisir votre message');
 		} else {
 			$('#name').attr('placeholder', 'Your last name *');
-			$('#name').attr(
-				'data-validation-required-message',
-				'Please fill in your last name'
-			);
+			$('#name').attr('data-validation-required-message', 'Please fill in your last name');
 
 			$('#email').attr('placeholder', 'Your email address *');
-			$('#email').attr(
-				'data-validation-required-message',
-				'Please fill in your email address'
-			);
+			$('#email').attr('data-validation-required-message', 'Please fill in your email address');
 
 			$('#company').attr('placeholder', "Company's name");
 
 			$('#message').attr('placeholder', 'Your message *');
-			$('#message').attr(
-				'data-validation-required-message',
-				'Please fill in your message'
-			);
+			$('#message').attr('data-validation-required-message', 'Please fill in your message');
 		}
 	}
 });
