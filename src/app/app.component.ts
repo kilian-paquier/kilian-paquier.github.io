@@ -1,46 +1,47 @@
-import { DOCUMENT } from '@angular/common';
-import { Component, Inject, ViewChild } from '@angular/core';
+import { Component, ElementRef, Inject, OnInit, ViewChild } from '@angular/core';
 import { MatSidenav } from '@angular/material/sidenav';
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
-import { PageScrollService } from 'ngx-page-scroll-core';
+import { ScrollToService } from '@nicky-lenaers/ngx-scroll-to';
+import { CookieService } from 'ngx-cookie-service';
 
 @Component({
 	selector: 'app-root',
 	templateUrl: './app.component.html',
 	styleUrls: ['./app.component.scss'],
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
 	@ViewChild('sidenav') sidenav: MatSidenav;
 	faGithub = faGithub;
 	faLinkedinIn = faLinkedinIn;
 
-	constructor(private pageScrollService: PageScrollService, @Inject(DOCUMENT) private document: any) {}
+	constructor(private cookieService: CookieService, private scrollToService: ScrollToService) {}
+
+	ngOnInit() {
+		this.setTheme();
+	}
 
 	public changeTheme() {
 		const body = document.getElementById('body');
 		if (body.classList.contains('dark-theme')) {
 			body.classList.remove('dark-theme');
-			// body.classList.add('light-theme');
-			localStorage.setItem('theme', 'light-theme');
+			this.cookieService.set('theme', 'light-theme');
 		} else {
-			// body.classList.remove('light-theme');
 			body.classList.add('dark-theme');
-			localStorage.setItem('theme', 'dark-theme');
+			this.cookieService.set('theme', 'dark-theme');
 		}
 	}
 
 	public setTheme() {
-		const theme = localStorage.getItem('theme');
+		const theme = this.cookieService.get('theme');
 		if (theme && theme === 'dark-theme') {
 			this.changeTheme();
 		}
 	}
 
-	public scrollDownToSection(section: string) {
-		this.pageScrollService.scroll({
-			document: this.document,
-			scrollTarget: '#' + section,
+	public scrollTo(section: string) {
+		this.scrollToService.scrollTo({
+			target: '#' + section,
+			duration: 500,
 		});
-		// this.sidenav.toggle();
 	}
 }

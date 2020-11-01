@@ -20,8 +20,8 @@ import { ContactComponent } from './contact/contact.component';
 import { EducationComponent } from './education/education.component';
 import { AboutComponent } from './about/about.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { NgxPageScrollCoreModule } from 'ngx-page-scroll-core';
-import { NgxPageScrollModule } from 'ngx-page-scroll';
+import { CookieService } from 'ngx-cookie-service';
+import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
 
 @NgModule({
 	declarations: [
@@ -47,12 +47,9 @@ import { NgxPageScrollModule } from 'ngx-page-scroll';
 		FlexLayoutModule,
 		MatSidenavModule,
 		FontAwesomeModule,
-		NgxPageScrollModule,
-		NgxPageScrollCoreModule.forRoot({
-			duration: 1000,
-		}),
+		ScrollToModule.forRoot(),
 	],
-	providers: [],
+	providers: [CookieService],
 	bootstrap: [AppComponent],
 })
 export class AppModule {}

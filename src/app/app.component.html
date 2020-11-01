@@ -1,44 +1,44 @@
 <mat-sidenav-container autosize fxFlexFill>
 	<mat-sidenav #sidenav fxLayout="column" class="sidenav">
 		<div fxLayout="column">
-			<button class="nav-item" mat-button (click)="scrollDownToSection('about')">
-				<mat-icon class="mr-3 mb-1">search</mat-icon>
+			<button class="nav-item" mat-button (click)="scrollTo('about')">
+				<mat-icon class="mr-3 mb-1">person</mat-icon>
 				<span class="stati18n s18n-about"></span>
 			</button>
-			<button class="nav-item" mat-button (click)="scrollDownToSection('#experiences')">
-				<mat-icon class="mr-3 mb-1">search</mat-icon>
+			<button class="nav-item" mat-button>
+				<mat-icon class="mr-3 mb-1">business</mat-icon>
 				<span class="stati18n s18n-experiences"></span>
 			</button>
-			<button class="nav-item" mat-button (click)="scrollDownToSection('#formations')">
+			<button class="nav-item" mat-button>
 				<mat-icon class="mr-3 mb-1">school</mat-icon>
 				<span class="stati18n s18n-formations"></span>
 			</button>
-			<button class="nav-item" mat-button (click)="scrollDownToSection('#skills')">
-				<mat-icon class="mr-3 mb-1">search</mat-icon>
+			<button class="nav-item" mat-button>
+				<mat-icon class="mr-3 mb-1">code</mat-icon>
 				<span class="stati18n s18n-skills"></span>
 			</button>
-			<button class="nav-item" mat-button (click)="scrollDownToSection('#portfolio')">
+			<button class="nav-item" mat-button>
 				<mat-icon class="mr-3 mb-1">collections_bookmark</mat-icon>
 				<span class="stati18n s18n-portfolio"></span>
 			</button>
-			<button class="nav-item" mat-button (click)="scrollDownToSection('#interests')">
-				<mat-icon class="mr-3 mb-1">search</mat-icon>
+			<button class="nav-item" mat-button>
+				<mat-icon class="mr-3 mb-1">favorite</mat-icon>
 				<span class="stati18n s18n-interets"></span>
 			</button>
-			<button class="nav-item" mat-button (click)="scrollDownToSection('#contact')">
-				<mat-icon class="mr-3 mb-1">search</mat-icon>
+			<button class="nav-item" mat-button>
+				<mat-icon class="mr-3 mb-1">contact_mail</mat-icon>
 				<span class="stati18n s18n-contact"></span>
 			</button>
 		</div>
 		<div fxLayout="row" fxLayoutAlign="center" class="my-2">
 			<a href="https://github.com/kilian-paquier" class="mx-1" target="_blank">
-				<fa-icon [icon]="faGithub" style="font-size: 1.5em"></fa-icon>
+				<fa-icon [icon]="faGithub" style="font-size: 1.75rem"></fa-icon>
 			</a>
 			<a href="https://www.linkedin.com/in/kilian-paquier/" class="mx-1" target="_blank">
-				<fa-icon [icon]="faLinkedinIn" style="font-size: 1.5em"></fa-icon>
+				<fa-icon [icon]="faLinkedinIn" style="font-size: 1.75rem"></fa-icon>
 			</a>
 			<a (click)="changeTheme()" class="mx-1 pointer">
-				<mat-icon style="font-size: 1.5em">brightness_6</mat-icon>
+				<mat-icon style="font-size: 1.75rem">brightness_6</mat-icon>
 			</a>
 			<a class="stati18n-language-selector" class="mx-1" value="en">
 				<i class="flag-icon flag-icon-gb" class="pointer" style="font-size: 1.5em"></i>

@@ -22,17 +22,14 @@
 						"assets": ["src/favicon.ico", "src/assets"],
 						"styles": [
 							"node_modules/bootstrap/dist/css/bootstrap.min.css",
-							"src/assets/translation/stati18n-fr.css",
 							"src/theme.scss",
 							"src/mixins.scss",
 							"src/styles.scss",
-							"node_modules/flag-icon-css/css/flag-icon.min.css",
 							"node_modules/devicon/devicon.min.css"
 						],
 						"scripts": [
 							"node_modules/jquery/dist/jquery.min.js",
-							"node_modules/bootstrap/dist/js/bootstrap.min.js",
-							"src/assets/translation/stati18n.js"
+							"node_modules/bootstrap/dist/js/bootstrap.min.js"
 						]
 					},
 					"configurations": {
