@@ -14,8 +14,8 @@
 	}
 	> li {
 		position: relative;
-		min-height: 50px;
-		margin-bottom: 50px;
+		min-height: 30px;
+		margin-bottom: 100px;
 		&:after,
 		&:before {
 			display: table;
@@ -28,7 +28,7 @@
 			position: relative;
 			float: right;
 			width: 100%;
-			padding: 0 20px 0 100px;
+			padding: 0 0 0 110px;
 			text-align: left;
 			&:before {
 				right: auto;
@@ -49,11 +49,11 @@
 			left: 0;
 			width: 100px;
 			height: 100px;
-			margin-left: 0;
+			margin-left: -10px;
 			text-align: center;
 			border: 7px solid $lighten-dark-color;
 			border-radius: 100%;
-			background-color: $lighten-dark-color;
+			background-color: white;
 			h4 {
 				font-size: 10px;
 				line-height: 14px;
@@ -62,7 +62,7 @@
 		}
 		&.timeline-inverted > .timeline-panel {
 			float: right;
-			padding: 0 20px 0 100px;
+			padding: 0 20px 0 110px;
 			text-align: left;
 			&:before {
 				right: auto;
@@ -113,8 +113,8 @@
 	}
 	> li {
 		position: relative;
-		min-height: 50px;
-		margin-bottom: 50px;
+		min-height: 30px;
+		margin-bottom: 100px;
 		&:after,
 		&:before {
 			display: table;
@@ -127,7 +127,7 @@
 			position: relative;
 			float: right;
 			width: 100%;
-			padding: 0 20px 0 100px;
+			padding: 0 0 0 110px;
 			text-align: left;
 			&:before {
 				right: auto;
@@ -148,11 +148,11 @@
 			left: 0;
 			width: 100px;
 			height: 100px;
-			margin-left: 0;
+			margin-left: -10px;
 			text-align: center;
 			border: 7px solid $darken-light-color;
 			border-radius: 100%;
-			background-color: $darken-light-color;
+			background-color: white;
 			h4 {
 				font-size: 10px;
 				line-height: 14px;
@@ -161,7 +161,7 @@
 		}
 		&.timeline-inverted > .timeline-panel {
 			float: right;
-			padding: 0 20px 0 100px;
+			padding: 0 20px 0 110px;
 			text-align: left;
 			&:before {
 				right: auto;
@@ -195,8 +195,10 @@
 		}
 	}
 }
-@media (min-width: 768px) {
-	.timeline {
+
+@media (min-width: 992px) {
+	.timeline,
+	.dark-theme .timeline {
 		&:before {
 			left: 50%;
 		}
@@ -206,14 +208,14 @@
 			.timeline-panel {
 				float: left;
 				width: 41%;
-				padding: 0 20px 20px 30px;
+				padding: 0 0 0 120px;
 				text-align: right;
 			}
 			.timeline-image {
 				left: 50%;
 				width: 120px;
 				height: 120px;
-				margin-left: -50px;
+				margin-left: -20px;
 				h4 {
 					font-size: 13px;
 					line-height: 18px;
@@ -222,18 +224,21 @@
 			}
 			&.timeline-inverted > .timeline-panel {
 				float: right;
-				padding: 0 30px 20px 20px;
+				padding: 0 0 0 120px;
 				text-align: left;
 			}
 		}
 	}
 }
+
 @media (min-width: 992px) {
-	.timeline {
+	.timeline,
+	.dark-theme .timeline {
 		> li {
 			min-height: 150px;
+			margin-bottom: 100px;
 			.timeline-panel {
-				padding: 0 20px 20px;
+				padding: 0 10px 20px 0;
 			}
 			.timeline-image {
 				width: 150px;
@@ -246,28 +251,30 @@
 				}
 			}
 			&.timeline-inverted > .timeline-panel {
-				padding: 0 20px 20px;
+				padding: 0 10px 20px;
 			}
 		}
 	}
 }
+
 @media (min-width: 1200px) {
-	.timeline {
+	.timeline,
+	.dark-theme .timeline {
 		> li {
-			min-height: 170px;
+			min-height: 150px;
 			.timeline-panel {
-				padding: 0 20px 20px 100px;
+				padding: 0 0 20px 0;
 			}
 			.timeline-image {
-				width: 160px;
-				height: 160px;
-				margin-left: -85px;
+				width: 150px;
+				height: 150px;
+				margin-left: -75px;
 				h4 {
 					margin-top: 40px;
 				}
 			}
 			&.timeline-inverted > .timeline-panel {
-				padding: 0 100px 20px 20px;
+				padding: 0 0 20px 0;
 			}
 		}
 	}
