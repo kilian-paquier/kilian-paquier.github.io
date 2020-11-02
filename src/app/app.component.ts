@@ -40,7 +40,7 @@ export class AppComponent implements OnInit {
 	public scrollTo(section: string) {
 		this.scrollToService.scrollTo({
 			target: '#' + section,
-			duration: 300,
+			duration: 500,
 		});
 	}
 }

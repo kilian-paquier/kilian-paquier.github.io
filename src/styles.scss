@@ -18,14 +18,14 @@ p {
 	line-height: 1.75;
 }
 
-a.link {
-	&:hover,
-	&:active {
-		-webkit-box-shadow: 0 0 0 0.2rem lighten(mat-color($primary), 15%) !important;
-		box-shadow: 0 0 0 0.2rem lighten(mat-color($primary), 15%) !important;
-		border-color: lighten(mat-color($primary), 15%) !important;
-	}
-}
+// a.link {
+// 	&:hover,
+// 	&:active {
+// 		-webkit-box-shadow: 0 0 0 0.2rem mat-color($lighten-primary-color) !important;
+// 		box-shadow: 0 0 0 0.2rem mat-color($lighten-primary-color) !important;
+// 		border-color: mat-color($lighten-primary-color) !important;
+// 	}
+// }
 
 a {
 	text-decoration: none !important;
@@ -37,14 +37,14 @@ a {
 	}
 }
 
-button.button {
-	&:hover,
-	&:active {
-		-webkit-box-shadow: 0 0 0 0.2rem lighten(mat-color($primary), 15%) !important;
-		box-shadow: 0 0 0 0.2rem lighten(mat-color($primary), 15%) !important;
-		border-color: lighten(mat-color($primary), 15%) !important;
-	}
-}
+// button.button {
+// 	&:hover,
+// 	&:active {
+// 		-webkit-box-shadow: 0 0 0 0.2rem mat-color($lighten-primary-color) !important;
+// 		box-shadow: 0 0 0 0.2rem mat-color($lighten-primary-color) !important;
+// 		border-color: mat-color($lighten-primary-color) !important;
+// 	}
+// }
 
 button {
 	&:focus {
@@ -183,8 +183,8 @@ img::-moz-selection {
 	height: 115px;
 	margin-left: 0;
 	text-align: center;
-	color: lighten($dark-background, 10%);
-	border: 7px solid lighten($dark-background, 10%);
+	color: $lighten-dark-color;
+	border: 7px solid $lighten-dark-color;
 	border-radius: 100%;
 }
 
@@ -195,8 +195,8 @@ img::-moz-selection {
 	height: 115px;
 	margin-left: 0;
 	text-align: center;
-	color: darken($light-background, 10%);
-	border: 7px solid darken($light-background, 10%);
+	color: $darken-light-color;
+	border: 7px solid $darken-light-color;
 	border-radius: 100%;
 }
 

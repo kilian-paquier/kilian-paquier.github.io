@@ -6,6 +6,7 @@
 /* Couleurs */
 
 $primary: mat-palette($mat-blue, 700);
+$lighten-primary-color: lighten(mat-color($primary), 15%); // TODO
 
 /* Thème clair */
 
@@ -22,6 +23,7 @@ $light-theme: mat-light-theme(
 );
 @include angular-material-theme($light-theme);
 $light-background: map-get($mat-grey, 50);
+$darken-light-color: darken($light-background, 10%);
 
 /* Thème sombre */
 
@@ -41,3 +43,4 @@ $dark-theme: mat-dark-theme(
 	@include angular-material-color($dark-theme);
 }
 $dark-background: #303030;
+$lighten-dark-color: lighten($dark-background, 10%);
