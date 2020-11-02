@@ -21,9 +21,9 @@
 				<mat-icon class="mr-3 mb-1">collections_bookmark</mat-icon>
 				<span>Projets</span>
 			</button>
-			<button class="nav-item" mat-button>
+			<button class="nav-item" mat-button (click)="scrollTo('interests')">
 				<mat-icon class="mr-3 mb-1">favorite</mat-icon>
-				<span>Intérêts</span>
+				<span>Centres d'intérêts</span>
 			</button>
 			<button class="nav-item" mat-button>
 				<mat-icon class="mr-3 mb-1">contact_mail</mat-icon>
@@ -40,9 +40,6 @@
 			<a (click)="changeTheme()" class="mx-1 pointer">
 				<mat-icon style="font-size: 1.5rem">brightness_6</mat-icon>
 			</a>
-			<!-- <a class="stati18n-language-selector" class="mx-1" value="en">
-				<i class="flag-icon flag-icon-gb" class="pointer" style="font-size: 1.5em"></i>
-			</a> -->
 		</div>
 	</mat-sidenav>
 	<mat-sidenav-content fxFlexFill>
