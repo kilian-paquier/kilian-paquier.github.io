@@ -1,4 +1,4 @@
-@import '../mixins.scss';
+@import '../../mixins.scss';
 
 .nav-button {
 	position: fixed;
@@ -52,17 +52,17 @@
 }
 
 .flag-icon-fr {
-	background-image: url(../assets/flags/4x3/fr.svg);
+	background-image: url(../../assets/flags/4x3/fr.svg);
 }
 
 .flag-icon-fr.flag-icon-squared {
-	background-image: url(../assets/flags/1x1/fr.svg);
+	background-image: url(../../assets/flags/1x1/fr.svg);
 }
 
 .flag-icon-gb {
-	background-image: url(../assets/flags/4x3/gb.svg);
+	background-image: url(../../assets/flags/4x3/gb.svg);
 }
 
 .flag-icon-gb.flag-icon-squared {
-	background-image: url(../assets/flags/1x1/gb.svg);
+	background-image: url(../../assets/flags/1x1/gb.svg);
 }

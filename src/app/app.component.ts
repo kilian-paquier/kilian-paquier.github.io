@@ -7,7 +7,6 @@ import { CookieService } from 'ngx-cookie-service';
 @Component({
 	selector: 'app-root',
 	templateUrl: './app.component.html',
-	styleUrls: ['./app.component.scss'],
 })
 export class AppComponent implements OnInit {
 	@ViewChild('sidenav') sidenav: MatSidenav;
@@ -41,7 +40,7 @@ export class AppComponent implements OnInit {
 	public scrollTo(section: string) {
 		this.scrollToService.scrollTo({
 			target: '#' + section,
-			duration: 500,
+			duration: 300,
 		});
 	}
 }

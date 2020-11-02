@@ -21,6 +21,7 @@ $light-theme: mat-light-theme(
 	)
 );
 @include angular-material-theme($light-theme);
+$light-background: map-get($mat-grey, 50);
 
 /* Thème sombre */
 
@@ -35,6 +36,8 @@ $dark-theme: mat-dark-theme(
 		),
 	)
 );
+
 .dark-theme {
 	@include angular-material-color($dark-theme);
 }
+$dark-background: #303030;

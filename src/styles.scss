@@ -1,3 +1,4 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
 @import 'mixins.scss';
 @import 'theme.scss';
 
@@ -28,6 +29,12 @@ a.link {
 
 a {
 	text-decoration: none !important;
+	&:hover {
+		transition: ease-in-out 0.3s;
+		-moz-transition: ease-in-out 0.3s;
+		-o-transition: ease-in-out 0.3s;
+		-webkit-transition: ease-in-out 0.3s;
+	}
 }
 
 button.button {
@@ -39,9 +46,17 @@ button.button {
 	}
 }
 
-button:focus {
-	outline: none !important;
-	box-shadow: none !important;
+button {
+	&:focus {
+		outline: none !important;
+		box-shadow: none !important;
+	}
+	&:hover {
+		transition: ease-in-out 0.3s;
+		-moz-transition: ease-in-out 0.3s;
+		-o-transition: ease-in-out 0.3s;
+		-webkit-transition: ease-in-out 0.3s;
+	}
 }
 
 .text-primary {
@@ -161,6 +176,18 @@ img::-moz-selection {
 	-ms-transform: rotateY(180deg);
 }
 
+.dark-theme .border-experiences {
+	z-index: 100;
+	left: 0;
+	width: 115px;
+	height: 115px;
+	margin-left: 0;
+	text-align: center;
+	color: lighten($dark-background, 10%);
+	border: 7px solid lighten($dark-background, 10%);
+	border-radius: 100%;
+}
+
 .border-experiences {
 	z-index: 100;
 	left: 0;
@@ -168,7 +195,18 @@ img::-moz-selection {
 	height: 115px;
 	margin-left: 0;
 	text-align: center;
-	color: white;
-	border: 7px solid #e9ecef;
+	color: darken($light-background, 10%);
+	border: 7px solid darken($light-background, 10%);
 	border-radius: 100%;
 }
+
+@import 'styles/scss/app.scss';
+@import 'styles/scss/about.scss';
+@import 'styles/scss/contact.scss';
+@import 'styles/scss/education.scss';
+@import 'styles/scss/experiences.scss';
+@import 'styles/scss/footer.scss';
+@import 'styles/scss/images.scss';
+@import 'styles/scss/interests.scss';
+@import 'styles/scss/projects.scss';
+@import 'styles/scss/skills.scss';
