@@ -22,6 +22,7 @@ import { AboutComponent } from './about/about.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { CookieService } from 'ngx-cookie-service';
 import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
+import { ImagesComponent } from './images/images.component';
 
 @NgModule({
 	declarations: [
@@ -34,6 +35,7 @@ import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
 		ContactComponent,
 		EducationComponent,
 		AboutComponent,
+		ImagesComponent,
 	],
 	imports: [
 		BrowserModule,

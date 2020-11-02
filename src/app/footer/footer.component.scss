@@ -4,8 +4,12 @@ footer {
 	padding: 25px 0;
 	text-align: center;
 	span.copyright {
-		line-height: 40px;
+		line-height: 30px;
 		text-transform: none;
 		@include heading-font;
+	}
+	span.footer {
+		line-height: 30px;
+		text-transform: none;
 	}
 }
