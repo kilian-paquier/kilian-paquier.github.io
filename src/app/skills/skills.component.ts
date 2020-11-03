@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+declare const $: any;
 
 @Component({
 	selector: 'app-skills',
@@ -7,5 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class SkillsComponent implements OnInit {
 	constructor() {}
 
-	ngOnInit(): void {}
+	ngOnInit(): void {
+		$('[data-toggle="tooltip"]').tooltip();
+	}
 }

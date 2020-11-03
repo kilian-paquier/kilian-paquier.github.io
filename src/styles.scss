@@ -200,6 +200,10 @@ img::-moz-selection {
 	border-radius: 100%;
 }
 
+.mt-1-5 {
+	margin-top: 0.4rem !important;
+}
+
 @import 'styles/scss/app.scss';
 @import 'styles/scss/about.scss';
 @import 'styles/scss/contact.scss';

@@ -7,6 +7,7 @@ import { MatRippleModule } from '@angular/material/core';
 import { MatListModule } from '@angular/material/list';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatTooltipModule } from '@angular/material/tooltip';
 
 import { AppComponent } from './app.component';
 import { FooterComponent } from './footer/footer.component';
@@ -50,6 +51,7 @@ import { ImagesComponent } from './images/images.component';
 		MatSidenavModule,
 		FontAwesomeModule,
 		ScrollToModule.forRoot(),
+		MatTooltipModule,
 	],
 	providers: [CookieService],
 	bootstrap: [AppComponent],
