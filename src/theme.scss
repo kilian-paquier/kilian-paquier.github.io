@@ -6,7 +6,8 @@
 /* Couleurs */
 
 $primary: mat-palette($mat-blue, 700);
-$lighten-primary-color: lighten(mat-color($primary), 15%); // TODO
+$lighten-primary-color: lighten(mat-color($primary), 10%);
+$darken-primary-color: darken(mat-color($primary), 10%);
 
 /* Thème clair */
 
@@ -44,3 +45,11 @@ $dark-theme: mat-dark-theme(
 }
 $dark-background: #303030;
 $lighten-dark-color: lighten($dark-background, 10%);
+
+.dark-theme .bg-nuance {
+	background-color: $lighten-dark-color;
+}
+
+.bg-nuance {
+	background-color: $darken-light-color;
+}
