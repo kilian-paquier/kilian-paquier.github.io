@@ -3,31 +3,31 @@
 		<div fxLayout="column">
 			<button class="nav-item" mat-button (click)="scrollTo('about')">
 				<mat-icon class="mr-3 mb-1">person</mat-icon>
-				<span>À propos</span>
+				<span i18n>À propos</span>
 			</button>
 			<button class="nav-item" mat-button>
 				<mat-icon class="mr-3 mb-1">business</mat-icon>
-				<span>Expériences</span>
+				<span i18n>Expériences</span>
 			</button>
 			<button class="nav-item" mat-button (click)="scrollTo('education')">
 				<mat-icon class="mr-3 mb-1">school</mat-icon>
-				<span>Formations</span>
+				<span i18n>Formations</span>
 			</button>
 			<button class="nav-item" mat-button (click)="scrollTo('skills')">
 				<mat-icon class="mr-3 mb-1">code</mat-icon>
-				<span>Compétences</span>
+				<span i18n>Compétences</span>
 			</button>
 			<button class="nav-item" mat-button>
 				<mat-icon class="mr-3 mb-1">collections_bookmark</mat-icon>
-				<span>Projets</span>
+				<span i18n>Projets</span>
 			</button>
 			<button class="nav-item" mat-button (click)="scrollTo('interests')">
 				<mat-icon class="mr-3 mb-1">favorite</mat-icon>
-				<span>Centres d'intérêts</span>
+				<span i18n>Centres d'intérêts</span>
 			</button>
 			<button class="nav-item" mat-button>
 				<mat-icon class="mr-3 mb-1">contact_mail</mat-icon>
-				<span>Contact</span>
+				<span i18n>Contact</span>
 			</button>
 		</div>
 		<div fxLayout="row" fxLayoutAlign="center" class="my-2">
@@ -52,7 +52,7 @@
 		<router-outlet name="contact"></router-outlet>
 		<router-outlet name="footer"></router-outlet>
 		<div class="nav-button">
-			<button mat-fab color="primary" (click)="sidenav.toggle()" class="pointer button">
+			<button mat-fab color="primary" onclick="this.blur()" (click)="sidenav.toggle()" class="pointer button">
 				<mat-icon>menu</mat-icon>
 			</button>
 		</div>

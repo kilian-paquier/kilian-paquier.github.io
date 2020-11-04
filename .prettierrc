@@ -12,6 +12,8 @@
 	"trailingComma": "es5",
 	"jsxBracketSameLine": true,
 	"htmlWhitespaceSensitivity": "ignore",
+	"xmlWhitespaceSensitivity": "ignore",
+	"xmlSelfClosingSpace": true,
 	"overrides": [
 		{
 			"files": "*.html",

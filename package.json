@@ -4,8 +4,9 @@
 	"scripts": {
 		"ng": "ng",
 		"start": "ng serve",
-		"build": "ng build",
-		"format": "prettier --write . --config .prettierrc"
+		"build": "ng build --prod",
+		"format": "prettier --write . --config .prettierrc",
+		"translation": "ng xi18n --outputPath src/locale --progress=true --ivy"
 	},
 	"private": true,
 	"dependencies": {

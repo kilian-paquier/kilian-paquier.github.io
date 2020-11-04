@@ -20,15 +20,16 @@ p {
 
 a.link,
 button.button {
-	&:hover {
+	&:hover,
+	&:active {
 		// -webkit-box-shadow: 0 0 0 0.2rem mat-color($lighten-primary-color) !important;
 		// box-shadow: 0 0 0 0.2rem mat-color($lighten-primary-color) !important;
 		// border-color: mat-color($lighten-primary-color) !important;
 		background-color: $darken-primary-color !important;
 	}
-	&:focus {
-		// background-color: mat-color($primary) !important;
-	}
+	// &:focus {
+	// 	background-color: mat-color($primary) !important;
+	// }
 }
 
 a {

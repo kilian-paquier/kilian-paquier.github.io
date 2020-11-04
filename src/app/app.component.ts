@@ -1,4 +1,4 @@
-import { Component, ElementRef, Inject, OnInit, ViewChild } from '@angular/core';
+import { Component, ElementRef, Inject, LOCALE_ID, OnInit, ViewChild } from '@angular/core';
 import { MatSidenav } from '@angular/material/sidenav';
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { ScrollToService } from '@nicky-lenaers/ngx-scroll-to';
@@ -30,7 +30,7 @@ export class AppComponent implements OnInit {
 		}
 	}
 
-	public setTheme() {
+	setTheme() {
 		const theme = this.cookieService.get('theme');
 		if (theme && theme === 'dark-theme') {
 			this.changeTheme();

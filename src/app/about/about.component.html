@@ -2,8 +2,19 @@
 	<div class="container">
 		<div class="intro-text">
 			<img class="rounded-circle img-fluid mb-4 img-profil" src="../../assets/images/profil.jpg" />
-			<div class="intro-heading text-uppercase">Stagiaire Consultant Innovation</div>
-			<a mat-raised-button color="primary" class="mt-2 about-button link text-uppercase">Mon CV</a>
+			<div class="intro-heading text-uppercase" i18n>Stagiaire Consultant Innovation</div>
+			<a
+				mat-raised-button
+				color="primary"
+				class="mt-2 about-button link text-uppercase"
+				onclick="this.blur()"
+				i18n
+				i18n-href
+				href="https://cvdesignr.com/p/5d9cd3013bcbb"
+				target="_blank"
+			>
+				Mon CV
+			</a>
 		</div>
 	</div>
 </header>
@@ -12,25 +23,28 @@
 	<div class="container">
 		<div class="row mb-4 text-center">
 			<div class="col-12">
-				<h2 class="section-heading text-uppercase">À propos</h2>
+				<h2 class="section-heading text-uppercase" i18n>À propos</h2>
 			</div>
 		</div>
 		<div class="row text-center section-body">
 			<div class="col-12">
-				<p class="h5">
+				<p class="h5" i18n>
 					Bienvenue sur mon portfolio et bonne lecture ! Je suis étudiant en double diplôme ingénieur
 					informatique et maîtrise informatique (avec Polytech Tours et l'Université du Québec à Chicoutimi).
 				</p>
 			</div>
 			<div class="col-12">
 				<ul class="list-group list-group-flush bg-transparent">
-					<li class="list-group-item bg-transparent">
+					<li class="list-group-item bg-transparent" i18n>
 						Passionné par l'informatique depuis la classe de 4e (où j'ai pu suivre un cours de HTML et CSS
 						sur le Site du Zéro), ma principale qualité se porte sur le souci du détail car il est important
 						pour moi de fournir des applications complètes qui facilitent l'expérience utilisateur (en
 						prenant encompte le ressenti des utilisateurs finaux à chaque démonstration).
 					</li>
-					<li class="list-group-item bg-transparent">Âgé de 22 ans</li>
+					<li class="list-group-item bg-transparent">
+						<span>{{age}}</span>
+						<span i18n>ans</span>
+					</li>
 				</ul>
 			</div>
 		</div>
