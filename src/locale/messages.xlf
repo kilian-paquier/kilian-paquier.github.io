@@ -1,266 +1,278 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file source-language="fr" datatype="plaintext" original="ng2.template">
-    <body>
-      <trans-unit id="90861e5aeffed8c9d750f92764754602259407cf" datatype="html">
-        <source>À propos</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">6</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="53c791780896b392cbd52949c5a2846ad45e5182" datatype="html">
-        <source>Expériences</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">10</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="206ee6bdf57aa68081e592fa8303bd7b20579a90" datatype="html">
-        <source>Formations</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">14</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="5965de0d1fe7b27f941b3f17b0ecaa013552742d" datatype="html">
-        <source>Compétences</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">18</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="6fa10153ecfdc8fe2a11a7eaeb4ba93ac2d8e038" datatype="html">
-        <source>Projets</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">22</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="74c788a54ad02fad0800fea24fd614ba0b8dfd8e" datatype="html">
-        <source>Centres d&apos;intérêts</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">26</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="34746fb1c7f3d2194d99652bdff89e6e14c9c4f4" datatype="html">
-        <source>Contact</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">30</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="69d8b0292257a79c6a2ecc043988c772a3d5692c" datatype="html">
-        <source>Créé avec</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
-          <context context-type="linenumber">9</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="48cf115ddff7901d54fb2a0744089c5c703d6113" datatype="html">
-        <source>et</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
-          <context context-type="linenumber">11</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="bf3f2a935280929c53386412c0a36d21ec1a2bc0" datatype="html">
-        <source>Références sur les images</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
-          <context context-type="linenumber">16</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="54a98afae45bff5ad05deaf9f403d43aeca658f3" datatype="html">
-        <source>Programmation</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/skills/skills.component.html</context>
-          <context context-type="linenumber">10</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="39636f3937a87d6cf8418d60998007f42442246a" datatype="html">
-        <source>Frameworks</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/skills/skills.component.html</context>
-          <context context-type="linenumber">115</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="4b95ca1519df09b58e90c1b128d6b374a3766ef0" datatype="html">
-        <source>Outils</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/skills/skills.component.html</context>
-          <context context-type="linenumber">248</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="4808dd4f0a61077c964ce986909ee4232cf17300" datatype="html">
-        <source>Intérêts</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/interests/interests.component.html</context>
-          <context context-type="linenumber">5</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="2a8cb535f381096e7e8c4f4cdb12dc922c095700" datatype="html">
-        <source>Séries</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/interests/interests.component.html</context>
-          <context context-type="linenumber">29</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="8af1ce1b0e41bc241cd0e43719798cfe6aee588d" datatype="html">
-        <source>Basket</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/interests/interests.component.html</context>
-          <context context-type="linenumber">52</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="59d889be7fc7901a04b6fa6062c47f6764661690" datatype="html">
-        <source>Voyages</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/interests/interests.component.html</context>
-          <context context-type="linenumber">75</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="118b3316281251682f78a9339db3b0eaa723953e" datatype="html">
-        <source>Jeux vidéos</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/interests/interests.component.html</context>
-          <context context-type="linenumber">98</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="d9a8f210d744d98462b7c140b0913888ed498b09" datatype="html">
-        <source>Films</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/interests/interests.component.html</context>
-          <context context-type="linenumber">121</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="11d2590ff278b4dfeb71eebfa36f57a0f7f71259" datatype="html">
-        <source>Stagiaire Consultant Innovation</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/about/about.component.html</context>
-          <context context-type="linenumber">5</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="c78a30db7a6c9bce8f03be087724eff4ea584dbf" datatype="html">
-        <source>https://cvdesignr.com/p/5d9cd3013bcbb</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/about/about.component.html</context>
-          <context context-type="linenumber">13</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="315e77433b95916506802b220557686febce1d4a" datatype="html">
-        <source> Mon CV </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/about/about.component.html</context>
-          <context context-type="linenumber">16,17</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="4f389a74a7578d5ba325d319be6d4aa07b9bb9ec" datatype="html">
-        <source> Bienvenue sur mon portfolio et bonne lecture ! Je suis étudiant en double diplôme ingénieur informatique et maîtrise informatique (avec Polytech Tours et l&apos;Université du Québec à Chicoutimi). </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/about/about.component.html</context>
-          <context context-type="linenumber">32,34</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="39a678c660d36298e19f8d1b3d5a1fd49692275c" datatype="html">
-        <source> Passionné par l&apos;informatique depuis la classe de 4e (où j&apos;ai pu suivre un cours de HTML et CSS sur le Site du Zéro), ma principale qualité se porte sur le souci du détail car il est important pour moi de fournir des applications complètes qui facilitent l&apos;expérience utilisateur (en prenant encompte le ressenti des utilisateurs finaux à chaque démonstration). </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/about/about.component.html</context>
-          <context context-type="linenumber">39,43</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="1abf1249edbb18526619a955386c0887f585a801" datatype="html">
-        <source>ans</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/about/about.component.html</context>
-          <context context-type="linenumber">46</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ae23e9bd0fac11f403dd99f10d0df4f2f8c4171d" datatype="html">
-        <source>Août 2019 - Aujourd&apos;hui</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/education/education.component.html</context>
-          <context context-type="linenumber">20</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="4d5d14376ee90fb2d03fd0745cc3ad1fc6213011" datatype="html">
-        <source>UQAC</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/education/education.component.html</context>
-          <context context-type="linenumber">21</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="a653ae54b27b65a9defb1e3129ce16983889e36e" datatype="html">
-        <source> Je réalise actuellement un double diplôme à l&apos;Université du Québec à Chicoutimi (UQAC) pour obtenir une maîtrise informatique et un diplôme d&apos;ingénieur informatique (avec Polytech Tours). J&apos;ai pu approfondir mes connaissances en gestion de projet (cahier des spécifications, méthodologies Agile/Scrum et prédictive tel que en cascade et en V), en programmation objet, génie logiciel et qualité logicielle. Mais aussi mes compétences en développement. </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/education/education.component.html</context>
-          <context context-type="linenumber">25,31</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ff09545b8b30ac2e76951c0feea5a35f910a402b" datatype="html">
-        <source>Septembre 2019 - Aujourd&apos;hui</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/education/education.component.html</context>
-          <context context-type="linenumber">41</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="cb74f33725291068a31f85a23ebaef5c069cd162" datatype="html">
-        <source>Polytech Tours</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/education/education.component.html</context>
-          <context context-type="linenumber">42</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="51d429a244ac17a3531dcba8b025c5033c70cd70" datatype="html">
-        <source> J&apos;étudie actuellement à Polytech Tours dans le cursus ingénieur informatique. J&apos;ai pu apprendre différents langages de programmation mais aussi pu en apprendre davantage sur les systèmes répartis, le génie logiciel, la qualité logicielle, le cycle de vie d&apos;un projet, l&apos;algorithmie et la gestion de projet. </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/education/education.component.html</context>
-          <context context-type="linenumber">46,50</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="6eb84f6fd6a8c3d9bc65d672c2e56b6e9cad9e3d" datatype="html">
-        <source>Septembre 2015 - Juin 2017</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/education/education.component.html</context>
-          <context context-type="linenumber">60</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="69b93349dd0fcf21760cf24457a721cd77bd5c36" datatype="html">
-        <source>PeiP Tours</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/education/education.component.html</context>
-          <context context-type="linenumber">61</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="145ed157eaa87aaa0265773cf245060ad7d77f57" datatype="html">
-        <source> J&apos;ai complété le Parcours des écoles d&apos;ingénieurs Polytech (PeiP) en mathématiques et informatique (MI) à Polytech Tours. J&apos;ai découvert quelques langages ainsi que réalisé deux principaux projets : le mouvement d&apos;un moteur par la voix (en python avec une librairie de reconnaissance vocale existante) et une étude de création d&apos;une ligne B pour le tramway de Tours. </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/education/education.component.html</context>
-          <context context-type="linenumber">65,70</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="168041fc21f0b0f98693ed1c4e2aa55d02b5c6ac" datatype="html">
-        <source>Septembre 2012 - Juin 2015</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/education/education.component.html</context>
-          <context context-type="linenumber">84</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="486c6e6ea975254a3e5a7af7d6c4ee389dac1113" datatype="html">
-        <source>Lycée Camille Guérin</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/education/education.component.html</context>
-          <context context-type="linenumber">85</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="25b0e699ed9755e1f2b7d79f3d3c1f8c13f9c12a" datatype="html">
-        <source>Diplômé du baccalauréat filière S avec la spécialité mathématiques.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/education/education.component.html</context>
-          <context context-type="linenumber">88</context>
-        </context-group>
-      </trans-unit>
-    </body>
-  </file>
+	<file source-language="fr" datatype="plaintext" original="ng2.template">
+		<body>
+			<trans-unit id="90861e5aeffed8c9d750f92764754602259407cf" datatype="html">
+				<source>À propos</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/app.component.html</context>
+					<context context-type="linenumber">6</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="53c791780896b392cbd52949c5a2846ad45e5182" datatype="html">
+				<source>Expériences</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/app.component.html</context>
+					<context context-type="linenumber">10</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="206ee6bdf57aa68081e592fa8303bd7b20579a90" datatype="html">
+				<source>Formations</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/app.component.html</context>
+					<context context-type="linenumber">14</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="5965de0d1fe7b27f941b3f17b0ecaa013552742d" datatype="html">
+				<source>Compétences</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/app.component.html</context>
+					<context context-type="linenumber">18</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="6fa10153ecfdc8fe2a11a7eaeb4ba93ac2d8e038" datatype="html">
+				<source>Projets</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/app.component.html</context>
+					<context context-type="linenumber">22</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="74c788a54ad02fad0800fea24fd614ba0b8dfd8e" datatype="html">
+				<source>Centres d&apos;intérêts</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/app.component.html</context>
+					<context context-type="linenumber">26</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="34746fb1c7f3d2194d99652bdff89e6e14c9c4f4" datatype="html">
+				<source>Contact</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/app.component.html</context>
+					<context context-type="linenumber">30</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="49637bb41fa270c47c6f220fef8490fefa7bb720" datatype="html">
+				<source>/en</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/app.component.html</context>
+					<context context-type="linenumber">43</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="69d8b0292257a79c6a2ecc043988c772a3d5692c" datatype="html">
+				<source>Créé avec</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/footer/footer.component.html</context>
+					<context context-type="linenumber">9</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="48cf115ddff7901d54fb2a0744089c5c703d6113" datatype="html">
+				<source>et</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/footer/footer.component.html</context>
+					<context context-type="linenumber">11</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="bf3f2a935280929c53386412c0a36d21ec1a2bc0" datatype="html">
+				<source>Références sur les images</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/footer/footer.component.html</context>
+					<context context-type="linenumber">16</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="54a98afae45bff5ad05deaf9f403d43aeca658f3" datatype="html">
+				<source>Programmation</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/skills/skills.component.html</context>
+					<context context-type="linenumber">10</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="39636f3937a87d6cf8418d60998007f42442246a" datatype="html">
+				<source>Frameworks</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/skills/skills.component.html</context>
+					<context context-type="linenumber">115</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="4b95ca1519df09b58e90c1b128d6b374a3766ef0" datatype="html">
+				<source>Outils</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/skills/skills.component.html</context>
+					<context context-type="linenumber">248</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="4808dd4f0a61077c964ce986909ee4232cf17300" datatype="html">
+				<source>Intérêts</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/interests/interests.component.html</context>
+					<context context-type="linenumber">5</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="2a8cb535f381096e7e8c4f4cdb12dc922c095700" datatype="html">
+				<source>Séries</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/interests/interests.component.html</context>
+					<context context-type="linenumber">29</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="8af1ce1b0e41bc241cd0e43719798cfe6aee588d" datatype="html">
+				<source>Basket</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/interests/interests.component.html</context>
+					<context context-type="linenumber">52</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="59d889be7fc7901a04b6fa6062c47f6764661690" datatype="html">
+				<source>Voyages</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/interests/interests.component.html</context>
+					<context context-type="linenumber">75</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="118b3316281251682f78a9339db3b0eaa723953e" datatype="html">
+				<source>Jeux vidéos</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/interests/interests.component.html</context>
+					<context context-type="linenumber">98</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="d9a8f210d744d98462b7c140b0913888ed498b09" datatype="html">
+				<source>Films</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/interests/interests.component.html</context>
+					<context context-type="linenumber">121</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="ae23e9bd0fac11f403dd99f10d0df4f2f8c4171d" datatype="html">
+				<source>Août 2019 - Aujourd&apos;hui</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/education/education.component.html</context>
+					<context context-type="linenumber">20</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="4d5d14376ee90fb2d03fd0745cc3ad1fc6213011" datatype="html">
+				<source>UQAC</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/education/education.component.html</context>
+					<context context-type="linenumber">21</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="a653ae54b27b65a9defb1e3129ce16983889e36e" datatype="html">
+				<source
+				> Je réalise actuellement un double diplôme à l&apos;Université du Québec à Chicoutimi (UQAC) pour obtenir une maîtrise informatique et un diplôme d&apos;ingénieur informatique (avec Polytech Tours). J&apos;ai pu approfondir mes connaissances en gestion de projet (cahier des spécifications, méthodologies Agile/Scrum et prédictive tel que en cascade et en V), en programmation objet, génie logiciel et qualité logicielle. Mais aussi mes compétences en développement. </source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/education/education.component.html</context>
+					<context context-type="linenumber">25,31</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="ff09545b8b30ac2e76951c0feea5a35f910a402b" datatype="html">
+				<source>Septembre 2019 - Aujourd&apos;hui</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/education/education.component.html</context>
+					<context context-type="linenumber">41</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="cb74f33725291068a31f85a23ebaef5c069cd162" datatype="html">
+				<source>Polytech Tours</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/education/education.component.html</context>
+					<context context-type="linenumber">42</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="51d429a244ac17a3531dcba8b025c5033c70cd70" datatype="html">
+				<source
+				> J&apos;étudie actuellement à Polytech Tours dans le cursus ingénieur informatique. J&apos;ai pu apprendre différents langages de programmation mais aussi pu en apprendre davantage sur les systèmes répartis, le génie logiciel, la qualité logicielle, le cycle de vie d&apos;un projet, l&apos;algorithmie et la gestion de projet. </source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/education/education.component.html</context>
+					<context context-type="linenumber">46,50</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="6eb84f6fd6a8c3d9bc65d672c2e56b6e9cad9e3d" datatype="html">
+				<source>Septembre 2015 - Juin 2017</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/education/education.component.html</context>
+					<context context-type="linenumber">60</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="69b93349dd0fcf21760cf24457a721cd77bd5c36" datatype="html">
+				<source>PeiP Tours</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/education/education.component.html</context>
+					<context context-type="linenumber">61</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="145ed157eaa87aaa0265773cf245060ad7d77f57" datatype="html">
+				<source
+				> J&apos;ai complété le Parcours des écoles d&apos;ingénieurs Polytech (PeiP) en mathématiques et informatique (MI) à Polytech Tours. J&apos;ai découvert quelques langages ainsi que réalisé deux principaux projets : le mouvement d&apos;un moteur par la voix (en python avec une librairie de reconnaissance vocale existante) et une étude de création d&apos;une ligne B pour le tramway de Tours. </source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/education/education.component.html</context>
+					<context context-type="linenumber">65,70</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="168041fc21f0b0f98693ed1c4e2aa55d02b5c6ac" datatype="html">
+				<source>Septembre 2012 - Juin 2015</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/education/education.component.html</context>
+					<context context-type="linenumber">84</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="486c6e6ea975254a3e5a7af7d6c4ee389dac1113" datatype="html">
+				<source>Lycée Camille Guérin</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/education/education.component.html</context>
+					<context context-type="linenumber">85</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="25b0e699ed9755e1f2b7d79f3d3c1f8c13f9c12a" datatype="html">
+				<source>Diplômé du baccalauréat filière S avec la spécialité mathématiques.</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/education/education.component.html</context>
+					<context context-type="linenumber">88</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="11d2590ff278b4dfeb71eebfa36f57a0f7f71259" datatype="html">
+				<source>Stagiaire Consultant Innovation</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/about/about.component.html</context>
+					<context context-type="linenumber">5</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="c78a30db7a6c9bce8f03be087724eff4ea584dbf" datatype="html">
+				<source>https://cvdesignr.com/p/5d9cd3013bcbb</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/about/about.component.html</context>
+					<context context-type="linenumber">13</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="315e77433b95916506802b220557686febce1d4a" datatype="html">
+				<source>Mon CV</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/about/about.component.html</context>
+					<context context-type="linenumber">16,17</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="4f389a74a7578d5ba325d319be6d4aa07b9bb9ec" datatype="html">
+				<source
+				> Bienvenue sur mon portfolio et bonne lecture ! Je suis étudiant en double diplôme ingénieur informatique et maîtrise informatique (avec Polytech Tours et l&apos;Université du Québec à Chicoutimi). </source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/about/about.component.html</context>
+					<context context-type="linenumber">32,34</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="39a678c660d36298e19f8d1b3d5a1fd49692275c" datatype="html">
+				<source
+				> Passionné par l&apos;informatique depuis la classe de 4e (où j&apos;ai pu suivre un cours de HTML et CSS sur le Site du Zéro), ma principale qualité se porte sur le souci du détail car il est important pour moi de fournir des applications complètes qui facilitent l&apos;expérience utilisateur (en prenant encompte le ressenti des utilisateurs finaux à chaque démonstration). </source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/about/about.component.html</context>
+					<context context-type="linenumber">39,43</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="1abf1249edbb18526619a955386c0887f585a801" datatype="html">
+				<source>ans</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/about/about.component.html</context>
+					<context context-type="linenumber">46</context>
+				</context-group>
+			</trans-unit>
+		</body>
+	</file>
 </xliff>

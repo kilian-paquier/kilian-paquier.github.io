@@ -23,13 +23,21 @@
 				</context-group>
 			</trans-unit>
 			<trans-unit id="c78a30db7a6c9bce8f03be087724eff4ea584dbf" datatype="html">
-        <source>https://cvdesignr.com/p/5d9cd3013bcbb</source>
-		<target>https://cvdesignr.com/p/5ddff0dda9765</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/about/about.component.html</context>
-          <context context-type="linenumber">13</context>
-        </context-group>
-      </trans-unit>
+				<source>https://cvdesignr.com/p/5d9cd3013bcbb</source>
+				<target>https://cvdesignr.com/p/5ddff0dda9765</target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/about/about.component.html</context>
+					<context context-type="linenumber">13</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="49637bb41fa270c47c6f220fef8490fefa7bb720" datatype="html">
+				<source>/en</source>
+				<target>/</target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/app.component.html</context>
+					<context context-type="linenumber">43</context>
+				</context-group>
+			</trans-unit>
 			<trans-unit id="206ee6bdf57aa68081e592fa8303bd7b20579a90" datatype="html">
 				<source>Formations</source>
 				<target>Education</target>
@@ -269,12 +277,12 @@
 									avec une librairie de reconnaissance vocale existante) et une étude de création
 									d&apos;une ligne B pour le tramway de Tours.
 								</source>
-								<target>
-									I completed the Parcours des écoles d'ingénieurs Polytech (PeiP) in mathematics and
+				<target>
+					I completed the Parcours des écoles d'ingénieurs Polytech (PeiP) in mathematics and
                 computer science at Polytech Tours. I discovered programming languages and realised two main projects :
                 an engine movement with the voice (in python with an existing voice recognition library) and a tram
                 creation study for a second line in Tours (France).
-								</target>
+				</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/education/education.component.html</context>
 					<context context-type="linenumber">64</context>
@@ -298,8 +306,10 @@
 			</trans-unit>
 			<trans-unit id="25b0e699ed9755e1f2b7d79f3d3c1f8c13f9c12a" datatype="html">
 				<source>Diplômé du baccalauréat filière S avec la spécialité mathématiques.</source>
-				<target>High school diploma in chemistry, physics and mathematics with speciality in
-                mathematics.</target>
+				<target>
+					High school diploma in chemistry, physics and mathematics with speciality in
+                mathematics.
+				</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/education/education.component.html</context>
 					<context context-type="linenumber">88</context>
