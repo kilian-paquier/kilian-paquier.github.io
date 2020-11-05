@@ -8,6 +8,9 @@ import { MatListModule } from '@angular/material/list';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatTooltipModule } from '@angular/material/tooltip';
+import { MatGridListModule } from '@angular/material/grid-list';
+import { MatCardModule } from '@angular/material/card';
+import { MatExpansionModule } from '@angular/material/expansion';
 
 import { AppComponent } from './app.component';
 import { FooterComponent } from './footer/footer.component';
@@ -52,6 +55,9 @@ import { ImagesComponent } from './images/images.component';
 		FontAwesomeModule,
 		ScrollToModule.forRoot(),
 		MatTooltipModule,
+		MatGridListModule,
+		MatCardModule,
+		MatExpansionModule,
 	],
 	providers: [CookieService],
 	bootstrap: [AppComponent],
