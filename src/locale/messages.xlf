@@ -10,7 +10,7 @@
 				</context-group>
 			</trans-unit>
 			<trans-unit id="experiences" datatype="html">
-				<source>Expériences professionnelles</source>
+				<source>Expériences</source>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/app.component.html</context>
 					<context context-type="linenumber">10</context>
@@ -58,25 +58,11 @@
 					<context context-type="linenumber">43</context>
 				</context-group>
 			</trans-unit>
-			<trans-unit id="69d8b0292257a79c6a2ecc043988c772a3d5692c" datatype="html">
-				<source>Créé avec</source>
-				<context-group purpose="location">
-					<context context-type="sourcefile">src/app/footer/footer.component.html</context>
-					<context context-type="linenumber">9</context>
-				</context-group>
-			</trans-unit>
-			<trans-unit id="48cf115ddff7901d54fb2a0744089c5c703d6113" datatype="html">
-				<source>et</source>
-				<context-group purpose="location">
-					<context context-type="sourcefile">src/app/footer/footer.component.html</context>
-					<context context-type="linenumber">11</context>
-				</context-group>
-			</trans-unit>
 			<trans-unit id="bf3f2a935280929c53386412c0a36d21ec1a2bc0" datatype="html">
 				<source>Références sur les images</source>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/footer/footer.component.html</context>
-					<context context-type="linenumber">16</context>
+					<context context-type="linenumber">29</context>
 				</context-group>
 			</trans-unit>
 			<trans-unit id="54a98afae45bff5ad05deaf9f403d43aeca658f3" datatype="html">
@@ -100,25 +86,88 @@
 					<context context-type="linenumber">244</context>
 				</context-group>
 			</trans-unit>
-			<trans-unit id="006824bd8d4f3881d3d5b00e2947fcd32d33bfc7" datatype="html">
-				<source>Juin à Août 2019</source>
+			<trans-unit id="85ca70bce34cf68dc846af549d6bc210cf2fb0bf" datatype="html">
+				<source>Unity, C#, Perforce</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/projects/projects.component.html</context>
+					<context context-type="linenumber">13</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="knowmoredialog" datatype="html">
+				<source>EN SAVOIR PLUS</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/projects/projects.component.html</context>
+					<context context-type="linenumber">17</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="b6a908449c706bf87b5e23400e603fd1b52b0477" datatype="html">
+				<source>Android (Java), Firebase</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/projects/projects.component.html</context>
+					<context context-type="linenumber">25</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="5e93ffe675ec57c5e0954be9f92efe1a44d680ee" datatype="html">
+				<source>C#, .NET, Razor, EF6, MS SQL</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/projects/projects.component.html</context>
+					<context context-type="linenumber">37</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="15a61d84d5f77289346f4dd2c98206f8b598c15f" datatype="html">
+				<source>JEE, Struts 2, JDBC, Bootstrap</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/projects/projects.component.html</context>
+					<context context-type="linenumber">50,51</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="d148241c29856015e89c8b5f826a3ea7d56349e6" datatype="html">
+				<source>HTML, JS, CSS, Bootstrap, Planification, Management</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/projects/projects.component.html</context>
+					<context context-type="linenumber">64,65</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="e03fa7030255ddf888e601b690337aee638ce23a" datatype="html">
+				<source>C++, Qt, SQLite</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/projects/projects.component.html</context>
+					<context context-type="linenumber">77</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="aeb63a30658c8bbfb0be4c564ac4bd21f4d08fe5" datatype="html">
+				<source>Java, Swing, MVC, Planification</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/projects/projects.component.html</context>
+					<context context-type="linenumber">90,91</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="189c32490c05d7aad4615f200e47e35ef3e2939e" datatype="html">
+				<source>Java, Swing, MVC</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/projects/projects.component.html</context>
+					<context context-type="linenumber">103</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="536d6cbafb526e6e5d92c6b79999dc41ee87a76b" datatype="html">
+				<source>Août 2020 à Février 2021</source>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
 					<context context-type="linenumber">13</context>
 				</context-group>
 			</trans-unit>
 			<trans-unit id="knowmore" datatype="html">
-				<source>En savoir plus</source>
-				<context-group purpose="location">
-					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
-					<context context-type="linenumber">23</context>
-				</context-group>
-			</trans-unit>
-			<trans-unit id="knowmore2" datatype="html">
 				<source>Cliquez pour en savoir plus</source>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
-					<context context-type="linenumber">25,26</context>
+					<context context-type="linenumber">19</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="006824bd8d4f3881d3d5b00e2947fcd32d33bfc7" datatype="html">
+				<source>Juin à Août 2019</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
+					<context context-type="linenumber">30</context>
 				</context-group>
 			</trans-unit>
 			<trans-unit id="c6f40005cb90d05267e0726873eaeaf527c7a724" datatype="html">
@@ -126,14 +175,14 @@
 				> Pour mon stage de 4e année à Polytech Tours, j&apos;ai travaillé chez Euro-Sys où j&apos;avais deux missions. La première, analyser et comparer la version du framework (ExtJS) utilisé et la nouvelle version afin d&apos;estimer les modifications et le temps nécessaires pour le changement de version sur l&apos;ERP. La seconde, implémenter plusieurs fonctionnalité dans ce même ERP. </source>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
-					<context context-type="linenumber">29,34</context>
+					<context context-type="linenumber">39,44</context>
 				</context-group>
 			</trans-unit>
 			<trans-unit id="ac6a6c68b9cda39f09a00bf40be28356281c83cc" datatype="html">
 				<source>Août 2018</source>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
-					<context context-type="linenumber">43</context>
+					<context context-type="linenumber">53</context>
 				</context-group>
 			</trans-unit>
 			<trans-unit id="4ff39d5563085400b08b9760d709893d974f91cb" datatype="html">
@@ -141,14 +190,14 @@
 				> J&apos;ai travaillé dans le cadre d&apos;un CDD à la Direction Départementale des Territoires (DDT) dans le but de développer une application de recherche de dossiers manquants (taxes d&apos;aménagement) et de génération de tableaux croisés : T.A.GEDOFIS. </source>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
-					<context context-type="linenumber">55,58</context>
+					<context context-type="linenumber">62,65</context>
 				</context-group>
 			</trans-unit>
 			<trans-unit id="f778831465762aa11d56262f2b7b9615f8451206" datatype="html">
 				<source>Février, Avril et Août 2017</source>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
-					<context context-type="linenumber">67</context>
+					<context context-type="linenumber">74</context>
 				</context-group>
 			</trans-unit>
 			<trans-unit id="f7ddf8243a5528ad8653040164994e8f70f3d8cd" datatype="html">
@@ -171,14 +220,14 @@
 				> Sur deux colonies de vacances de trois semaines chacunes en Alsace, j&apos;ai travaillé au CGCV (C&apos;est Génial Comme Vacances) en tant qu&apos;animateur. J&apos;ai animé ces deux fois des jeunes de 6 à 12 ans avec l&apos;organisation d&apos;activités, animations, grandes animations, sorties et veillées. </source>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
-					<context context-type="linenumber">113,117</context>
+					<context context-type="linenumber">106,110</context>
 				</context-group>
 			</trans-unit>
 			<trans-unit id="781f0dc5435432010b233e4d607f1ac4267f4c28" datatype="html">
 				<source>Juin 2016</source>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
-					<context context-type="linenumber">126</context>
+					<context context-type="linenumber">119</context>
 				</context-group>
 			</trans-unit>
 			<trans-unit id="87733909200bbbdad4ea3c24bd49c0c740b6ff9d" datatype="html">
@@ -186,7 +235,7 @@
 				> Dans le cadre de mon stage de première année de PeiP (à Polytech Tours), j&apos;ai travaillé à la Direction Régionale de l&apos;Environnement, de l&apos;Aménagement et du Logement (DREAL). Durant ce stage j&apos;ai pu découvrir la mise à jour des serveurs ainsi que participer à la mise en place de la téléphone IP (branchements sur les switchs et dans les bureaux). </source>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
-					<context context-type="linenumber">142,146</context>
+					<context context-type="linenumber">128,132</context>
 				</context-group>
 			</trans-unit>
 			<trans-unit id="2a8cb535f381096e7e8c4f4cdb12dc922c095700" datatype="html">
