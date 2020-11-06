@@ -11,6 +11,7 @@ import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
 import { MatExpansionModule } from '@angular/material/expansion';
+import { MatProgressBarModule } from '@angular/material/progress-bar';
 
 import { AppComponent } from './app.component';
 import { FooterComponent } from './footer/footer.component';
@@ -58,6 +59,7 @@ import { ImagesComponent } from './images/images.component';
 		MatGridListModule,
 		MatCardModule,
 		MatExpansionModule,
+		MatProgressBarModule,
 	],
 	providers: [CookieService],
 	bootstrap: [AppComponent],

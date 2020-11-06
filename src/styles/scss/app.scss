@@ -21,8 +21,15 @@
 }
 
 .sidenav {
-	padding-top: 1rem !important;
-	min-width: 100px;
+	padding-top: 0.75rem !important;
+	// min-width: 100px;
+}
+
+.progress-bar {
+	position: fixed !important;
+	top: 0 !important;
+	z-index: 101;
+	height: 2px !important;
 }
 
 .flag-icon-background {

@@ -17,7 +17,6 @@ export class AboutComponent implements OnInit {
 
 	changeFlagClass() {
 		const icon = document.getElementById('lang');
-		console.log(location.href);
 		if (location.href.includes('/en')) {
 			icon.classList.add('flag-icon-fr');
 		} else {
@@ -27,7 +26,7 @@ export class AboutComponent implements OnInit {
 
 	calculAge(): string {
 		let today = new Date();
-		let birthDate = new Date('1997-11-25:');
+		let birthDate = new Date('1997-11-25');
 		let age = today.getFullYear() - birthDate.getFullYear();
 		let m = today.getMonth() - birthDate.getMonth();
 		if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {

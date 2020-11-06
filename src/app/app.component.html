@@ -1,13 +1,13 @@
-<mat-sidenav-container autosize fxFlexFill>
+<mat-sidenav-container fxFlexFill>
 	<mat-sidenav #sidenav fxLayout="column" class="sidenav">
 		<div fxLayout="column">
 			<button class="nav-item" mat-button (click)="scrollTo('about')">
 				<mat-icon class="mr-3 mb-1">person</mat-icon>
 				<span i18n="@@about">À propos</span>
 			</button>
-			<button class="nav-item" mat-button>
+			<button class="nav-item" mat-button (click)="scrollTo('experiences')">
 				<mat-icon class="mr-3 mb-1">business</mat-icon>
-				<span i18n="@@experiences">Expériences professionnelles</span>
+				<span i18n="@@experiences">Expériences</span>
 			</button>
 			<button class="nav-item" mat-button (click)="scrollTo('education')">
 				<mat-icon class="mr-3 mb-1">school</mat-icon>
@@ -45,7 +45,8 @@
 			</a>
 		</div>
 	</mat-sidenav>
-	<mat-sidenav-content fxFlexFill>
+	<mat-sidenav-content #sidenavcontent fxFlexFill (scroll)="progress()">
+		<mat-progress-bar class="progress-bar" [value]="progressbarValue" color="primary"></mat-progress-bar>
 		<router-outlet name="about"></router-outlet>
 		<router-outlet name="experiences"></router-outlet>
 		<router-outlet name="education"></router-outlet>
