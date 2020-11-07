@@ -121,32 +121,32 @@
 					<context context-type="linenumber">50,51</context>
 				</context-group>
 			</trans-unit>
-			<trans-unit id="d148241c29856015e89c8b5f826a3ea7d56349e6" datatype="html">
-				<source>HTML, JS, CSS, Bootstrap, Planification, Management</source>
+			<trans-unit id="1db8d24eaea367ce7d788939945b451e6084d807" datatype="html">
+				<source>Web, Bootstrap, Management</source>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/projects/projects.component.html</context>
-					<context context-type="linenumber">64,65</context>
+					<context context-type="linenumber">63</context>
 				</context-group>
 			</trans-unit>
 			<trans-unit id="e03fa7030255ddf888e601b690337aee638ce23a" datatype="html">
 				<source>C++, Qt, SQLite</source>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/projects/projects.component.html</context>
-					<context context-type="linenumber">77</context>
+					<context context-type="linenumber">75</context>
 				</context-group>
 			</trans-unit>
 			<trans-unit id="aeb63a30658c8bbfb0be4c564ac4bd21f4d08fe5" datatype="html">
 				<source>Java, Swing, MVC, Planification</source>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/projects/projects.component.html</context>
-					<context context-type="linenumber">90,91</context>
+					<context context-type="linenumber">88,89</context>
 				</context-group>
 			</trans-unit>
 			<trans-unit id="189c32490c05d7aad4615f200e47e35ef3e2939e" datatype="html">
 				<source>Java, Swing, MVC</source>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/projects/projects.component.html</context>
-					<context context-type="linenumber">103</context>
+					<context context-type="linenumber">101</context>
 				</context-group>
 			</trans-unit>
 			<trans-unit id="536d6cbafb526e6e5d92c6b79999dc41ee87a76b" datatype="html">
@@ -271,6 +271,62 @@
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/interests/interests.component.html</context>
 					<context context-type="linenumber">121</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="070fdfc2fa0e0c632bb72a40a099097774dff3b0" datatype="html">
+				<source>Contactez-moi</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/contact/contact.component.html</context>
+					<context context-type="linenumber">5</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="75a8926bddab539c66b7b683cc29d33706c2b11a" datatype="html">
+				<source>Votre nom et prénom</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/contact/contact.component.html</context>
+					<context context-type="linenumber">16</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="f20d0571a424df74b64eadff282d637f1b5f3948" datatype="html">
+				<source>Votre adresse mail</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/contact/contact.component.html</context>
+					<context context-type="linenumber">30</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="bfa6821283883699371e2352f26800d546d4e624" datatype="html">
+				<source>Votre entreprise</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/contact/contact.component.html</context>
+					<context context-type="linenumber">47</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="9676445a2a61ca286b26f3cf60e7cc0d611ededd" datatype="html">
+				<source>Votre message</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/contact/contact.component.html</context>
+					<context context-type="linenumber">59</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="0f5c4994df4f2770b75a9fdd70809f12682fabe7" datatype="html">
+				<source>ENVOYER VOTRE MESSAGE</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/contact/contact.component.html</context>
+					<context context-type="linenumber">83</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="required" datatype="html">
+				<source>Champ obligatoire</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/contact/contact.component.html</context>
+					<context context-type="linenumber">24,25</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="24be839273806e7db0770ae31176e37004a8a604" datatype="html">
+				<source> Ceci n&apos;est pas une adresse mail </source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/contact/contact.component.html</context>
+					<context context-type="linenumber">41,42</context>
 				</context-group>
 			</trans-unit>
 			<trans-unit id="ae23e9bd0fac11f403dd99f10d0df4f2f8c4171d" datatype="html">

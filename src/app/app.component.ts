@@ -60,7 +60,7 @@ export class AppComponent implements OnInit {
 
 	setTheme() {
 		const theme = this.cookieService.get('theme');
-		if (theme && theme === 'dark-theme') this.changeTheme();
+		if (theme && theme === 'light-theme') this.changeTheme();
 	}
 
 	public scrollTo(section: string) {

@@ -13,6 +13,46 @@ $darken-primary-color: darken(mat-color($primary), 10%);
 
 $light-accent: mat-palette($mat-orange, 700);
 $light-warn: mat-palette($mat-red, 700);
+
+// Background palette for light themes.
+$mat-light-theme-background: (
+	status-bar: map-get($mat-grey, 300),
+	app-bar: map-get($mat-grey, 100),
+	background: map-get($mat-grey, 50),
+	hover: rgba(black, 0.04),
+	// TODO(kara): check style with Material Design UX
+	card: white,
+	dialog: white,
+	disabled-button: rgba(black, 0.12),
+	raised-button: white,
+	focused-button: $dark-focused,
+	selected-button: map-get($mat-grey, 300),
+	selected-disabled-button: map-get($mat-grey, 400),
+	disabled-button-toggle: map-get($mat-grey, 200),
+	unselected-chip: map-get($mat-grey, 300),
+	disabled-list-option: map-get($mat-grey, 200),
+	tooltip: map-get($mat-grey, 700),
+);
+
+// Foreground palette for light themes.
+$mat-light-theme-foreground: (
+	base: black,
+	divider: $dark-dividers,
+	dividers: $dark-dividers,
+	disabled: $dark-disabled-text,
+	disabled-button: rgba(black, 0.26),
+	disabled-text: $dark-disabled-text,
+	elevation: black,
+	hint-text: $dark-disabled-text,
+	secondary-text: $dark-secondary-text,
+	icon: rgba(black, 0.54),
+	icons: rgba(black, 0.54),
+	text: rgba(black, 0.87),
+	slider-min: rgba(black, 0.87),
+	slider-off: rgba(black, 0.26),
+	slider-off-active: rgba(black, 0.38),
+);
+
 $light-theme: mat-light-theme(
 	(
 		color: (
@@ -22,14 +62,57 @@ $light-theme: mat-light-theme(
 		),
 	)
 );
+
 @include angular-material-theme($light-theme);
+
 $light-background: map-get($mat-grey, 50);
 $darken-light-color: darken($light-background, 10%);
+$darken-light-background: darken($light-background, 15%);
 
 /* Thème sombre */
 
 $dark-accent: mat-palette($mat-orange, 800);
 $dark-warn: mat-palette($mat-red, 700);
+
+// Background palette for dark themes.
+$mat-dark-theme-background: (
+	status-bar: black,
+	app-bar: map-get($mat-grey, 900),
+	background: #303030,
+	hover: rgba(white, 0.04),
+	// TODO(kara): check style with Material Design UX
+	card: map-get($mat-grey, 800),
+	dialog: map-get($mat-grey, 800),
+	disabled-button: rgba(white, 0.12),
+	raised-button: map-get($mat-grey, 800),
+	focused-button: $light-focused,
+	selected-button: map-get($mat-grey, 900),
+	selected-disabled-button: map-get($mat-grey, 800),
+	disabled-button-toggle: black,
+	unselected-chip: map-get($mat-grey, 700),
+	disabled-list-option: black,
+	tooltip: map-get($mat-grey, 700),
+);
+
+// Foreground palette for dark themes.
+$mat-dark-theme-foreground: (
+	base: white,
+	divider: $light-dividers,
+	dividers: $light-dividers,
+	disabled: $light-disabled-text,
+	disabled-button: rgba(white, 0.3),
+	disabled-text: $light-disabled-text,
+	elevation: black,
+	hint-text: $light-disabled-text,
+	secondary-text: $light-secondary-text,
+	icon: white,
+	icons: white,
+	text: white,
+	slider-min: white,
+	slider-off: rgba(white, 0.3),
+	slider-off-active: rgba(white, 0.3),
+);
+
 $dark-theme: mat-dark-theme(
 	(
 		color: (
@@ -43,13 +126,15 @@ $dark-theme: mat-dark-theme(
 .dark-theme {
 	@include angular-material-color($dark-theme);
 }
+
 $dark-background: #303030;
 $lighten-dark-color: lighten($dark-background, 10%);
+$lighten-dark-background: lighten($dark-background, 4%);
 
 .dark-theme .bg-nuance {
-	background-color: $lighten-dark-color;
+	background-color: $lighten-dark-background;
 }
 
 .bg-nuance {
-	background-color: $darken-light-color;
+	background-color: $darken-light-background;
 }

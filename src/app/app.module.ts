@@ -12,6 +12,8 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
 
 import { AppComponent } from './app.component';
 import { FooterComponent } from './footer/footer.component';
@@ -28,6 +30,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { CookieService } from 'ngx-cookie-service';
 import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
 import { ImagesComponent } from './images/images.component';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 
 @NgModule({
 	declarations: [
@@ -60,6 +63,10 @@ import { ImagesComponent } from './images/images.component';
 		MatCardModule,
 		MatExpansionModule,
 		MatProgressBarModule,
+		MatFormFieldModule,
+		ReactiveFormsModule,
+		FormsModule,
+		MatInputModule,
 	],
 	providers: [CookieService],
 	bootstrap: [AppComponent],
