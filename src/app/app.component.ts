@@ -27,10 +27,10 @@ export class AppComponent implements OnInit {
 
 	initSwipe() {
 		const hammerSidenav = new Hammer(document.body);
-		hammerSidenav.on('panright', () => {
+		hammerSidenav.on('swiperight', () => {
 			if (!this.sidenav.opened) this.sidenav.open();
 		});
-		hammerSidenav.on('panleft', () => {
+		hammerSidenav.on('swipeleft', () => {
 			if (this.sidenav.opened) this.sidenav.close();
 		});
 	}
@@ -60,7 +60,7 @@ export class AppComponent implements OnInit {
 
 	setTheme() {
 		const theme = this.cookieService.get('theme');
-		if (theme && theme === 'light-theme') this.changeTheme();
+		if (theme && theme === 'dark-theme') this.changeTheme();
 	}
 
 	public scrollTo(section: string) {

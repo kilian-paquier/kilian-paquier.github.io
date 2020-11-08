@@ -14,6 +14,7 @@ import { MatExpansionModule } from '@angular/material/expansion';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
+import { MatDialogModule } from '@angular/material/dialog';
 
 import { AppComponent } from './app.component';
 import { FooterComponent } from './footer/footer.component';
@@ -31,6 +32,7 @@ import { CookieService } from 'ngx-cookie-service';
 import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
 import { ImagesComponent } from './images/images.component';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
+import { ForTheBerryDialogComponent } from './projects/for-the-berry-dialog/for-the-berry-dialog.component';
 
 @NgModule({
 	declarations: [
@@ -44,6 +46,7 @@ import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 		EducationComponent,
 		AboutComponent,
 		ImagesComponent,
+		ForTheBerryDialogComponent,
 	],
 	imports: [
 		BrowserModule,
@@ -67,6 +70,7 @@ import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 		ReactiveFormsModule,
 		FormsModule,
 		MatInputModule,
+		MatDialogModule,
 	],
 	providers: [CookieService],
 	bootstrap: [AppComponent],

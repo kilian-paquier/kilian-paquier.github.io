@@ -10,11 +10,18 @@
 				<mat-card>
 					<mat-card-header>
 						<mat-card-title class="text-left">For the Berry</mat-card-title>
-						<mat-card-subtitle i18n class="text-left ml-4">Unity, C#, Perforce</mat-card-subtitle>
+						<mat-card-subtitle class="text-left ml-4">Unity, C#, Perforce</mat-card-subtitle>
 					</mat-card-header>
 					<img mat-card-image src="../../assets/images/fortheberry1.png" />
-					<mat-card-actions align="start">
-						<button mat-button i18n="@@knowmoredialog">EN SAVOIR PLUS</button>
+					<mat-card-actions align="end">
+						<button
+							mat-button
+							i18n="@@knowmoredialog"
+							class="text-uppercase"
+							(click)="openDialog('ForTheBerry')"
+						>
+							En savoir plus
+						</button>
 					</mat-card-actions>
 				</mat-card>
 			</div>
@@ -25,8 +32,15 @@
 						<mat-card-subtitle i18n class="text-left ml-4">Android (Java), Firebase</mat-card-subtitle>
 					</mat-card-header>
 					<img mat-card-image src="../../assets/images/shareyourfit_1.png" />
-					<mat-card-actions align="start">
-						<button mat-button i18n="@@knowmoredialog">EN SAVOIR PLUS</button>
+					<mat-card-actions align="end">
+						<button
+							mat-button
+							i18n="@@knowmoredialog"
+							class="text-uppercase"
+							(click)="openDialog('ShareYourFit')"
+						>
+							En savoir plus
+						</button>
 					</mat-card-actions>
 				</mat-card>
 			</div>
@@ -37,8 +51,15 @@
 						<mat-card-subtitle i18n class="text-left ml-4">C#, .NET, Razor, EF6, MS SQL</mat-card-subtitle>
 					</mat-card-header>
 					<img mat-card-image src="../../assets/images/net1_1.png" />
-					<mat-card-actions align="start">
-						<button mat-button i18n="@@knowmoredialog">EN SAVOIR PLUS</button>
+					<mat-card-actions align="end">
+						<button
+							mat-button
+							i18n="@@knowmoredialog"
+							class="text-uppercase"
+							(click)="openDialog('FlotteCamionsNet')"
+						>
+							En savoir plus
+						</button>
 					</mat-card-actions>
 				</mat-card>
 			</div>
@@ -51,8 +72,15 @@
 						</mat-card-subtitle>
 					</mat-card-header>
 					<img mat-card-image src="../../assets/images/struts2_1.jpg" />
-					<mat-card-actions align="start">
-						<button mat-button i18n="@@knowmoredialog">EN SAVOIR PLUS</button>
+					<mat-card-actions align="end">
+						<button
+							mat-button
+							i18n="@@knowmoredialog"
+							class="text-uppercase"
+							(click)="openDialog('FlotteCamionsJEE')"
+						>
+							En savoir plus
+						</button>
 					</mat-card-actions>
 				</mat-card>
 			</div>
@@ -63,8 +91,15 @@
 						<mat-card-subtitle i18n class="text-left ml-4">Web, Bootstrap, Management</mat-card-subtitle>
 					</mat-card-header>
 					<img mat-card-image src="../../assets/images/epi.JPG" />
-					<mat-card-actions align="start">
-						<button mat-button i18n="@@knowmoredialog">EN SAVOIR PLUS</button>
+					<mat-card-actions align="end">
+						<button
+							mat-button
+							i18n="@@knowmoredialog"
+							class="text-uppercase"
+							(click)="openDialog('GestionEPI')"
+						>
+							En savoir plus
+						</button>
 					</mat-card-actions>
 				</mat-card>
 			</div>
@@ -75,8 +110,15 @@
 						<mat-card-subtitle i18n class="text-left ml-4">C++, Qt, SQLite</mat-card-subtitle>
 					</mat-card-header>
 					<img mat-card-image src="../../assets/images/patients.JPG" />
-					<mat-card-actions align="start">
-						<button mat-button i18n="@@knowmoredialog">EN SAVOIR PLUS</button>
+					<mat-card-actions align="end">
+						<button
+							mat-button
+							i18n="@@knowmoredialog"
+							class="text-uppercase"
+							(click)="openDialog('DoctoPatients')"
+						>
+							En savoir plus
+						</button>
 					</mat-card-actions>
 				</mat-card>
 			</div>
@@ -89,8 +131,15 @@
 						</mat-card-subtitle>
 					</mat-card-header>
 					<img mat-card-image src="../../assets/images/students.jpg" />
-					<mat-card-actions align="start">
-						<button mat-button i18n="@@knowmoredialog">EN SAVOIR PLUS</button>
+					<mat-card-actions align="end">
+						<button
+							mat-button
+							i18n="@@knowmoredialog"
+							class="text-uppercase"
+							(click)="openDialog('StudentList')"
+						>
+							En savoir plus
+						</button>
 					</mat-card-actions>
 				</mat-card>
 			</div>
@@ -101,8 +150,15 @@
 						<mat-card-subtitle i18n class="text-left ml-4">Java, Swing, MVC</mat-card-subtitle>
 					</mat-card-header>
 					<img mat-card-image src="../../assets/images/TAGEDOFIS.jpg" />
-					<mat-card-actions align="start">
-						<button mat-button i18n="@@knowmoredialog">EN SAVOIR PLUS</button>
+					<mat-card-actions align="end">
+						<button
+							mat-button
+							i18n="@@knowmoredialog"
+							class="text-uppercase"
+							(click)="openDialog('T.A.GEDOFIS')"
+						>
+							En savoir plus
+						</button>
 					</mat-card-actions>
 				</mat-card>
 			</div>
@@ -113,8 +169,15 @@
 						<mat-card-subtitle i18n class="text-left ml-4">Java, Swing, MVC</mat-card-subtitle>
 					</mat-card-header>
 					<img mat-card-image src="../../assets/images/pointeuse.jpg" />
-					<mat-card-actions align="start">
-						<button mat-button i18n="@@knowmoredialog">EN SAVOIR PLUS</button>
+					<mat-card-actions align="end">
+						<button
+							mat-button
+							i18n="@@knowmoredialog"
+							class="text-uppercase"
+							(click)="openDialog('Pointeuse')"
+						>
+							En savoir plus
+						</button>
 					</mat-card-actions>
 				</mat-card>
 			</div>
