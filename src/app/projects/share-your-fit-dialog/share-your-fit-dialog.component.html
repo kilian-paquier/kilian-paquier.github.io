@@ -1,0 +1,47 @@
+<div class="text-center">
+	<h1 class="text-uppercase" mat-dialog-title>Share Your Fit</h1>
+</div>
+
+<mat-dialog-content>
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-lg-8 offset-lg-2 mb-3 text-center">
+				<img class="img-fluid mx-auto" src="../../../assets/images/shareyourfit_1.png" />
+			</div>
+			<div class="col-12 text-center">
+				<p i18n>
+					Dans l'objectif de valider mon cours de plateformes mobiles, j'ai travaillé avec deux étudiants sur
+					une application de partage d'entraînements sportifs à la salle de sport. L'objectif principal étant
+					de permettre aux adeptes (utilisateurs des salles de sport) de visualiser le fonctionnement des
+					machines dans les salles de sport (à travers des exercices partagés par les adeptes et coachs).
+					L'adepte peut prendre connaissance de ce fonctionnement avec le scan d'un QR Code présent sur la
+					machine, qui le renverra vers l'application avec la liste des exercices liés à cette machine. Sinon,
+					il peut toujours visualiser la liste de tous les exercices dans l'application et réaliser des
+					recherches à travers des tags.
+				</p>
+			</div>
+			<div class="col-12 text-center">
+				<a href="https://github.com/kilian-paquier/share-your-fit" class="mx-1" target="_blank">
+					<fa-icon [icon]="faGithub" class="fa-3x"></fa-icon>
+				</a>
+			</div>
+			<div class="col-12">
+				<mat-list>
+					<mat-list-item>
+						<mat-icon mat-list-icon>calendar_today</mat-icon>
+						<div i18n>Avril 2020</div>
+					</mat-list-item>
+					<mat-divider></mat-divider>
+					<mat-list-item>
+						<mat-icon mat-list-icon>book</mat-icon>
+						<div i18n>Platetformes mobiles</div>
+					</mat-list-item>
+				</mat-list>
+			</div>
+		</div>
+	</div>
+</mat-dialog-content>
+
+<mat-dialog-actions align="end">
+	<button mat-button mat-dialog-close i18n="@@closedialog" class="text-uppercase">Fermer le projet</button>
+</mat-dialog-actions>

@@ -33,6 +33,14 @@ import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
 import { ImagesComponent } from './images/images.component';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { ForTheBerryDialogComponent } from './projects/for-the-berry-dialog/for-the-berry-dialog.component';
+import { ShareYourFitDialogComponent } from './projects/share-your-fit-dialog/share-your-fit-dialog.component';
+import { FlotteCamionsNetDialogComponent } from './projects/flotte-camions-net-dialog/flotte-camions-net-dialog.component';
+import { FlotteCamionsJEEDialogComponent } from './projects/flotte-camions-jeedialog/flotte-camions-jeedialog.component';
+import { GestionEPIDialogComponent } from './projects/gestion-epidialog/gestion-epidialog.component';
+import { DoctoPatientsDialogComponent } from './projects/docto-patients-dialog/docto-patients-dialog.component';
+import { StudentListDialogComponent } from './projects/student-list-dialog/student-list-dialog.component';
+import { TAGEDOFISDialogComponent } from './projects/tagedofisdialog/tagedofisdialog.component';
+import { PointeuseDialogComponent } from './projects/pointeuse-dialog/pointeuse-dialog.component';
 
 @NgModule({
 	declarations: [
@@ -47,6 +55,14 @@ import { ForTheBerryDialogComponent } from './projects/for-the-berry-dialog/for-
 		AboutComponent,
 		ImagesComponent,
 		ForTheBerryDialogComponent,
+		ShareYourFitDialogComponent,
+		FlotteCamionsNetDialogComponent,
+		FlotteCamionsJEEDialogComponent,
+		GestionEPIDialogComponent,
+		DoctoPatientsDialogComponent,
+		StudentListDialogComponent,
+		TAGEDOFISDialogComponent,
+		PointeuseDialogComponent,
 	],
 	imports: [
 		BrowserModule,

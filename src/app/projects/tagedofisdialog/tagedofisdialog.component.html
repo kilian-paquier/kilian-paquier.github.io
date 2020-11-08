@@ -1,0 +1,46 @@
+<div class="text-center">
+	<h1 class="text-uppercase" mat-dialog-title>T.A.GEDOFIS</h1>
+</div>
+
+<mat-dialog-content>
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-lg-8 offset-lg-2 mb-3 text-center">
+				<img class="img-fluid mx-auto" src="../../../assets/images/TAGEDOFIS.jpg" />
+			</div>
+			<div class="col-12 text-center">
+				<p i18n>
+					Durant deux mois j'ai travaillé pour le compte de la DDT (Direction Départementale des Territoires)
+					et j'ai été amené à développer une application de gestion des dossiers de taxes d'aménagement. Cette
+					application est complémentaire à un logiciel national (qui enregistre les dossiers), car en effet
+					celui-ci ne permet pas de rechercher les taxes non enregistrées (dossiers manquants). Mon
+					application permet donc de rechercher ces dossiers afin de pouvoir par la suite contacter les
+					communes pour les informer, mais permet aussi de générer des tableaux croisés pour fournir des
+					statistiques sur le nombre de dossiers manquants par commune, par année et par type de taxe.
+				</p>
+			</div>
+			<div class="col-12 text-center">
+				<a href="https://github.com/kilian-paquier/T.A.GEDOFIS" class="mx-1" target="_blank">
+					<fa-icon [icon]="faGithub" class="fa-3x"></fa-icon>
+				</a>
+			</div>
+			<div class="col-12">
+				<mat-list>
+					<mat-list-item>
+						<mat-icon mat-list-icon>calendar_today</mat-icon>
+						<div i18n>Août 2018</div>
+					</mat-list-item>
+					<mat-divider></mat-divider>
+					<mat-list-item>
+						<mat-icon mat-list-icon>location_city</mat-icon>
+						<div i18n>Direction Départementale des Territoires</div>
+					</mat-list-item>
+				</mat-list>
+			</div>
+		</div>
+	</div>
+</mat-dialog-content>
+
+<mat-dialog-actions align="end">
+	<button mat-button mat-dialog-close i18n="@@closedialog" class="text-uppercase">Fermer le projet</button>
+</mat-dialog-actions>

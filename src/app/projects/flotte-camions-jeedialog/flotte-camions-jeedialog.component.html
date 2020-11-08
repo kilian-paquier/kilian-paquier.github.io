@@ -1,0 +1,52 @@
+<div class="text-center">
+	<h1 class="text-uppercase" mat-dialog-title>Flotte de camions</h1>
+</div>
+
+<mat-dialog-content>
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-lg-8 offset-lg-2 mb-3 text-center">
+				<img class="img-fluid mx-auto" src="../../../assets/images/struts2_2.jpg" />
+			</div>
+			<div class="col-12 text-center">
+				<p i18n>
+					Lors de mon année de mobilité à l'Université du Québec à Chicoutimi, j'ai pu travailler sur un
+					projet de développement en Java (application struts 2 avec JDBC). Par équipe, nous devions réaliser
+					une application dite \"d'entreprise\" afin de manipuler le développement de grosses applications (de
+					nombreuses classes - au minimum uen vingtaine - avec de nombreuses fonctionnalités incluant des
+					modèles création / modification / visualisation / suppression des entités). Dans mon cas, cette
+					application portait sur la gestion d'une flotte de camions. Nous avons donc (mon équipe) organisé
+					l'application sous forme de commandes. Les clients peuvent s'enregistrer et se connecter puis passer
+					une commande dans laquelle ils vont fournir les marchandises qu'ils veulent transporter, la date de
+					départ souhaitée ainsi que le lieu de départ et le lieu d'arrivée. Par la suite le client peut
+					consulter ses commandes et les livraisons associées. Côté \"opérateur\", on peut gérer les camions,
+					remorques, les employés et les commandes. C'est-à-dire qu'une fois la commande réalisée par le
+					client celle-ci sera associée à une ou plusieurs livraisons par l'opérateur qui y ajoutera le camion
+					de transport, le conducteur, la remorque, la date de départ réelle et la date d'arrivée estimée.
+				</p>
+			</div>
+			<div class="col-12 text-center">
+				<a href="https://github.com/kilian-paquier/flotte-camion" class="mx-1" target="_blank">
+					<fa-icon [icon]="faGithub" class="fa-3x"></fa-icon>
+				</a>
+			</div>
+			<div class="col-12">
+				<mat-list>
+					<mat-list-item>
+						<mat-icon mat-list-icon>calendar_today</mat-icon>
+						<div i18n>Septembre à Novembre 2019</div>
+					</mat-list-item>
+					<mat-divider></mat-divider>
+					<mat-list-item>
+						<mat-icon mat-list-icon>book</mat-icon>
+						<div i18n>Applications d'entreprise</div>
+					</mat-list-item>
+				</mat-list>
+			</div>
+		</div>
+	</div>
+</mat-dialog-content>
+
+<mat-dialog-actions align="end">
+	<button mat-button mat-dialog-close i18n="@@closedialog" class="text-uppercase">Fermer le projet</button>
+</mat-dialog-actions>

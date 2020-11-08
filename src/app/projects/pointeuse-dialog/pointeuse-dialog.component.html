@@ -1,0 +1,46 @@
+<div class="text-center">
+	<h1 class="text-uppercase" mat-dialog-title>Pointeuse</h1>
+</div>
+
+<mat-dialog-content>
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-lg-8 offset-lg-2 mb-3 text-center">
+				<img class="img-fluid mx-auto" src="../../../assets/images/pointeuse.jpg" />
+			</div>
+			<div class="col-12 text-center">
+				<p i18n>
+					Lors de ma première année à Polytech Tours, afin de valider mes compétences en développement orienté
+					objet avec Java, j'ai développé une pointeuse qui permet aux employés d'une entreprise d'enregistrer
+					leurs heures de pointage. Le logiciel communique via TCP/IP entre les pointeuses et l'application
+					centrale, celle-ci permettant de gérer les employés (ajout, modification, suppression), les
+					départements et les managers. Enfin, si les pointeuses ne peuvent communiquer avec l'application
+					centrale, elles enregistrent les pointages dans un fichier JSON qui sera par la suite transmis
+					lorsque la communication sera de nouveau fonctionnelle.
+				</p>
+			</div>
+			<div class="col-12 text-center">
+				<a href="https://github.com/kilian-paquier/pointeuse" class="mx-1" target="_blank">
+					<fa-icon [icon]="faGithub" class="fa-3x"></fa-icon>
+				</a>
+			</div>
+			<div class="col-12">
+				<mat-list>
+					<mat-list-item>
+						<mat-icon mat-list-icon>calendar_today</mat-icon>
+						<div i18n>Janvier à Juin 2018</div>
+					</mat-list-item>
+					<mat-divider></mat-divider>
+					<mat-list-item>
+						<mat-icon mat-list-icon>book</mat-icon>
+						<div i18n>Programmation Java orientée objet</div>
+					</mat-list-item>
+				</mat-list>
+			</div>
+		</div>
+	</div>
+</mat-dialog-content>
+
+<mat-dialog-actions align="end">
+	<button mat-button mat-dialog-close i18n="@@closedialog" class="text-uppercase">Fermer le projet</button>
+</mat-dialog-actions>

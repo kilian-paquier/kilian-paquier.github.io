@@ -1,5 +1,7 @@
+import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+declare const grecaptcha: any;
 
 @Component({
 	selector: 'app-contact',
@@ -10,7 +12,7 @@ export class ContactComponent implements OnInit {
 	submitted: boolean = false;
 	loading: boolean = false;
 
-	constructor(private formBuilder: FormBuilder) {}
+	constructor(private formBuilder: FormBuilder, private httpClient: HttpClient) {}
 
 	ngOnInit(): void {
 		this.contactForm = this.formBuilder.group({
@@ -28,9 +30,42 @@ export class ContactComponent implements OnInit {
 	onSubmit() {
 		this.submitted = true;
 
-		// stop here if form is invalid
 		if (this.contactForm.invalid) {
 			return;
 		}
+
+		grecaptcha.ready(function () {
+			grecaptcha.execute('6LfynOAZAAAAAFiMDcBIVTNKik0oyn0Mkw8FyEvc', { action: 'submit' }).then((token: any) => {
+				this.httpClient
+					.post(
+						'https://www.google.com/recaptcha/api/siteverify',
+						{
+							secret: '6LfynOAZAAAAALfgcr3LVxXC4EEljlyDF7PjOIuh',
+							response: token,
+						},
+						{}
+					)
+					.pipe()
+					.subscribe((response: any) => {
+						console.log(response);
+					});
+			});
+		});
+
+		// const API = environment.pageclip_key;
+		// const pageclip = new Pageclip(API);
+		// const values = this.contactForm.value;
+		// console.log(values);
+		// pageclip
+		// 	.send(values)
+		// 	.then((response: { status: any; data: any }) => {
+		// 		console.log(response.status, response.data);
+		// 	})
+		// 	.then(() => {
+		// 		return pageclip.fetch();
+		// 	})
+		// 	.then((response: { status: any; data: any }) => {
+		// 		console.log(response.status, response.data);
+		// 	});
 	}
 }

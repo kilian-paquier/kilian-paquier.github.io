@@ -1,0 +1,45 @@
+<div class="text-center">
+	<h1 class="text-uppercase" mat-dialog-title>DoctoPatients</h1>
+</div>
+
+<mat-dialog-content>
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-lg-8 offset-lg-2 mb-3 text-center">
+				<img class="img-fluid mx-auto" src="../../../assets/images/patients.JPG" />
+			</div>
+			<div class="col-12 text-center">
+				<p i18n>
+					Afin de valider un cours en développement logiciel C++ / Qt, j'ai développé une application Qt
+					permettant la gestion de patients pouvant être utilisée pour une clinique médicale. Cette
+					application permet la gestion des patients (création, modification et suppression), la gestion des
+					médecins et employés de la clinique, la prise de rendez-vous et l'ordonnancement des rendez-vous sur
+					une journée en fonctions des médecins et de la priorité des patients pour la raison de la
+					consultation.
+				</p>
+			</div>
+			<div class="col-12 text-center">
+				<a href="https://github.com/kilian-paquier/qt-patients" class="mx-1" target="_blank">
+					<fa-icon [icon]="faGithub" class="fa-3x"></fa-icon>
+				</a>
+			</div>
+			<div class="col-12">
+				<mat-list>
+					<mat-list-item>
+						<mat-icon mat-list-icon>calendar_today</mat-icon>
+						<div i18n>Janvier à Mars 2019</div>
+					</mat-list-item>
+					<mat-divider></mat-divider>
+					<mat-list-item>
+						<mat-icon mat-list-icon>book</mat-icon>
+						<div i18n>Plateforme logicielle C++</div>
+					</mat-list-item>
+				</mat-list>
+			</div>
+		</div>
+	</div>
+</mat-dialog-content>
+
+<mat-dialog-actions align="end">
+	<button mat-button mat-dialog-close i18n="@@closedialog" class="text-uppercase">Fermer le projet</button>
+</mat-dialog-actions>
