@@ -41,6 +41,10 @@ import { DoctoPatientsDialogComponent } from './projects/docto-patients-dialog/d
 import { StudentListDialogComponent } from './projects/student-list-dialog/student-list-dialog.component';
 import { TAGEDOFISDialogComponent } from './projects/tagedofisdialog/tagedofisdialog.component';
 import { PointeuseDialogComponent } from './projects/pointeuse-dialog/pointeuse-dialog.component';
+import { HttpClientModule } from '@angular/common/http';
+import { RecaptchaFormsModule, RecaptchaModule, RecaptchaV3Module, RECAPTCHA_V3_SITE_KEY } from 'ng-recaptcha';
+import { environment } from 'src/environments/environment';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 
 @NgModule({
 	declarations: [
@@ -87,8 +91,13 @@ import { PointeuseDialogComponent } from './projects/pointeuse-dialog/pointeuse-
 		FormsModule,
 		MatInputModule,
 		MatDialogModule,
+		HttpClientModule,
+		RecaptchaModule,
+		RecaptchaFormsModule,
+		RecaptchaV3Module,
+		MatSnackBarModule,
 	],
-	providers: [CookieService],
+	providers: [CookieService, { provide: RECAPTCHA_V3_SITE_KEY, useValue: environment.captcha_key }],
 	bootstrap: [AppComponent],
 })
 export class AppModule {}

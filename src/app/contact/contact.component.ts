@@ -1,7 +1,9 @@
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-// declare const grecaptcha: any;
+import { MatSnackBar } from '@angular/material/snack-bar';
+import { ReCaptchaV3Service } from 'ng-recaptcha';
+import { environment } from 'src/environments/environment';
 
 @Component({
 	selector: 'app-contact',
@@ -12,14 +14,19 @@ export class ContactComponent implements OnInit {
 	submitted: boolean = false;
 	loading: boolean = false;
 
-	constructor(private formBuilder: FormBuilder, private httpClient: HttpClient) {}
+	constructor(
+		private formBuilder: FormBuilder,
+		private httpClient: HttpClient,
+		private recaptchaV3Service: ReCaptchaV3Service,
+		private snackBar: MatSnackBar
+	) {}
 
 	ngOnInit(): void {
 		this.contactForm = this.formBuilder.group({
 			email: ['', [Validators.required, Validators.email]],
 			name: ['', Validators.required],
 			company: [''],
-			message: ['', Validators.required],
+			message: ['', [Validators.required, Validators.maxLength(500)]],
 		});
 	}
 
@@ -34,38 +41,57 @@ export class ContactComponent implements OnInit {
 			return;
 		}
 
-		// grecaptcha.ready(function () {
-		// 	grecaptcha.execute('', { action: 'submit' }).then((token: any) => {
-		// 		this.httpClient
-		// 			.post(
-		// 				'https://www.google.com/recaptcha/api/siteverify',
-		// 				{
-		// 					secret: '',
-		// 					response: token,
-		// 				},
-		// 				{}
-		// 			)
-		// 			.pipe()
-		// 			.subscribe((response: any) => {
-		// 				console.log(response);
-		// 			});
-		// 	});
-		// });
-
-		// const API = environment.pageclip_key;
-		// const pageclip = new Pageclip(API);
-		// const values = this.contactForm.value;
-		// console.log(values);
-		// pageclip
-		// 	.send(values)
-		// 	.then((response: { status: any; data: any }) => {
-		// 		console.log(response.status, response.data);
-		// 	})
-		// 	.then(() => {
-		// 		return pageclip.fetch();
-		// 	})
-		// 	.then((response: { status: any; data: any }) => {
-		// 		console.log(response.status, response.data);
-		// 	});
+		this.loading = true;
+		this.recaptchaV3Service.execute('onSubmit').subscribe(
+			token => {
+				this.httpClient
+					.post(environment.formspree_url, this.contactForm.value, {
+						headers: new HttpHeaders({
+							'Content-Type': 'application/json',
+							Accept: 'application/json',
+						}),
+					})
+					.subscribe(response => {
+						// @ts-ignore ok
+						if (response.ok) {
+							if (location.href.includes('/en')) {
+								this.snackBar.open('Message has been sent', 'Close', {
+									duration: 2000,
+								});
+							} else {
+								this.snackBar.open('Message envoyé', 'Fermer', {
+									duration: 2000,
+								});
+							}
+							this.contactForm.reset();
+							this.submitted = false;
+						} else {
+							if (location.href.includes('/en')) {
+								this.snackBar.open("Message hasn't been sent", 'Close', {
+									duration: 2000,
+								});
+							} else {
+								this.snackBar.open('Message non envoyé', 'Fermer', {
+									duration: 2000,
+								});
+							}
+						}
+						this.loading = false;
+					});
+			},
+			error => {
+				if (location.href.includes('/en')) {
+					this.snackBar.open("Message hasn't been sent", 'Close', {
+						duration: 2000,
+					});
+				} else {
+					this.snackBar.open('Message non envoyé', 'Fermer', {
+						duration: 2000,
+					});
+				}
+				console.error(error);
+				this.loading = false;
+			}
+		);
 	}
 }
