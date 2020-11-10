@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="row mb-5">
 			<div class="col-lg-12 text-center">
-				<h2 class="section-heading text-uppercase" i18n="@@experiences">Expériences professionelles</h2>
+				<h2 class="section-heading text-uppercase" i18n>Expériences professionelles</h2>
 			</div>
 		</div>
 		<div class="row text-center">
@@ -10,7 +10,7 @@
 				<mat-card>
 					<mat-card-header>
 						<mat-card-title class="text-left">ALTEN</mat-card-title>
-						<mat-card-subtitle i18n class="text-left ml-4">Août 2020 à Février 2021</mat-card-subtitle>
+						<mat-card-subtitle class="text-left ml-3" i18n>Août 2020 à Février 2021</mat-card-subtitle>
 					</mat-card-header>
 					<img mat-card-image class="experience-image" src="../../assets/images/alten.png" />
 					<mat-card-content>
@@ -18,7 +18,14 @@
 							<mat-expansion-panel-header>
 								<mat-panel-title i18n="@@knowmore">En savoir plus</mat-panel-title>
 							</mat-expansion-panel-header>
-							<p i18n></p>
+							<ul class="text-left list-group list-group-flush">
+								<li class="list-group-item bg-transparent" i18n="@@intern">Stagiaire</li>
+								<li class="list-group-item bg-transparent" i18n>Développement ÉlectronJS</li>
+								<li class="list-group-item bg-transparent" i18n>Utilisation d'une Blockchain</li>
+								<li class="list-group-item bg-transparent" i18n>
+									Élaboration de spécifications fonctionnelles
+								</li>
+							</ul>
 						</mat-expansion-panel>
 					</mat-card-content>
 				</mat-card>
@@ -27,7 +34,7 @@
 				<mat-card>
 					<mat-card-header>
 						<mat-card-title class="text-left">Eurosys - CHEOPS</mat-card-title>
-						<mat-card-subtitle i18n class="text-left ml-4">Juin à Août 2019</mat-card-subtitle>
+						<mat-card-subtitle class="text-left ml-3" i18n>Juin à Août 2019</mat-card-subtitle>
 					</mat-card-header>
 					<img mat-card-image class="experience-image" src="../../assets/images/logo-eurosys.jpg" />
 					<mat-card-content>
@@ -35,13 +42,19 @@
 							<mat-expansion-panel-header>
 								<mat-panel-title i18n="@@knowmore">En savoir plus</mat-panel-title>
 							</mat-expansion-panel-header>
-							<p i18n>
-								Pour mon stage de 4e année à Polytech Tours, j'ai travaillé chez Euro-Sys où j'avais
-								deux missions. La première, analyser et comparer la version du framework (ExtJS) utilisé
-								et la nouvelle version afin d'estimer les modifications et le temps nécessaires pour le
-								changement de version sur l'ERP. La seconde, implémenter plusieurs fonctionnalité dans
-								ce même ERP.
-							</p>
+							<ul class="text-left list-group list-group-flush">
+								<li class="list-group-item bg-transparent" i18n="@@intern">Stagiaire</li>
+								<li class="list-group-item bg-transparent" i18n>
+									Analyse de la version du framework de l'ERP (ExtJS)
+								</li>
+								<li class="list-group-item bg-transparent" i18n>
+									Estimation d'un temps et des changements à effectuer pour passer à une version plus
+									récente du framework
+								</li>
+								<li class="list-group-item bg-transparent" i18n>
+									Développement de plusieurs fonctionnalités sur l'ERP
+								</li>
+							</ul>
 						</mat-expansion-panel>
 					</mat-card-content>
 				</mat-card>
@@ -49,8 +62,8 @@
 			<div class="col-12 col-lg-6 mb-3">
 				<mat-card>
 					<mat-card-header>
-						<mat-card-title class="text-left">Direction Départementale des Territoires</mat-card-title>
-						<mat-card-subtitle i18n class="text-left ml-4">Août 2018</mat-card-subtitle>
+						<mat-card-title class="text-left">DDT*</mat-card-title>
+						<mat-card-subtitle class="text-left ml-3" i18n>Août 2018</mat-card-subtitle>
 					</mat-card-header>
 					<img mat-card-image class="experience-image" src="../../assets/images/ddt.jpg" />
 					<mat-card-content>
@@ -58,11 +71,23 @@
 							<mat-expansion-panel-header>
 								<mat-panel-title i18n="@@knowmore">En savoir plus</mat-panel-title>
 							</mat-expansion-panel-header>
-							<p i18n>
-								J'ai travaillé dans le cadre d'un CDD à la Direction Départementale des Territoires
-								(DDT) dans le but de développer une application de recherche de dossiers manquants
-								(taxes d'aménagement) et de génération de tableaux croisés : T.A.GEDOFIS.
-							</p>
+							<ul class="text-left list-group list-group-flush">
+								<li class="list-group-item bg-transparent" i18n>Vacataire</li>
+								<li class="list-group-item bg-transparent" i18n>Analyse des besoins d'un client</li>
+								<li class="list-group-item bg-transparent" i18n>Développement de T.A.GEDOFIS</li>
+								<li class="list-group-item bg-transparent" i18n>
+									Java SE, Swing, Exportation CSV et Excel
+								</li>
+								<li class="list-group-item bg-transparent" i18n>
+									Recherche de dossiers (taxes d'aménagement) manquants
+								</li>
+								<li class="list-group-item bg-transparent" i18n>
+									Génération de tableaux croisés et statistiques
+								</li>
+							</ul>
+							<mat-card-subtitle class="text-right" style="bottom: 0 !important; right: 0 !important">
+								*Direction Départementale des Territoires
+							</mat-card-subtitle>
 						</mat-expansion-panel>
 					</mat-card-content>
 				</mat-card>
@@ -70,8 +95,8 @@
 			<div class="col-12 col-lg-6 mb-3">
 				<mat-card>
 					<mat-card-header>
-						<mat-card-title class="text-left">Union Française des Centres de Vacances</mat-card-title>
-						<mat-card-subtitle i18n class="text-left ml-4">Février, Avril et Août 2017</mat-card-subtitle>
+						<mat-card-title class="text-left">UFCV*</mat-card-title>
+						<mat-card-subtitle class="text-left ml-3" i18n>Février, Avril et Août 2017</mat-card-subtitle>
 					</mat-card-header>
 					<img mat-card-image class="experience-image" src="../../assets/images/logoufcv-hd.jpg" />
 					<mat-card-content>
@@ -79,13 +104,19 @@
 							<mat-expansion-panel-header>
 								<mat-panel-title i18n="@@knowmore">En savoir plus</mat-panel-title>
 							</mat-expansion-panel-header>
-							<p i18n>
-								J'ai travaillé à l'Union Française des Centres de Vacances et de loisirs (UFCV) en tant
-								que formateur BAFA. J'ai participé à trois sessions de formation, une session base (la
-								découverte de la règlementation, des caractéristiques des jeunes, l'élaboration
-								d'animations) et deux sessions d'approfondissement (diversification et agrandissement
-								des connaissances).
-							</p>
+							<ul class="text-left list-group list-group-flush">
+								<li class="list-group-item bg-transparent" i18n>Formateur BAFA</li>
+								<li class="list-group-item bg-transparent" i18n>
+									Plusieurs sessions d'approfondissement
+								</li>
+								<li class="list-group-item bg-transparent" i18n>Une session de base</li>
+								<li class="list-group-item bg-transparent" i18n>
+									Élaboration de séances de formation avec fil rouge
+								</li>
+							</ul>
+							<mat-card-subtitle class="text-right" style="bottom: 0 !important; right: 0 !important">
+								*Union Française des Centres de Vacances
+							</mat-card-subtitle>
 						</mat-expansion-panel>
 					</mat-card-content>
 				</mat-card>
@@ -93,8 +124,8 @@
 			<div class="col-12 col-lg-6 mb-3 mb-lg-0">
 				<mat-card>
 					<mat-card-header>
-						<mat-card-title class="text-left">C'est Génial Comme Vacances</mat-card-title>
-						<mat-card-subtitle i18n class="text-left ml-4">Juillet 2016 et 2017</mat-card-subtitle>
+						<mat-card-title class="text-left">CGCV*</mat-card-title>
+						<mat-card-subtitle class="text-left ml-3" i18n>Juillet 2016 et 2017</mat-card-subtitle>
 					</mat-card-header>
 					<img mat-card-image class="experience-image" src="../../assets/images/cgcv.jpeg" />
 					<mat-card-content>
@@ -102,12 +133,14 @@
 							<mat-expansion-panel-header>
 								<mat-panel-title i18n="@@knowmore">En savoir plus</mat-panel-title>
 							</mat-expansion-panel-header>
-							<p i18n>
-								Sur deux colonies de vacances de trois semaines chacunes en Alsace, j'ai travaillé au
-								CGCV (C'est Génial Comme Vacances) en tant qu'animateur. J'ai animé ces deux fois des
-								jeunes de 6 à 12 ans avec l'organisation d'activités, animations, grandes animations,
-								sorties et veillées.
-							</p>
+							<ul class="text-left list-group list-group-flush">
+								<li class="list-group-item bg-transparent" i18n>Animateur BAFA</li>
+								<li class="list-group-item bg-transparent" i18n>Organisation d'activités</li>
+								<li class="list-group-item bg-transparent" i18n>Encadrement</li>
+							</ul>
+							<mat-card-subtitle class="text-right" style="bottom: 0 !important; right: 0 !important">
+								*C'est Génial Comme Vacances
+							</mat-card-subtitle>
 						</mat-expansion-panel>
 					</mat-card-content>
 				</mat-card>
@@ -115,8 +148,8 @@
 			<div class="col-12 col-lg-6">
 				<mat-card>
 					<mat-card-header>
-						<mat-card-title class="text-left">Direction Régionale des Territoires</mat-card-title>
-						<mat-card-subtitle i18n class="text-left ml-4">Juin 2016</mat-card-subtitle>
+						<mat-card-title class="text-left">DREAL*</mat-card-title>
+						<mat-card-subtitle class="text-left ml-3" i18n>Juin 2016</mat-card-subtitle>
 					</mat-card-header>
 					<img mat-card-image class="experience-image" src="../../assets/images/dreal.png" />
 					<mat-card-content>
@@ -124,12 +157,18 @@
 							<mat-expansion-panel-header>
 								<mat-panel-title i18n="@@knowmore">En savoir plus</mat-panel-title>
 							</mat-expansion-panel-header>
-							<p i18n>
-								Dans le cadre de mon stage de première année de PeiP (à Polytech Tours), j'ai travaillé
-								à la Direction Régionale de l'Environnement, de l'Aménagement et du Logement (DREAL).
-								Durant ce stage j'ai pu découvrir la mise à jour des serveurs ainsi que participer à la
-								mise en place de la téléphone IP (branchements sur les switchs et dans les bureaux).
-							</p>
+							<ul class="text-left list-group list-group-flush">
+								<li class="list-group-item bg-transparent" i18n="@@intern">Stagiaire</li>
+								<li class="list-group-item bg-transparent" i18n>
+									Découverte de la mise à jour des serveurs
+								</li>
+								<li class="list-group-item bg-transparent" i18n>
+									Installation de la téléphonie IP au niveau des switchs et bureaux
+								</li>
+							</ul>
+							<mat-card-subtitle class="text-right" style="bottom: 0 !important; right: 0 !important">
+								*Direction Régionale de l'Environnement, de l'Aménagement et du Logement
+							</mat-card-subtitle>
 						</mat-expansion-panel>
 					</mat-card-content>
 				</mat-card>

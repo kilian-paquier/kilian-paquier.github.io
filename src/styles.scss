@@ -202,6 +202,21 @@ img::-moz-selection {
 	font-size: 3em;
 }
 
+.timeline-body ul,
+#experiences ul {
+	list-style-type: none !important;
+	margin-right: 0px;
+	margin-left: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+// .timeline-body li,
+// #experiences li {
+// 	margin-bottom: 6px;
+// 	margin-top: 6px;
+// }
+
 @import 'styles/scss/app.scss';
 @import 'styles/scss/about.scss';
 @import 'styles/scss/contact.scss';
