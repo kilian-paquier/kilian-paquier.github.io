@@ -1,15 +1,8 @@
 .nav-button {
 	position: fixed;
-	bottom: 1rem;
-	right: 1.5rem;
-}
-
-@media (max-width: 768px) {
-	.nav-button {
-		position: fixed;
-		bottom: 1rem;
-		right: 1rem;
-	}
+	bottom: 0.75rem;
+	right: 0.35rem;
+	z-index: 101;
 }
 
 .nav-item {

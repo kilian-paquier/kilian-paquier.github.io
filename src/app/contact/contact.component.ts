@@ -41,16 +41,26 @@ export class ContactComponent implements OnInit {
 			return;
 		}
 
+		const values = this.contactForm.value;
 		this.loading = true;
 		this.recaptchaV3Service.execute('onSubmit').subscribe(
 			token => {
 				this.httpClient
-					.post(environment.formspree_url, this.contactForm.value, {
-						headers: new HttpHeaders({
-							'Content-Type': 'application/json',
-							Accept: 'application/json',
-						}),
-					})
+					.post(
+						environment.formspree_url,
+						{
+							Nom: values.name,
+							Entreprise: values.company,
+							Message: values.message,
+							_replyto: values.email,
+						},
+						{
+							headers: new HttpHeaders({
+								'Content-Type': 'application/json',
+								Accept: 'application/json',
+							}),
+						}
+					)
 					.subscribe(response => {
 						// @ts-ignore ok
 						if (response.ok) {

@@ -21,7 +21,7 @@ export class AppComponent implements OnInit {
 	constructor(private cookieService: CookieService, private scrollToService: ScrollToService) {}
 
 	ngOnInit() {
-		this.addScript();
+		// this.addScript();
 		this.setTheme();
 		this.initSwipe();
 	}
@@ -77,11 +77,11 @@ export class AppComponent implements OnInit {
 		// script.type = 'text/javascript';
 		// script.async = true;
 		// document.body.appendChild(script);
-		const script = document.createElement('script');
-		script.src = 'https://s.pageclip.co/v1/pageclip.js';
-		script.type = 'text/javascript';
-		script.async = true;
-		script.defer = true;
-		document.body.appendChild(script);
+		// const script = document.createElement('script');
+		// script.src = 'https://s.pageclip.co/v1/pageclip.js';
+		// script.type = 'text/javascript';
+		// script.async = true;
+		// script.defer = true;
+		// document.body.appendChild(script);
 	}
 }
