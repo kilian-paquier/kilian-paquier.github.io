@@ -26,7 +26,7 @@
 				</p>
 			</div> -->
 			<div class="col-12 col-lg-6">
-				<div mat-subheader>Fonctionnalités</div>
+				<h6>Fonctionnalités</h6>
 				<ul class="list-group list-group-flush">
 					<li class="list-group-item">Gestion d'une flotte de camions</li>
 					<li class="list-group-item">Création de commandes</li>
@@ -37,7 +37,7 @@
 				</ul>
 			</div>
 			<div class="col-12 col-lg-6">
-				<div mat-subheader>Contexte</div>
+				<h6>Contexte</h6>
 				<ul class="list-group list-group-flush">
 					<li class="list-group-item">UQAC</li>
 					<li class="list-group-item">Développement JEE</li>
@@ -52,17 +52,20 @@
 				</a>
 			</div>
 			<div class="col-12">
-				<mat-list>
-					<mat-list-item>
-						<mat-icon mat-list-icon>calendar_today</mat-icon>
-						<div i18n>Septembre à Novembre 2019</div>
-					</mat-list-item>
-					<mat-divider></mat-divider>
-					<mat-list-item>
-						<mat-icon mat-list-icon>book</mat-icon>
-						<div i18n>Applications d'entreprise</div>
-					</mat-list-item>
-				</mat-list>
+				<ul class="list-group list-group-flush">
+					<li class="list-group-item">
+						<fa-icon [icon]="faCalendar" class="mr-3-5"></fa-icon>
+						<span i18n>Septembre à Novembre 2019</span>
+					</li>
+					<li class="list-group-item">
+						<fa-icon [icon]="faCourse" class="mr-3-1"></fa-icon>
+						<span i18n>Applications d'entreprise</span>
+					</li>
+					<li class="list-group-item">
+						<fa-icon [icon]="faUsers" class="mr-2-5"></fa-icon>
+						Anja RAHARIJAONA, Nicolas ROUVET, Charles MÉCHERIKI, Emin YALAZ, Kilian PAQUIER
+					</li>
+				</ul>
 			</div>
 		</div>
 	</div>

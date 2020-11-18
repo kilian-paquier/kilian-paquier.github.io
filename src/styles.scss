@@ -37,13 +37,13 @@ a {
 }
 
 a,
-button {
-	&:hover {
-		transition: ease-in-out all 0.15s;
-		-moz-transition: ease-in-out all 0.15s;
-		-o-transition: ease-in-out all 0.15s;
-		-webkit-transition: ease-in-out all 0.15s;
-	}
+button,
+button:hover,
+a:hover {
+	transition: ease-in-out all 0.15s;
+	-moz-transition: ease-in-out all 0.15s;
+	-o-transition: ease-in-out all 0.15s;
+	-webkit-transition: ease-in-out all 0.15s;
 }
 
 button {
@@ -214,6 +214,18 @@ img::-moz-selection {
 .grecaptcha-badge {
 	bottom: 5rem !important;
 	z-index: 101;
+}
+
+.mr-2-5 {
+	margin-right: 0.75rem;
+}
+
+.mr-3-1 {
+	margin-right: 1.1rem;
+}
+
+.mr-3-5 {
+	margin-right: 1.5rem;
 }
 
 // .grecaptcha-badge:hover {

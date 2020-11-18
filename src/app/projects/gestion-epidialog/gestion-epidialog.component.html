@@ -25,7 +25,7 @@
 				</p>
 			</div> -->
 			<div class="col-12 col-lg-6">
-				<div mat-subheader>Fonctionnalités</div>
+				<h6>Fonctionnalités</h6>
 				<ul class="list-group list-group-flush">
 					<li class="list-group-item">Gestion des Équipements de Protection Individuelle (EPI)</li>
 					<li class="list-group-item">Impression PDF des vérifications des EPIs</li>
@@ -36,7 +36,7 @@
 				</ul>
 			</div>
 			<div class="col-12 col-lg-6">
-				<div mat-subheader>Contexte</div>
+				<h6>Contexte</h6>
 				<ul class="list-group list-group-flush">
 					<li class="list-group-item">Polytech Tours</li>
 					<li class="list-group-item">Améliorer la vérification et le suivi de la vérification des EPIs</li>
@@ -52,17 +52,21 @@
 				</a>
 			</div>
 			<div class="col-12">
-				<mat-list>
-					<mat-list-item>
-						<mat-icon mat-list-icon>calendar_today</mat-icon>
-						<div i18n>Janvier à Mai 2019</div>
-					</mat-list-item>
-					<mat-divider></mat-divider>
-					<mat-list-item>
-						<mat-icon mat-list-icon>location_city</mat-icon>
-						<div i18n>Lycée agricole des Fondettes</div>
-					</mat-list-item>
-				</mat-list>
+				<ul class="list-group list-group-flush">
+					<li class="list-group-item">
+						<fa-icon [icon]="faCalendar" class="mr-3-5"></fa-icon>
+						<span i18n>Janvier à Mai 2019</span>
+					</li>
+					<li class="list-group-item">
+						<fa-icon [icon]="faCourse" class="mr-3-1"></fa-icon>
+						<span i18n>Lycée agricole des Fondettes</span>
+					</li>
+					<li class="list-group-item">
+						<fa-icon [icon]="faUsers" class="mr-2-5"></fa-icon>
+						Anas MONCEF, Emeric PAIN, Fannie LE FEL, Johann ANDRÉ, Paul RETAIL, Steven MARTIN, Kilian
+						PAQUIER
+					</li>
+				</ul>
 			</div>
 		</div>
 	</div>
