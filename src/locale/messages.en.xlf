@@ -237,8 +237,8 @@
 				</context-group>
 			</trans-unit>
 			<trans-unit id="70893ef9fd3b852d1cb28d1252799a0491636ece" datatype="html">
-				<source>Génération de tableaux croisés et statistiques</source>
-				<target>Generation of pivot tables and statistics</target>
+				<source>Génération de tableaux croisés</source>
+				<target>Generation of pivot tables</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
 					<context context-type="linenumber">85,86</context>
@@ -479,17 +479,9 @@
 					<context context-type="linenumber">35,37</context>
 				</context-group>
 			</trans-unit>
-			<trans-unit id="dc788fd5611d698b1e2aa9da3cc0c1caf7637f3d" datatype="html">
-				<source
-				> JEE, C#/.NET, Razor MVC, Struts 2, Android (Java), Moleculer, Spring, Maven, UML, SQL, Angular CLI &amp; Material, TS, Git, Bootstrap </source>
-				<target></target>
-				<context-group purpose="location">
-					<context context-type="sourcefile">src/app/education/education.component.html</context>
-					<context context-type="linenumber">39,41</context>
-				</context-group>
-			</trans-unit>
 			<trans-unit id="2cf9b291c306703fdc0b0ada4cf2697589d21869" datatype="html">
 				<source>Septembre 2017 - Aujourd&apos;hui</source>
+				<target>September 2017 - Today</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/education/education.component.html</context>
 					<context context-type="linenumber">52</context>
@@ -497,6 +489,7 @@
 			</trans-unit>
 			<trans-unit id="a703ef752bd7a9dd9e60961451da4e4fd243ff1a" datatype="html">
 				<source> Diplôme d&apos;ingénieur informatique </source>
+				<target>Computer science engineering diploma</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/education/education.component.html</context>
 					<context context-type="linenumber">58,59</context>
@@ -504,9 +497,10 @@
 			</trans-unit>
 			<trans-unit id="bac632057b5d9a7c020d69425e87bebed9b042f5" datatype="html">
 				<source>
-					Génie logiciel, qualité logicielle, cycle de vie des projet, gestion de projet (spécifications
+					Génie logiciel, qualité logicielle, cycle de vie des projets, gestion de projet (spécifications
 					fonctionnelles et techniques)
 				</source>
+				<target>Software engineering, software quality, projects life cycle, project management (technical and functional specifications)</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/education/education.component.html</context>
 					<context context-type="linenumber">61,63</context>
@@ -514,23 +508,15 @@
 			</trans-unit>
 			<trans-unit id="a90557ff126df08f57d046162bd285722d98b080" datatype="html">
 				<source>Algorithmie</source>
+				<target>Algorithm</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/education/education.component.html</context>
 					<context context-type="linenumber">64</context>
 				</context-group>
 			</trans-unit>
-			<trans-unit id="3959f587d5953a2ab70d71e2ba183c9539d05dfb" datatype="html">
-				<source>
-					Java/JEE, C#/.NET, Qt, JQuery, JS, Bootstrap, Spring, Maven, Hibernate, Swing, Trello, UML, SQL,
-					C/C++, Git, Gantt
-				</source>
-				<context-group purpose="location">
-					<context context-type="sourcefile">src/app/education/education.component.html</context>
-					<context context-type="linenumber">66,68</context>
-				</context-group>
-			</trans-unit>
 			<trans-unit id="6eb84f6fd6a8c3d9bc65d672c2e56b6e9cad9e3d" datatype="html">
 				<source>Septembre 2015 - Juin 2017</source>
+				<target>September 2015 - June 2017</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/education/education.component.html</context>
 					<context context-type="linenumber">79</context>
@@ -538,6 +524,7 @@
 			</trans-unit>
 			<trans-unit id="4b551cd87158eadd8ef7b9aa2f21462f4efd3013" datatype="html">
 				<source>Classe préparatoire intégrée</source>
+				<target>Integrated preparatory class</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/education/education.component.html</context>
 					<context context-type="linenumber">84</context>
@@ -545,6 +532,7 @@
 			</trans-unit>
 			<trans-unit id="3844ac0d4cdb3b4d754659512d6d88d0e8cad712" datatype="html">
 				<source>Mathématiques et informatique</source>
+				<target>Mathmatics and computer science</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/education/education.component.html</context>
 					<context context-type="linenumber">85</context>
@@ -552,6 +540,7 @@
 			</trans-unit>
 			<trans-unit id="c471c9456aba06e0708b6930f6cdfe80f100ea62" datatype="html">
 				<source> Projet de mouvement d&apos;un moteur par la voix (Python) </source>
+				<target>Voice motor movement project with Python</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/education/education.component.html</context>
 					<context context-type="linenumber">87,88</context>
@@ -559,6 +548,7 @@
 			</trans-unit>
 			<trans-unit id="40abfd8e3e9ca09a032a7c555f3947f27db0d461" datatype="html">
 				<source> Étude pour la création d&apos;une nouvelle ligne de tramway </source>
+				<target>Study to create a new tram line</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/education/education.component.html</context>
 					<context context-type="linenumber">90,91</context>
@@ -566,6 +556,7 @@
 			</trans-unit>
 			<trans-unit id="168041fc21f0b0f98693ed1c4e2aa55d02b5c6ac" datatype="html">
 				<source>Septembre 2012 - Juin 2015</source>
+				<target>September 2012 - June 2015</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/education/education.component.html</context>
 					<context context-type="linenumber">106</context>
@@ -573,6 +564,7 @@
 			</trans-unit>
 			<trans-unit id="a8c5539b68acbb339646bb57438036fee8523dda" datatype="html">
 				<source>Diplôme du baccalauréat filière S</source>
+				<target>High school diploma in chemistry, physics and mathematics</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/education/education.component.html</context>
 					<context context-type="linenumber">112,113</context>
@@ -580,6 +572,7 @@
 			</trans-unit>
 			<trans-unit id="2847f338b7c111ed6ee11e06df3d3a5e470161e7" datatype="html">
 				<source>Spécialité mathématiques</source>
+				<target>Specialty in mathematics</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/education/education.component.html</context>
 					<context context-type="linenumber">114</context>
@@ -587,6 +580,7 @@
 			</trans-unit>
 			<trans-unit id="11d2590ff278b4dfeb71eebfa36f57a0f7f71259" datatype="html">
 				<source>Stagiaire Consultant Innovation</source>
+				<target>Consultant Innovation Intern</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/about/about.component.html</context>
 					<context context-type="linenumber">5</context>
@@ -594,6 +588,7 @@
 			</trans-unit>
 			<trans-unit id="c78a30db7a6c9bce8f03be087724eff4ea584dbf" datatype="html">
 				<source>https://cvdesignr.com/p/5d9cd3013bcbb</source>
+				<target>https://cvdesignr.com/p/5ddff0dda9765</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/about/about.component.html</context>
 					<context context-type="linenumber">13</context>
@@ -601,6 +596,7 @@
 			</trans-unit>
 			<trans-unit id="315e77433b95916506802b220557686febce1d4a" datatype="html">
 				<source>Mon CV</source>
+				<target>My resume</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/about/about.component.html</context>
 					<context context-type="linenumber">16,17</context>
@@ -609,6 +605,7 @@
 			<trans-unit id="4f389a74a7578d5ba325d319be6d4aa07b9bb9ec" datatype="html">
 				<source
 				> Bienvenue sur mon portfolio et bonne lecture ! Je suis étudiant en double diplôme ingénieur informatique et maîtrise informatique (avec Polytech Tours et l&apos;Université du Québec à Chicoutimi). </source>
+				<target>Welcome on my portfolio and have a great reading ! I'm a student following a engineering course in computer science and a master course also in computer science as a dual degree (Polytech Tours and UQAC)</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/about/about.component.html</context>
 					<context context-type="linenumber">32,34</context>
@@ -617,6 +614,7 @@
 			<trans-unit id="39a678c660d36298e19f8d1b3d5a1fd49692275c" datatype="html">
 				<source
 				> Passionné par l&apos;informatique depuis la classe de 4e (où j&apos;ai pu suivre un cours de HTML et CSS sur le Site du Zéro), ma principale qualité se porte sur le souci du détail car il est important pour moi de fournir des applications complètes qui facilitent l&apos;expérience utilisateur (en prenant encompte le ressenti des utilisateurs finaux à chaque démonstration). </source>
+				<target>Passionate about computer science since the 8th grade in the USA or the year 9 in the UK (where i attended a course in HTML/CSS on the website \"Site du Zéro\"), my main quality is my attention to detail because it is important for me to produce complete applications which facilitate the user experience (in taking into account the perception of the final users at every application presentation).</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/about/about.component.html</context>
 					<context context-type="linenumber">39,43</context>
@@ -624,6 +622,7 @@
 			</trans-unit>
 			<trans-unit id="1abf1249edbb18526619a955386c0887f585a801" datatype="html">
 				<source>ans</source>
+				<target>years</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/about/about.component.html</context>
 					<context context-type="linenumber">46</context>
@@ -631,6 +630,7 @@
 			</trans-unit>
 			<trans-unit id="b0be89535ccd484c7426e6da66beb58e86e3bfb9" datatype="html">
 				<source>Jeu vidéo Beat Them All (BTA)</source>
+				<target>Video game Beat Them All (BTA)</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/for-the-berry-dialog/for-the-berry-dialog.component.html
@@ -640,6 +640,7 @@
 			</trans-unit>
 			<trans-unit id="a1028861061283a0ae6bb8368dee23f657800674" datatype="html">
 				<source>Jouable à 4 joueurs</source>
+				<target>Playable at 4 players</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/for-the-berry-dialog/for-the-berry-dialog.component.html
@@ -649,6 +650,7 @@
 			</trans-unit>
 			<trans-unit id="98c40049609ab31c57c09840d749e12ebdcb4546" datatype="html">
 				<source>Éliminer les ennemis pour avancer dans le jeu</source>
+				<target>Eliminate the ennemy to go further in the game</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/for-the-berry-dialog/for-the-berry-dialog.component.html
@@ -658,6 +660,7 @@
 			</trans-unit>
 			<trans-unit id="c703fc58c72a98fccc05b0aef63df5b67e5d00c4" datatype="html">
 				<source>Utilisation de plusieurs types d&apos;armes : épée, arc, bâton</source>
+				<target>Multiple usable weapons : sword, bow, staff</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/for-the-berry-dialog/for-the-berry-dialog.component.html
@@ -670,6 +673,7 @@
 					Création du jeu de A à Z : histoire, comportements des ennemis, incrustation des personnages et des
 					armes
 				</source>
+				<target>Game entirely designed : history, ennemy behavior, players and weapons</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/for-the-berry-dialog/for-the-berry-dialog.component.html
@@ -679,6 +683,7 @@
 			</trans-unit>
 			<trans-unit id="8bf337ae5797b1b9b36a9545d15f658d0592ecf8" datatype="html">
 				<source>Développement C#</source>
+				<target>C# development</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/for-the-berry-dialog/for-the-berry-dialog.component.html
@@ -688,6 +693,7 @@
 			</trans-unit>
 			<trans-unit id="ce0f547a23260d6c23c7b502afcd581e438deb57" datatype="html">
 				<source>Utilisation du moteur de jeux Unity</source>
+				<target>Usage of Unity as game engine</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/for-the-berry-dialog/for-the-berry-dialog.component.html
@@ -697,6 +703,7 @@
 			</trans-unit>
 			<trans-unit id="e511ce488ea8935cf6494adb482659cbde52ef3a" datatype="html">
 				<source>Versionning Perforce, Animations avec Maximo</source>
+				<target>Perforce versionning, Maximo for animations (sprint, walk, arm movement, etc.)</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/for-the-berry-dialog/for-the-berry-dialog.component.html
@@ -706,6 +713,7 @@
 			</trans-unit>
 			<trans-unit id="1868526c3ccc75f9eb4d048d4b00591aaaad01a6" datatype="html">
 				<source>Janvier à Avril 2020</source>
+				<target>January to April 2020</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/for-the-berry-dialog/for-the-berry-dialog.component.html
@@ -715,6 +723,7 @@
 			</trans-unit>
 			<trans-unit id="815cb5e24328fed30209e79063f53444a2fa3f9d" datatype="html">
 				<source>Laboratoire des jeux vidéos</source>
+				<target>Video games laboratory</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/for-the-berry-dialog/for-the-berry-dialog.component.html
@@ -724,6 +733,7 @@
 			</trans-unit>
 			<trans-unit id="closedialog" datatype="html">
 				<source>Fermer le projet</source>
+				<target>Close project</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/for-the-berry-dialog/for-the-berry-dialog.component.html
@@ -733,6 +743,7 @@
 			</trans-unit>
 			<trans-unit id="de7a098359f3ea0e5286f66def626cd3890acf6d" datatype="html">
 				<source>Inscription conventionnelle ou via Google et Facebook</source>
+				<target>Usual registering with Google and Facebook</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/share-your-fit-dialog/share-your-fit-dialog.component.html
@@ -742,6 +753,7 @@
 			</trans-unit>
 			<trans-unit id="08a02601e8b1dcc3c39e49a5bf2671a1b2107aeb" datatype="html">
 				<source>Visualiser des entraînements liés à une machine</source>
+				<target>Viewing of all the trainings linked to a machine</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/share-your-fit-dialog/share-your-fit-dialog.component.html
@@ -752,6 +764,7 @@
 			<trans-unit id="ca420ae09b75cb9aae27a1fcc28d4d606e65d159" datatype="html">
 				<source
 				> Scanner le QR Code d&apos;une machine pour visualiser les entraînements possibles pour cette machine </source>
+				<target>Machine QR Code scanning to view the possible trainings for this machine</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/share-your-fit-dialog/share-your-fit-dialog.component.html
@@ -761,6 +774,7 @@
 			</trans-unit>
 			<trans-unit id="d170f8a27fc220ba6d8572e0b8a98766eadeb294" datatype="html">
 				<source>Recherche via des tags pour trouver des entraînements spécifiques et la machine liée</source>
+				<target>Search with tags to find specific trainings and find the corresponding machine</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/share-your-fit-dialog/share-your-fit-dialog.component.html
@@ -770,6 +784,7 @@
 			</trans-unit>
 			<trans-unit id="54d36829845e4cf5fe711f614b7084af9786f965" datatype="html">
 				<source>Développement Android (Java)</source>
+				<target>Android (Java) development</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/share-your-fit-dialog/share-your-fit-dialog.component.html
@@ -777,17 +792,9 @@
 					<context context-type="linenumber">40</context>
 				</context-group>
 			</trans-unit>
-			<trans-unit id="0e78449e782251d705297e3dea2e927ecaa2362c" datatype="html">
-				<source>Firebase et Firestore</source>
-				<context-group purpose="location">
-					<context context-type="sourcefile">
-						src/app/projects/share-your-fit-dialog/share-your-fit-dialog.component.html
-					</context>
-					<context context-type="linenumber">41</context>
-				</context-group>
-			</trans-unit>
 			<trans-unit id="50225eed25dad2a4235b3b87df46c87ca172b486" datatype="html">
 				<source>Avril 2020</source>
+				<target>April 2020</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/share-your-fit-dialog/share-your-fit-dialog.component.html
@@ -797,6 +804,7 @@
 			</trans-unit>
 			<trans-unit id="487dee150447027ade23f8c1aba27fcdbf256cb3" datatype="html">
 				<source>Plateformes mobiles</source>
+				<target>Mobiles platforms</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/share-your-fit-dialog/share-your-fit-dialog.component.html
@@ -806,6 +814,7 @@
 			</trans-unit>
 			<trans-unit id="c0c3100608f2fef728694b93eaf182260dded5e7" datatype="html">
 				<source>Gestion d&apos;une flotte de camions</source>
+				<target>Truck's fleet management</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/flotte-camions-net-dialog/flotte-camions-net-dialog.component.html
@@ -815,6 +824,7 @@
 			</trans-unit>
 			<trans-unit id="9d27b649cd22c9ee90cbf336409385b5244f29f1" datatype="html">
 				<source>Création de commandes</source>
+				<target>Order creation</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/flotte-camions-net-dialog/flotte-camions-net-dialog.component.html
@@ -824,6 +834,7 @@
 			</trans-unit>
 			<trans-unit id="658bd129942f7eb0813fb0e46807c95e6b553f39" datatype="html">
 				<source>CRUD sur les entités</source>
+				<target>CRUD on entities</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/flotte-camions-net-dialog/flotte-camions-net-dialog.component.html
@@ -833,6 +844,7 @@
 			</trans-unit>
 			<trans-unit id="c98a5f7e2e4653bdabfb4339b02551d277438f08" datatype="html">
 				<source>Plusieurs livraisons pour une commande</source>
+				<target>Multiple deliveries for an order</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/flotte-camions-net-dialog/flotte-camions-net-dialog.component.html
@@ -842,6 +854,7 @@
 			</trans-unit>
 			<trans-unit id="80923ddd6a106ed2a55f441dac8279146be51508" datatype="html">
 				<source>Prise en compte du type de la marchandise</source>
+				<target>Consideration of goods type (fresh, frozen food, animal, etc.)</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/flotte-camions-net-dialog/flotte-camions-net-dialog.component.html
@@ -851,6 +864,7 @@
 			</trans-unit>
 			<trans-unit id="77f4f207cfe3b686f0699d263cc80a29feeba96f" datatype="html">
 				<source>Livraisons créées par un opérateur</source>
+				<target>Deliveries created by an operator</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/flotte-camions-net-dialog/flotte-camions-net-dialog.component.html
@@ -860,6 +874,7 @@
 			</trans-unit>
 			<trans-unit id="a232fb186e159a52dcb982765b5ca600a4b88535" datatype="html">
 				<source>Applications d&apos;entreprise (nombreuses classes)</source>
+				<target>Business applications (numerous classes)</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/flotte-camions-net-dialog/flotte-camions-net-dialog.component.html
@@ -869,6 +884,7 @@
 			</trans-unit>
 			<trans-unit id="eec5b69bd6e488cbb9d742b09cf99232b0debbec" datatype="html">
 				<source>Développement C#/.NET</source>
+				<target>C#/.NET development</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/flotte-camions-net-dialog/flotte-camions-net-dialog.component.html
@@ -878,6 +894,7 @@
 			</trans-unit>
 			<trans-unit id="ead8c6c102cef891d39df9583f7c93a874f85fcc" datatype="html">
 				<source>Spécifications fonctionnelles et techniques</source>
+				<target>Functional and technial specifications</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/flotte-camions-net-dialog/flotte-camions-net-dialog.component.html
@@ -887,6 +904,7 @@
 			</trans-unit>
 			<trans-unit id="ecc78cb60100b5511af90410b1ad17b4a8973a97" datatype="html">
 				<source>Novembre à Décembre 2019</source>
+				<target>November to December 2019</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/flotte-camions-net-dialog/flotte-camions-net-dialog.component.html
@@ -896,6 +914,7 @@
 			</trans-unit>
 			<trans-unit id="663b74045cb1208d449426687efbf0128afe48ec" datatype="html">
 				<source>Applications d&apos;entreprise</source>
+				<target>Business applications</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/flotte-camions-net-dialog/flotte-camions-net-dialog.component.html
@@ -905,6 +924,7 @@
 			</trans-unit>
 			<trans-unit id="99b80c0d78162e01703916c40c7deea45154ccad" datatype="html">
 				<source>Développement JEE</source>
+				<target>JEE development</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/flotte-camions-jeedialog/flotte-camions-jeedialog.component.html
@@ -914,6 +934,7 @@
 			</trans-unit>
 			<trans-unit id="8d194603baf06d13071dd9ffb0024c77a516040e" datatype="html">
 				<source>Septembre à Novembre 2019</source>
+				<target>September to November 2019</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/flotte-camions-jeedialog/flotte-camions-jeedialog.component.html
@@ -923,6 +944,7 @@
 			</trans-unit>
 			<trans-unit id="dddf9258a9e3fe9635d0ec1a818fa7736a83b18e" datatype="html">
 				<source>Gestion des Équipements de Protection Individuelle (EPI)</source>
+				<target>Management of personal protective equipments (PPE)</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/gestion-epidialog/gestion-epidialog.component.html
@@ -932,6 +954,7 @@
 			</trans-unit>
 			<trans-unit id="9a719afa5fe63ad9a409084baade4bdc0ae68bd6" datatype="html">
 				<source>Impression PDF des vérifications des EPIs</source>
+				<target>PDF printing of PPE verifications</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/gestion-epidialog/gestion-epidialog.component.html
@@ -941,6 +964,7 @@
 			</trans-unit>
 			<trans-unit id="ae6bb11439a3b38fd4320f7fa6af56700de20cd6" datatype="html">
 				<source>Suivi du cycle de vie des EPIs (tableaux)</source>
+				<target>Monitoring of PPEs life cycle (tables)</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/gestion-epidialog/gestion-epidialog.component.html
@@ -950,6 +974,7 @@
 			</trans-unit>
 			<trans-unit id="7594aed9c2cc7af08b878ce82e3ac1cc4a29e606" datatype="html">
 				<source>Pour une formation d&apos;élaguage d&apos;un lycée agricole</source>
+				<target>For a training of tree-trimmers at an agricultural high school</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/gestion-epidialog/gestion-epidialog.component.html
@@ -959,6 +984,7 @@
 			</trans-unit>
 			<trans-unit id="fe45a01892c5ef6ce8e6058e454da83e96cec3b1" datatype="html">
 				<source>Gestion des vérificateurs</source>
+				<target>Management of PPE inspectors</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/gestion-epidialog/gestion-epidialog.component.html
@@ -968,6 +994,7 @@
 			</trans-unit>
 			<trans-unit id="38df0a0cb822566284d9808b71fcc0029fcf99d9" datatype="html">
 				<source>Gestion des EPIs</source>
+				<target>Management of PPEs</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/gestion-epidialog/gestion-epidialog.component.html
@@ -977,6 +1004,7 @@
 			</trans-unit>
 			<trans-unit id="0bf98a10713f288f11d838ec6aed7676a20b5c2f" datatype="html">
 				<source>Améliorer la vérification et le suivi de la vérification des EPIs</source>
+				<target>Improvement of PPEs control and monitoring</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/gestion-epidialog/gestion-epidialog.component.html
@@ -986,6 +1014,7 @@
 			</trans-unit>
 			<trans-unit id="0bf1926354b59aee9f3cb84e1d8890146bb692cb" datatype="html">
 				<source>Développement web HTML, CSS, JS, PHP</source>
+				<target>Web development with HTML, CSS, JS and PHP</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/gestion-epidialog/gestion-epidialog.component.html
@@ -995,6 +1024,7 @@
 			</trans-unit>
 			<trans-unit id="0971bdf6cea52e9ef2b9f2b9d83bad56c3eed2ed" datatype="html">
 				<source>Base de données SQL</source>
+				<target>SQL database</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/gestion-epidialog/gestion-epidialog.component.html
@@ -1004,6 +1034,7 @@
 			</trans-unit>
 			<trans-unit id="7de0b8af7dc70bedde12c2bf5e28e4ea67ab3fe9" datatype="html">
 				<source>Janvier à Mai 2019</source>
+				<target>January to May 2019</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/gestion-epidialog/gestion-epidialog.component.html
@@ -1013,6 +1044,7 @@
 			</trans-unit>
 			<trans-unit id="41dda87779eccb830a6a8ee83285f2b1bbeb0d02" datatype="html">
 				<source>Lycée agricole des Fondettes</source>
+				<target>Agricultural high school of Fondettes</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/gestion-epidialog/gestion-epidialog.component.html
@@ -1022,6 +1054,7 @@
 			</trans-unit>
 			<trans-unit id="5dc5d26de64ffabd566d748fd70e23d13c8bad0a" datatype="html">
 				<source>Gestion des patients d&apos;une clinique</source>
+				<target>Management of clinic patients</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/docto-patients-dialog/docto-patients-dialog.component.html
@@ -1033,6 +1066,7 @@
 				<source>
 					Ordonnancement des rendez-vous en fonction des raisons et de la disponibilité des médécins
 				</source>
+				<target>Appointments scheduling with the reason and doctors disponibility</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/docto-patients-dialog/docto-patients-dialog.component.html
@@ -1042,6 +1076,7 @@
 			</trans-unit>
 			<trans-unit id="d73525e8689bf43f0a7090f9a33f669e44aefb79" datatype="html">
 				<source>Gestion des médécins</source>
+				<target>Doctors management</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/docto-patients-dialog/docto-patients-dialog.component.html
@@ -1051,6 +1086,7 @@
 			</trans-unit>
 			<trans-unit id="592a8c75d817b7573326590c9a46f0f30b8b091d" datatype="html">
 				<source>Ajout de rendez-vous</source>
+				<target>Appointments creation</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/docto-patients-dialog/docto-patients-dialog.component.html
@@ -1060,6 +1096,7 @@
 			</trans-unit>
 			<trans-unit id="7f86950e86d0c9f573356492ac32e3800caf482c" datatype="html">
 				<source>Développement C++ et Qt</source>
+				<target>C++ and Qt development</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/docto-patients-dialog/docto-patients-dialog.component.html
@@ -1069,6 +1106,7 @@
 			</trans-unit>
 			<trans-unit id="4e2375bef44875151e666d6d98eebb7c24c6a5e0" datatype="html">
 				<source>Validation d&apos;un cours de plateforme logicielle C++</source>
+				<target>C++ software platform course validation</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/docto-patients-dialog/docto-patients-dialog.component.html
@@ -1078,6 +1116,7 @@
 			</trans-unit>
 			<trans-unit id="d69e4da0c4901d6a644de359cfc05ee53927a2e0" datatype="html">
 				<source>Janvier à Mars 2019</source>
+				<target>January to March 2019</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/docto-patients-dialog/docto-patients-dialog.component.html
@@ -1087,6 +1126,7 @@
 			</trans-unit>
 			<trans-unit id="dce1e492430d9deabf6525e91f4f8de5a88af70f" datatype="html">
 				<source>Plateforme logicielle C++</source>
+				<target>C++ software platform</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/docto-patients-dialog/docto-patients-dialog.component.html
@@ -1096,6 +1136,7 @@
 			</trans-unit>
 			<trans-unit id="cfffd81ab4d837005b923af8c5b5f5135972a8cf" datatype="html">
 				<source>Lecture d&apos;un fichier Excel / CSV</source>
+				<target>CSV / Excel file reading</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/student-list-dialog/student-list-dialog.component.html
@@ -1105,6 +1146,7 @@
 			</trans-unit>
 			<trans-unit id="850f95515dd8877bea5c30658f4ef6db55d14e99" datatype="html">
 				<source>Génération de listes d&apos;étudiants</source>
+				<target>Students lists generation</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/student-list-dialog/student-list-dialog.component.html
@@ -1114,6 +1156,7 @@
 			</trans-unit>
 			<trans-unit id="490de0361f6462fa77f7660c4f5b69eca3923ed1" datatype="html">
 				<source>Prise en compte des attributs passés dans le fichier Excel</source>
+				<target>Taking into account values passed for each student in the CSV / Excel file</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/student-list-dialog/student-list-dialog.component.html
@@ -1123,6 +1166,7 @@
 			</trans-unit>
 			<trans-unit id="09206fbefce4ac703cfe86f32119877210c0bd84" datatype="html">
 				<source>Plusieurs choix de génération</source>
+				<target>Multiple choices of generation</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/student-list-dialog/student-list-dialog.component.html
@@ -1132,6 +1176,7 @@
 			</trans-unit>
 			<trans-unit id="e2de8c3122020689ba3b183e0f41115f28872567" datatype="html">
 				<source>Enregistrement de templates</source>
+				<target>Templates saving</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/student-list-dialog/student-list-dialog.component.html
@@ -1141,6 +1186,7 @@
 			</trans-unit>
 			<trans-unit id="8f7a43f6ca54c43a707949d87f1191fc160f9da0" datatype="html">
 				<source>Développement Java et Swing pour l&apos;UI</source>
+				<target>Java and Swing development</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/student-list-dialog/student-list-dialog.component.html
@@ -1150,6 +1196,7 @@
 			</trans-unit>
 			<trans-unit id="2b6bc76cf550d1402f74929df2b788a03e2dbc5b" datatype="html">
 				<source>Planification, spécifications techniques et fonctionnelles</source>
+				<target>Planning, technical and functional specifications</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/student-list-dialog/student-list-dialog.component.html
@@ -1159,6 +1206,7 @@
 			</trans-unit>
 			<trans-unit id="65b492d27d910499f1f120a241399c358017ca58" datatype="html">
 				<source>Septembre à Décembre 2018</source>
+				<target>September to December 2018</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/student-list-dialog/student-list-dialog.component.html
@@ -1168,6 +1216,7 @@
 			</trans-unit>
 			<trans-unit id="b97f7fc7a1ac2a22e9938686c05098200da3d764" datatype="html">
 				<source>Enseignant chercheur</source>
+				<target>University lecturer and researcher</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/student-list-dialog/student-list-dialog.component.html
@@ -1176,7 +1225,8 @@
 				</context-group>
 			</trans-unit>
 			<trans-unit id="6b49912a676f9e8c30024e8f434b042bb8fa1543" datatype="html">
-				<source>Lecture de dossiers contenant des fichiers CSV</source>
+				<source>Lecture de dossiers windows contenant des fichiers CSV</source>
+				<target>Reading of all CSV files in a windows folder</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/tagedofisdialog/tagedofisdialog.component.html
@@ -1186,6 +1236,7 @@
 			</trans-unit>
 			<trans-unit id="1210d89201300ce7eac34c30d1aaeaa63f436285" datatype="html">
 				<source>Recherche de dossiers manquants (taxes d&apos;aménagement)</source>
+				<target>Search of missing records (land planning taxes)</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/tagedofisdialog/tagedofisdialog.component.html
@@ -1195,6 +1246,7 @@
 			</trans-unit>
 			<trans-unit id="73874ed008da9225c1a14804306df6aca6f69b35" datatype="html">
 				<source>Consultation et exportation de tableaux croisés en CSV et Excel</source>
+				<target>View and export of pivot tables in CSV or Excel</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/tagedofisdialog/tagedofisdialog.component.html
@@ -1202,18 +1254,10 @@
 					<context context-type="linenumber">28,29</context>
 				</context-group>
 			</trans-unit>
-			<trans-unit id="5129c8763e7b0b99f36f2dc70da40221627f6818" datatype="html">
-				<source>Consultation et exportation de statistiques en CSV et Excel</source>
-				<context-group purpose="location">
-					<context context-type="sourcefile">
-						src/app/projects/tagedofisdialog/tagedofisdialog.component.html
-					</context>
-					<context context-type="linenumber">30</context>
-				</context-group>
-			</trans-unit>
 			<trans-unit id="7fc8852dfb4529447bc414013863af42d4bda406" datatype="html">
 				<source
 				> Filtrage des recherches et consultations par année ou groupe d&apos;années, commune, type de taxe </source>
+				<target>Filtering of searches and views by years or group of years, municipality, tax type</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/tagedofisdialog/tagedofisdialog.component.html
@@ -1221,17 +1265,9 @@
 					<context context-type="linenumber">32,33</context>
 				</context-group>
 			</trans-unit>
-			<trans-unit id="6537757d237d684143715ff78cd1e9a1f24afe2d" datatype="html">
-				<source>Direction Départementale des Territoires</source>
-				<context-group purpose="location">
-					<context context-type="sourcefile">
-						src/app/projects/tagedofisdialog/tagedofisdialog.component.html
-					</context>
-					<context context-type="linenumber">39</context>
-				</context-group>
-			</trans-unit>
 			<trans-unit id="ad72c4b40491195e30315d21a8ddf576cc15b327" datatype="html">
 				<source>Gestion du pointage dans une entreprise</source>
+				<target>Checks management in a company</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/pointeuse-dialog/pointeuse-dialog.component.html
@@ -1241,6 +1277,7 @@
 			</trans-unit>
 			<trans-unit id="cd4f4d20576396ae531e4a59ca237e221a1ab981" datatype="html">
 				<source>Gestion des employés et managers</source>
+				<target>Employees and managers management</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/pointeuse-dialog/pointeuse-dialog.component.html
@@ -1250,6 +1287,7 @@
 			</trans-unit>
 			<trans-unit id="87640bc6654b5dd36131dfdb3b724df5fa918ebf" datatype="html">
 				<source>Pointage à travers plusieurs pointeuses</source>
+				<target>Multiple punch clocks executable</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/pointeuse-dialog/pointeuse-dialog.component.html
@@ -1259,6 +1297,7 @@
 			</trans-unit>
 			<trans-unit id="69456c5764727c1cab7c1e6fd067b0f88415385e" datatype="html">
 				<source>Enregistrement des pointages en hors ligne</source>
+				<target>Saving of offline checks</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/pointeuse-dialog/pointeuse-dialog.component.html
@@ -1268,6 +1307,7 @@
 			</trans-unit>
 			<trans-unit id="115803eb77b95766c4ee76fd846ba2c89bbf5677" datatype="html">
 				<source>Janvier à Juin 2018</source>
+				<target>January to June 2018</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/pointeuse-dialog/pointeuse-dialog.component.html
@@ -1277,6 +1317,7 @@
 			</trans-unit>
 			<trans-unit id="dde9735522d4a77f579360a463d1de5ab9b3b124" datatype="html">
 				<source>Programmation Java orientée objet</source>
+				<target>Java object oriented programming</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/pointeuse-dialog/pointeuse-dialog.component.html
