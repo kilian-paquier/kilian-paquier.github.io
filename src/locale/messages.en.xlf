@@ -340,9 +340,9 @@
 					<context context-type="linenumber">29</context>
 				</context-group>
 			</trans-unit>
-			<trans-unit id="8af1ce1b0e41bc241cd0e43719798cfe6aee588d" datatype="html">
-				<source>Basket</source>
-				<target>Basket-ball</target>
+			<trans-unit id="88aec31714d96d2b3bce3e2340d1d3f3a0b5e06c" datatype="html">
+				<source>Basketball</source>
+				<target>Basketball</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/interests/interests.component.html</context>
 					<context context-type="linenumber">52</context>
@@ -454,7 +454,7 @@
 			</trans-unit>
 			<trans-unit id="86f97ab53218866c5169b6e44d54008c4527305e" datatype="html">
 				<source> Diplôme d&apos;ingénieur informatique à Polytech Tours </source>
-				<target>Engineering diploma in comptuer science at Polytech Tours</target>
+				<target>Engineering diploma in computer science at Polytech Tours</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/education/education.component.html</context>
 					<context context-type="linenumber">28,29</context>
@@ -822,7 +822,7 @@
 			</trans-unit>
 			<trans-unit id="487dee150447027ade23f8c1aba27fcdbf256cb3" datatype="html">
 				<source>Plateformes mobiles</source>
-				<target>Mobiles platforms</target>
+				<target>Mobile platforms</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/share-your-fit-dialog/share-your-fit-dialog.component.html
@@ -912,7 +912,7 @@
 			</trans-unit>
 			<trans-unit id="ead8c6c102cef891d39df9583f7c93a874f85fcc" datatype="html">
 				<source>Spécifications fonctionnelles et techniques</source>
-				<target>Functional and technial specifications</target>
+				<target>Functional and technical specifications</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/flotte-camions-net-dialog/flotte-camions-net-dialog.component.html
@@ -1242,7 +1242,7 @@
 					<context context-type="linenumber">52</context>
 				</context-group>
 			</trans-unit>
-			<trans-unit id="6b49912a676f9e8c30024e8f434b042bb8fa1543" datatype="html">
+			<trans-unit id="a63e81c974275164d2e1e2ecb851de4166086851" datatype="html">
 				<source>Lecture de dossiers windows contenant des fichiers CSV</source>
 				<target>Reading of all CSV files in a windows folder</target>
 				<context-group purpose="location">
@@ -1361,6 +1361,46 @@
 						src/app/projects/for-the-berry-dialog/for-the-berry-dialog.component.html
 					</context>
 					<context context-type="linenumber">38</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="6078ed49373f56a96f4da5295f8fae578f3eb180" datatype="html">
+				<source>Méthodologie Scrum</source>
+				<target>Scrum methodology</target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">
+						src/app/projects/gestion-epidialog/gestion-epidialog.component.html
+					</context>
+					<context context-type="linenumber">47</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="67c4d3f044d78bc7d5a4824d2615e445daa7f390" datatype="html">
+				<source>Co-gestion du projet</source>
+				<target>Project co-management</target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">
+						src/app/projects/gestion-epidialog/gestion-epidialog.component.html
+					</context>
+					<context context-type="linenumber">48</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="74cf9c04ddb3f25069512bac3964c4f7177b08c7" datatype="html">
+				<source>Analyse des besoins client</source>
+				<target>Client needs analysis</target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">
+						src/app/projects/tagedofisdialog/tagedofisdialog.component.html
+					</context>
+					<context context-type="linenumber">40</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="658ae2e9382b1146d1d527cf198b9ea29e319112" datatype="html">
+				<source>Plusieurs itérations pour convenir aux besoins et à leur évolution</source>
+				<target>Several iteration to suit the needs and their evolution</target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">
+						src/app/projects/tagedofisdialog/tagedofisdialog.component.html
+					</context>
+					<context context-type="linenumber">42,43</context>
 				</context-group>
 			</trans-unit>
 		</body>

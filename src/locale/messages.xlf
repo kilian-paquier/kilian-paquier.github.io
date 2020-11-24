@@ -297,8 +297,8 @@
 					<context context-type="linenumber">29</context>
 				</context-group>
 			</trans-unit>
-			<trans-unit id="8af1ce1b0e41bc241cd0e43719798cfe6aee588d" datatype="html">
-				<source>Basket</source>
+			<trans-unit id="88aec31714d96d2b3bce3e2340d1d3f3a0b5e06c" datatype="html">
+				<source>Basketball</source>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/interests/interests.component.html</context>
 					<context context-type="linenumber">52</context>
@@ -932,13 +932,31 @@
 					<context context-type="linenumber">46</context>
 				</context-group>
 			</trans-unit>
+			<trans-unit id="6078ed49373f56a96f4da5295f8fae578f3eb180" datatype="html">
+				<source>Méthodologie Scrum</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">
+						src/app/projects/gestion-epidialog/gestion-epidialog.component.html
+					</context>
+					<context context-type="linenumber">47</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="67c4d3f044d78bc7d5a4824d2615e445daa7f390" datatype="html">
+				<source>Co-gestion du projet</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">
+						src/app/projects/gestion-epidialog/gestion-epidialog.component.html
+					</context>
+					<context context-type="linenumber">48</context>
+				</context-group>
+			</trans-unit>
 			<trans-unit id="7de0b8af7dc70bedde12c2bf5e28e4ea67ab3fe9" datatype="html">
 				<source>Janvier à Mai 2019</source>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/gestion-epidialog/gestion-epidialog.component.html
 					</context>
-					<context context-type="linenumber">60</context>
+					<context context-type="linenumber">62</context>
 				</context-group>
 			</trans-unit>
 			<trans-unit id="41dda87779eccb830a6a8ee83285f2b1bbeb0d02" datatype="html">
@@ -947,7 +965,7 @@
 					<context context-type="sourcefile">
 						src/app/projects/gestion-epidialog/gestion-epidialog.component.html
 					</context>
-					<context context-type="linenumber">64</context>
+					<context context-type="linenumber">66</context>
 				</context-group>
 			</trans-unit>
 			<trans-unit id="5dc5d26de64ffabd566d748fd70e23d13c8bad0a" datatype="html">
@@ -1142,13 +1160,31 @@
 					<context context-type="linenumber">31,32</context>
 				</context-group>
 			</trans-unit>
+			<trans-unit id="74cf9c04ddb3f25069512bac3964c4f7177b08c7" datatype="html">
+				<source>Analyse des besoins client</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">
+						src/app/projects/tagedofisdialog/tagedofisdialog.component.html
+					</context>
+					<context context-type="linenumber">40</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="658ae2e9382b1146d1d527cf198b9ea29e319112" datatype="html">
+				<source>Plusieurs itérations pour convenir aux besoins et à leur évolution</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">
+						src/app/projects/tagedofisdialog/tagedofisdialog.component.html
+					</context>
+					<context context-type="linenumber">42,43</context>
+				</context-group>
+			</trans-unit>
 			<trans-unit id="6537757d237d684143715ff78cd1e9a1f24afe2d" datatype="html">
 				<source>Direction Départementale des Territoires</source>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/tagedofisdialog/tagedofisdialog.component.html
 					</context>
-					<context context-type="linenumber">55</context>
+					<context context-type="linenumber">59</context>
 				</context-group>
 			</trans-unit>
 			<trans-unit id="ad72c4b40491195e30315d21a8ddf576cc15b327" datatype="html">
