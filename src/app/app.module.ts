@@ -45,6 +45,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { RecaptchaFormsModule, RecaptchaModule, RecaptchaV3Module, RECAPTCHA_V3_SITE_KEY } from 'ng-recaptcha';
 import { environment } from 'src/environments/environment';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { NgwWowModule } from 'ngx-wow';
 
 @NgModule({
 	declarations: [
@@ -96,6 +97,7 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
 		RecaptchaFormsModule,
 		RecaptchaV3Module,
 		MatSnackBarModule,
+		NgwWowModule,
 	],
 	providers: [CookieService, { provide: RECAPTCHA_V3_SITE_KEY, useValue: environment.captcha_key }],
 	bootstrap: [AppComponent],

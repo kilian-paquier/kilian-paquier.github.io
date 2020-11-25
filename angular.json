@@ -26,12 +26,17 @@
 						"tsConfig": "tsconfig.app.json",
 						"aot": true,
 						"assets": ["src/favicon.ico", "src/assets"],
-						"styles": ["src/styles.scss", "node_modules/devicon/devicon.min.css"],
+						"styles": [
+							"src/styles.scss",
+							"node_modules/devicon/devicon.min.css",
+							"node_modules/animate.css/animate.css"
+						],
 						"scripts": [
 							"node_modules/jquery/dist/jquery.min.js",
 							"node_modules/popper.js/dist/umd/popper.min.js",
 							"node_modules/bootstrap/dist/js/bootstrap.min.js",
-							"node_modules/hammerjs/hammer.min.js"
+							"node_modules/hammerjs/hammer.min.js",
+							"node_modules/wowjs/dist/wow.js"
 						]
 					},
 					"configurations": {
