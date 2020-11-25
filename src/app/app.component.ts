@@ -1,11 +1,10 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { MatSidenav, MatSidenavContent } from '@angular/material/sidenav';
-import { Router, NavigationEnd } from '@angular/router';
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { ScrollToService } from '@nicky-lenaers/ngx-scroll-to';
 import { CookieService } from 'ngx-cookie-service';
 import { NgwWowService } from 'ngx-wow';
-import { filter } from 'rxjs/operators';
+
 declare const Hammer: any;
 
 @Component({
@@ -24,18 +23,14 @@ export class AppComponent implements OnInit {
 	constructor(
 		private cookieService: CookieService,
 		private scrollToService: ScrollToService,
-		private router: Router,
 		private wowService: NgwWowService
-	) {
-		this.router.events.pipe(filter(event => event instanceof NavigationEnd)).subscribe(event => {
-			this.wowService.init();
-		});
-	}
+	) {}
 
 	ngOnInit() {
 		// this.addScript();
 		this.setTheme();
 		this.initSwipe();
+		this.wowService.init();
 	}
 
 	initSwipe() {
