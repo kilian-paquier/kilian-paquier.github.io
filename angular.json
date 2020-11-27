@@ -26,11 +26,7 @@
 						"tsConfig": "tsconfig.app.json",
 						"aot": true,
 						"assets": ["src/favicon.ico", "src/assets"],
-						"styles": [
-							"src/styles.scss",
-							"node_modules/devicon/devicon.min.css",
-							"node_modules/animate.css/animate.min.css"
-						],
+						"styles": ["src/styles.scss"],
 						"scripts": [
 							"node_modules/jquery/dist/jquery.min.js",
 							"node_modules/popper.js/dist/umd/popper.min.js",

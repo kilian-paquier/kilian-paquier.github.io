@@ -30,15 +30,17 @@ export class AppComponent implements OnInit {
 		// this.addScript();
 		this.setTheme();
 		this.initSwipe();
-		this.wowService.init();
+		this.wowService.init({
+			scrollContainer: 'mat-sidenav-content',
+		});
 	}
 
 	initSwipe() {
 		const hammerSidenav = new Hammer(document.body);
-		hammerSidenav.on('swiperight', () => {
+		hammerSidenav.on('panright', () => {
 			if (!this.sidenav.opened) this.sidenav.open();
 		});
-		hammerSidenav.on('swipeleft', () => {
+		hammerSidenav.on('panleft', () => {
 			if (this.sidenav.opened) this.sidenav.close();
 		});
 	}

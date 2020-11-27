@@ -45,7 +45,7 @@
 			</a>
 		</div>
 	</mat-sidenav>
-	<mat-sidenav-content #sidenavcontent fxFlexFill (scroll)="progress()">
+	<mat-sidenav-content id="mat-sidenav-content" #sidenavcontent fxFlexFill (scroll)="progress()">
 		<mat-progress-bar class="progress-bar" [value]="progressbarValue" color="primary"></mat-progress-bar>
 		<router-outlet name="about"></router-outlet>
 		<router-outlet name="experiences"></router-outlet>
