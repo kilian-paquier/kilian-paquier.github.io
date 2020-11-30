@@ -236,12 +236,12 @@
 					<context context-type="linenumber">82,83</context>
 				</context-group>
 			</trans-unit>
-			<trans-unit id="70893ef9fd3b852d1cb28d1252799a0491636ece" datatype="html">
+			<trans-unit id="f646ba0780556ff19cfb80d1070c33b5eb5851f9" datatype="html">
 				<source>Génération de tableaux croisés</source>
 				<target>Generation of pivot tables</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
-					<context context-type="linenumber">85,86</context>
+					<context context-type="linenumber">84</context>
 				</context-group>
 			</trans-unit>
 			<trans-unit id="f778831465762aa11d56262f2b7b9615f8451206" datatype="html">
@@ -500,7 +500,7 @@
 					<context context-type="linenumber">58,59</context>
 				</context-group>
 			</trans-unit>
-			<trans-unit id="bac632057b5d9a7c020d69425e87bebed9b042f5" datatype="html">
+			<trans-unit id="8e5b7f1f71c6be21f2f854f3a36b641eedd82bd2" datatype="html">
 				<source>
 					Génie logiciel, qualité logicielle, cycle de vie des projets, gestion de projet (spécifications
 					fonctionnelles et techniques)
