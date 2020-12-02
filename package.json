@@ -6,7 +6,7 @@
 		"ngh": "ngh",
 		"start": "ng serve",
 		"build": "ng build --prod && ng build --configuration=en",
-		"deploy": "npm run build && ngh --branch=gh-pages",
+		"deploy": "npm run build && ngh --branch=gh-pages --cname=kilian-paquier.fr",
 		"format": "prettier --write . --config .prettierrc",
 		"translation": "ng xi18n --outputPath src/locale --progress=true --ivy"
 	},
