@@ -5,7 +5,6 @@ import { Component, OnInit } from '@angular/core';
 	templateUrl: './footer.component.html',
 })
 export class FooterComponent implements OnInit {
-	public initYear = 2019;
 	public year = new Date().getFullYear();
 
 	constructor() {}
