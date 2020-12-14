@@ -12,7 +12,7 @@ body {
 }
 
 body {
-	overflow-x: hidden;
+	overflow-x: hidden !important;
 	@include body-font;
 }
 
