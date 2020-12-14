@@ -42,12 +42,15 @@ export class ContactComponent implements OnInit {
 		}
 
 		const values = this.contactForm.value;
+		const url = location.href.includes('github.io')
+			? environment.formspree_github_url
+			: environment.formspree_fr_url;
 		this.loading = true;
 		this.recaptchaV3Service.execute('onSubmit').subscribe(
 			token => {
 				this.httpClient
 					.post(
-						environment.formspree_url,
+						url,
 						{
 							Nom: values.name,
 							Entreprise: values.company,
