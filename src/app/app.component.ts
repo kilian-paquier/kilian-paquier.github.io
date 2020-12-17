@@ -36,13 +36,31 @@ export class AppComponent implements OnInit {
 	}
 
 	initSwipe() {
-		const hammerSidenav = new Hammer(document.body);
+		const hammerSidenav = new Hammer.Manager(document.body);
+		hammerSidenav.add(
+			new Hammer.Pan({
+				event: 'pan',
+				pointers: 1,
+				threshold: 175,
+			})
+		);
 		hammerSidenav.on('panright', () => {
 			if (!this.sidenav.opened) this.sidenav.open();
 		});
-		hammerSidenav.on('panleft', () => {
-			if (this.sidenav.opened) this.sidenav.close();
-		});
+		// hammerSidenav.add(
+		// 	new Hammer.Swipe({
+		// 		event: 'swipe',
+		// 		pointers: 1,
+		// 		threshold: 5,
+		// 		velocity: 0.3,
+		// 	})
+		// );
+		// hammerSidenav.on('swiperight', () => {
+		// 	if (!this.sidenav.opened) this.sidenav.open();
+		// });
+		// hammerSidenav.on('panleft', () => {
+		// 	if (this.sidenav.opened) this.sidenav.close();
+		// });
 	}
 
 	progress() {
