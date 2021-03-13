@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-	<file source-language="fr" datatype="plaintext" original="ng2.template" target-language="en">
+	<file source-language="fr" datatype="plaintext" original="ng2.template" target-language="fr">
 		<body>
 			<trans-unit id="df376043ed8ce2a1adae2fb669f68b72eda129bc" datatype="html">
 				<source>Ingénieur développement</source>
-				<target state="new">Ingénieur développement</target>
+				<target state="final">Ingénieur développement</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/about/about.component.html</context>
 					<context context-type="linenumber">5</context>
@@ -12,7 +12,7 @@
 			</trans-unit>
 			<trans-unit id="c78a30db7a6c9bce8f03be087724eff4ea584dbf" datatype="html">
 				<source>https://cvdesignr.com/p/5d9cd3013bcbb</source>
-				<target state="new">https://cvdesignr.com/p/5d9cd3013bcbb</target>
+				<target state="final">https://cvdesignr.com/p/5d9cd3013bcbb</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/about/about.component.html</context>
 					<context context-type="linenumber">13</context>
@@ -20,7 +20,7 @@
 			</trans-unit>
 			<trans-unit id="315e77433b95916506802b220557686febce1d4a" datatype="html">
 				<source>Mon CV</source>
-				<target state="new">Mon CV</target>
+				<target state="final">Mon CV</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/about/about.component.html</context>
 					<context context-type="linenumber">16,17</context>
@@ -28,7 +28,7 @@
 			</trans-unit>
 			<trans-unit id="about" datatype="html">
 				<source>À propos</source>
-				<target state="new">À propos</target>
+				<target state="final">À propos</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/about/about.component.html</context>
 					<context context-type="linenumber">26</context>
@@ -44,7 +44,7 @@
 					diplôme ingénieur informatique (avec Polytech Tours) et maîtrise informatique (Université du Québec
 					à Chicoutimi)
 				</source>
-				<target state="new">
+				<target state="final">
 					Bienvenue sur mon portfolio et bonne lecture ! Je suis ingénieur développement titulaire d'un double
 					diplôme ingénieur informatique (avec Polytech Tours) et maîtrise informatique (Université du Québec
 					à Chicoutimi)
@@ -61,7 +61,7 @@
 					moi de fournir des applications complètes qui facilitent l'expérience utilisateur (en prenant en
 					compte le ressenti des utilisateurs finaux à chaque démonstration).
 				</source>
-				<target state="new">
+				<target state="final">
 					Passionné par l'informatique depuis la classe de 4e (où j'ai pu suivre un cours de HTML et CSS sur
 					le Site du Zéro), ma principale qualité se porte sur le souci du détail car il est important pour
 					moi de fournir des applications complètes qui facilitent l'expérience utilisateur (en prenant en
@@ -74,7 +74,7 @@
 			</trans-unit>
 			<trans-unit id="1abf1249edbb18526619a955386c0887f585a801" datatype="html">
 				<source>ans</source>
-				<target state="new">ans</target>
+				<target state="final">ans</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/about/about.component.html</context>
 					<context context-type="linenumber">47</context>
@@ -82,7 +82,7 @@
 			</trans-unit>
 			<trans-unit id="53c791780896b392cbd52949c5a2846ad45e5182" datatype="html">
 				<source>Expériences</source>
-				<target state="new">Expériences</target>
+				<target state="final">Expériences</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/app.component.html</context>
 					<context context-type="linenumber">10</context>
@@ -90,7 +90,7 @@
 			</trans-unit>
 			<trans-unit id="education" datatype="html">
 				<source>Formations</source>
-				<target state="new">Formations</target>
+				<target state="final">Formations</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/app.component.html</context>
 					<context context-type="linenumber">14</context>
@@ -102,7 +102,7 @@
 			</trans-unit>
 			<trans-unit id="skills" datatype="html">
 				<source>Compétences</source>
-				<target state="new">Compétences</target>
+				<target state="final">Compétences</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/app.component.html</context>
 					<context context-type="linenumber">18</context>
@@ -114,7 +114,7 @@
 			</trans-unit>
 			<trans-unit id="projects" datatype="html">
 				<source>Projets</source>
-				<target state="new">Projets</target>
+				<target state="final">Projets</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/app.component.html</context>
 					<context context-type="linenumber">22</context>
@@ -126,7 +126,7 @@
 			</trans-unit>
 			<trans-unit id="interests" datatype="html">
 				<source>Centres d'intérêts</source>
-				<target state="new">Centres d'intérêts</target>
+				<target state="final">Centres d'intérêts</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/app.component.html</context>
 					<context context-type="linenumber">26</context>
@@ -138,7 +138,7 @@
 			</trans-unit>
 			<trans-unit id="contact" datatype="html">
 				<source>Contactez-moi</source>
-				<target state="new">Contactez-moi</target>
+				<target state="final">Contactez-moi</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/app.component.html</context>
 					<context context-type="linenumber">30</context>
@@ -150,7 +150,7 @@
 			</trans-unit>
 			<trans-unit id="49637bb41fa270c47c6f220fef8490fefa7bb720" datatype="html">
 				<source>/en</source>
-				<target state="new">/en</target>
+				<target state="final">/en</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/app.component.html</context>
 					<context context-type="linenumber">43</context>
@@ -158,7 +158,7 @@
 			</trans-unit>
 			<trans-unit id="75a8926bddab539c66b7b683cc29d33706c2b11a" datatype="html">
 				<source>Votre nom et prénom</source>
-				<target state="new">Votre nom et prénom</target>
+				<target state="final">Votre nom et prénom</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/contact/contact.component.html</context>
 					<context context-type="linenumber">16</context>
@@ -166,7 +166,7 @@
 			</trans-unit>
 			<trans-unit id="required" datatype="html">
 				<source>Champ obligatoire</source>
-				<target state="new">Champ obligatoire</target>
+				<target state="final">Champ obligatoire</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/contact/contact.component.html</context>
 					<context context-type="linenumber">24,25</context>
@@ -182,7 +182,7 @@
 			</trans-unit>
 			<trans-unit id="f20d0571a424df74b64eadff282d637f1b5f3948" datatype="html">
 				<source>Votre adresse mail</source>
-				<target state="new">Votre adresse mail</target>
+				<target state="final">Votre adresse mail</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/contact/contact.component.html</context>
 					<context context-type="linenumber">30</context>
@@ -190,7 +190,7 @@
 			</trans-unit>
 			<trans-unit id="24be839273806e7db0770ae31176e37004a8a604" datatype="html">
 				<source>Ceci n'est pas une adresse mail</source>
-				<target state="new">Ceci n'est pas une adresse mail</target>
+				<target state="final">Ceci n'est pas une adresse mail</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/contact/contact.component.html</context>
 					<context context-type="linenumber">41,42</context>
@@ -198,7 +198,7 @@
 			</trans-unit>
 			<trans-unit id="bfa6821283883699371e2352f26800d546d4e624" datatype="html">
 				<source>Votre entreprise</source>
-				<target state="new">Votre entreprise</target>
+				<target state="final">Votre entreprise</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/contact/contact.component.html</context>
 					<context context-type="linenumber">47</context>
@@ -206,7 +206,7 @@
 			</trans-unit>
 			<trans-unit id="9676445a2a61ca286b26f3cf60e7cc0d611ededd" datatype="html">
 				<source>Votre message</source>
-				<target state="new">Votre message</target>
+				<target state="final">Votre message</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/contact/contact.component.html</context>
 					<context context-type="linenumber">59</context>
@@ -214,7 +214,7 @@
 			</trans-unit>
 			<trans-unit id="85237a89c0a25cc155ef4604a164245d73b70b1f" datatype="html">
 				<source>Envoyer votre message</source>
-				<target state="new">Envoyer votre message</target>
+				<target state="final">Envoyer votre message</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/contact/contact.component.html</context>
 					<context context-type="linenumber">87</context>
@@ -222,7 +222,7 @@
 			</trans-unit>
 			<trans-unit id="081d6bd637471c52ed8c90ded5f24f4cfab8d8e3" datatype="html">
 				<source>Août 2019 - Février 2021</source>
-				<target state="new">Août 2019 - Février 2021</target>
+				<target state="final">Août 2019 - Février 2021</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/education/education.component.html</context>
 					<context context-type="linenumber">20</context>
@@ -230,7 +230,7 @@
 			</trans-unit>
 			<trans-unit id="d92108094426121e92dc9e667fa1e815a2b7c48f" datatype="html">
 				<source>Double diplôme</source>
-				<target state="new">Double diplôme</target>
+				<target state="final">Double diplôme</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/education/education.component.html</context>
 					<context context-type="linenumber">25</context>
@@ -238,7 +238,7 @@
 			</trans-unit>
 			<trans-unit id="df85966ab6549a4a1d07592326a9262378f9b54b" datatype="html">
 				<source>Maîtrise informatique à l'UQAC</source>
-				<target state="new">Maîtrise informatique à l'UQAC</target>
+				<target state="final">Maîtrise informatique à l'UQAC</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/education/education.component.html</context>
 					<context context-type="linenumber">26</context>
@@ -246,7 +246,7 @@
 			</trans-unit>
 			<trans-unit id="86f97ab53218866c5169b6e44d54008c4527305e" datatype="html">
 				<source>Diplôme d'ingénieur informatique à Polytech Tours</source>
-				<target state="new">Diplôme d'ingénieur informatique à Polytech Tours</target>
+				<target state="final">Diplôme d'ingénieur informatique à Polytech Tours</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/education/education.component.html</context>
 					<context context-type="linenumber">28,29</context>
@@ -256,7 +256,7 @@
 				<source>
 					Gestion de projet (spécifications fonctionnelles et techniques, méthologies Agiles et Prédictives)
 				</source>
-				<target state="new">
+				<target state="final">
 					Gestion de projet (spécifications fonctionnelles et techniques, méthologies Agiles et Prédictives)
 				</target>
 				<context-group purpose="location">
@@ -269,7 +269,7 @@
 					Programmation objet avancée, génie logiciel, qualité logicielle, patrons de conception, applications
 					d'entreprise, ERP
 				</source>
-				<target state="new">
+				<target state="final">
 					Programmation objet avancée, génie logiciel, qualité logicielle, patrons de conception, applications
 					d'entreprise, ERP
 				</target>
@@ -280,7 +280,7 @@
 			</trans-unit>
 			<trans-unit id="f9ef5b6b05e939125d824b857593b7688c5c5808" datatype="html">
 				<source>Septembre 2017 - Août 2019</source>
-				<target state="new">Septembre 2017 - Août 2019</target>
+				<target state="final">Septembre 2017 - Août 2019</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/education/education.component.html</context>
 					<context context-type="linenumber">52</context>
@@ -288,7 +288,7 @@
 			</trans-unit>
 			<trans-unit id="a703ef752bd7a9dd9e60961451da4e4fd243ff1a" datatype="html">
 				<source>Diplôme d'ingénieur informatique</source>
-				<target state="new">Diplôme d'ingénieur informatique</target>
+				<target state="final">Diplôme d'ingénieur informatique</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/education/education.component.html</context>
 					<context context-type="linenumber">58,59</context>
@@ -299,7 +299,7 @@
 					Génie logiciel, qualité logicielle, cycle de vie des projets, gestion de projet (spécifications
 					fonctionnelles et techniques)
 				</source>
-				<target state="new">
+				<target state="final">
 					Génie logiciel, qualité logicielle, cycle de vie des projets, gestion de projet (spécifications
 					fonctionnelles et techniques)
 				</target>
@@ -310,7 +310,7 @@
 			</trans-unit>
 			<trans-unit id="a90557ff126df08f57d046162bd285722d98b080" datatype="html">
 				<source>Algorithmie</source>
-				<target state="new">Algorithmie</target>
+				<target state="final">Algorithmie</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/education/education.component.html</context>
 					<context context-type="linenumber">64</context>
@@ -318,7 +318,7 @@
 			</trans-unit>
 			<trans-unit id="6eb84f6fd6a8c3d9bc65d672c2e56b6e9cad9e3d" datatype="html">
 				<source>Septembre 2015 - Juin 2017</source>
-				<target state="new">Septembre 2015 - Juin 2017</target>
+				<target state="final">Septembre 2015 - Juin 2017</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/education/education.component.html</context>
 					<context context-type="linenumber">79</context>
@@ -326,7 +326,7 @@
 			</trans-unit>
 			<trans-unit id="4b551cd87158eadd8ef7b9aa2f21462f4efd3013" datatype="html">
 				<source>Classe préparatoire intégrée</source>
-				<target state="new">Classe préparatoire intégrée</target>
+				<target state="final">Classe préparatoire intégrée</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/education/education.component.html</context>
 					<context context-type="linenumber">84</context>
@@ -334,7 +334,7 @@
 			</trans-unit>
 			<trans-unit id="3844ac0d4cdb3b4d754659512d6d88d0e8cad712" datatype="html">
 				<source>Mathématiques et informatique</source>
-				<target state="new">Mathématiques et informatique</target>
+				<target state="final">Mathématiques et informatique</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/education/education.component.html</context>
 					<context context-type="linenumber">85</context>
@@ -342,7 +342,7 @@
 			</trans-unit>
 			<trans-unit id="c471c9456aba06e0708b6930f6cdfe80f100ea62" datatype="html">
 				<source>Projet de mouvement d'un moteur par la voix (Python)</source>
-				<target state="new">Projet de mouvement d'un moteur par la voix (Python)</target>
+				<target state="final">Projet de mouvement d'un moteur par la voix (Python)</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/education/education.component.html</context>
 					<context context-type="linenumber">87,88</context>
@@ -350,7 +350,7 @@
 			</trans-unit>
 			<trans-unit id="40abfd8e3e9ca09a032a7c555f3947f27db0d461" datatype="html">
 				<source>Étude pour la création d'une nouvelle ligne de tramway</source>
-				<target state="new">Étude pour la création d'une nouvelle ligne de tramway</target>
+				<target state="final">Étude pour la création d'une nouvelle ligne de tramway</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/education/education.component.html</context>
 					<context context-type="linenumber">90,91</context>
@@ -358,7 +358,7 @@
 			</trans-unit>
 			<trans-unit id="168041fc21f0b0f98693ed1c4e2aa55d02b5c6ac" datatype="html">
 				<source>Septembre 2012 - Juin 2015</source>
-				<target state="new">Septembre 2012 - Juin 2015</target>
+				<target state="final">Septembre 2012 - Juin 2015</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/education/education.component.html</context>
 					<context context-type="linenumber">106</context>
@@ -366,7 +366,7 @@
 			</trans-unit>
 			<trans-unit id="a8c5539b68acbb339646bb57438036fee8523dda" datatype="html">
 				<source>Diplôme du baccalauréat filière S</source>
-				<target state="new">Diplôme du baccalauréat filière S</target>
+				<target state="final">Diplôme du baccalauréat filière S</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/education/education.component.html</context>
 					<context context-type="linenumber">112,113</context>
@@ -374,7 +374,7 @@
 			</trans-unit>
 			<trans-unit id="2847f338b7c111ed6ee11e06df3d3a5e470161e7" datatype="html">
 				<source>Spécialité mathématiques</source>
-				<target state="new">Spécialité mathématiques</target>
+				<target state="final">Spécialité mathématiques</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/education/education.component.html</context>
 					<context context-type="linenumber">114</context>
@@ -382,7 +382,7 @@
 			</trans-unit>
 			<trans-unit id="cf9002536ba3d0058ad274ab5c7a7ff87485704d" datatype="html">
 				<source>Expériences professionelles</source>
-				<target state="new">Expériences professionelles</target>
+				<target state="final">Expériences professionelles</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
 					<context context-type="linenumber">5</context>
@@ -390,7 +390,7 @@
 			</trans-unit>
 			<trans-unit id="efb7ff388cb7db3cb3894f783f0b989eb2dee945" datatype="html">
 				<source>Depuis mars 2021</source>
-				<target state="new">Depuis mars 2021</target>
+				<target state="final">Depuis mars 2021</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
 					<context context-type="linenumber">13</context>
@@ -398,7 +398,7 @@
 			</trans-unit>
 			<trans-unit id="knowmore" datatype="html">
 				<source>En savoir plus</source>
-				<target state="new">En savoir plus</target>
+				<target state="final">En savoir plus</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
 					<context context-type="linenumber">19</context>
@@ -466,7 +466,7 @@
 			</trans-unit>
 			<trans-unit id="engineer" datatype="html">
 				<source>Ingénieur</source>
-				<target state="new">Ingénieur</target>
+				<target state="final">Ingénieur</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
 					<context context-type="linenumber">22</context>
@@ -474,7 +474,7 @@
 			</trans-unit>
 			<trans-unit id="5d4178b27b2f38666ed2fbc293abd60d6706196d" datatype="html">
 				<source>Développement Angular, Java</source>
-				<target state="new">Développement Angular, Java</target>
+				<target state="final">Développement Angular, Java</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
 					<context context-type="linenumber">23</context>
@@ -482,7 +482,7 @@
 			</trans-unit>
 			<trans-unit id="2bf28dfa641dcfee824f0ebb1555b4b60c2e89a3" datatype="html">
 				<source>Tests unitaires Jasmine &amp; JUnit</source>
-				<target state="new">Tests unitaires Jasmine &amp; JUnit</target>
+				<target state="final">Tests unitaires Jasmine &amp; JUnit</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
 					<context context-type="linenumber">24</context>
@@ -490,7 +490,7 @@
 			</trans-unit>
 			<trans-unit id="ccfec3dd612bc4b015ec9bafe81275bf93010f8d" datatype="html">
 				<source>Élaboration de spécifications et documentations</source>
-				<target state="new">Élaboration de spécifications et documentations</target>
+				<target state="final">Élaboration de spécifications et documentations</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
 					<context context-type="linenumber">26,27</context>
@@ -498,7 +498,7 @@
 			</trans-unit>
 			<trans-unit id="7fab40ab732f3f36a8a6cef2799eaedbc785047b" datatype="html">
 				<source>Fonctionnement en méthodologie Agile (planning poker, grooming, daily, kanban)</source>
-				<target state="new">
+				<target state="final">
 					Fonctionnement en méthodologie Agile (planning poker, grooming, daily, kanban)
 				</target>
 				<context-group purpose="location">
@@ -508,7 +508,7 @@
 			</trans-unit>
 			<trans-unit id="536d6cbafb526e6e5d92c6b79999dc41ee87a76b" datatype="html">
 				<source>Août 2020 à Février 2021</source>
-				<target state="new">Août 2020 à Février 2021</target>
+				<target state="final">Août 2020 à Février 2021</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
 					<context context-type="linenumber">40</context>
@@ -516,7 +516,7 @@
 			</trans-unit>
 			<trans-unit id="intern" datatype="html">
 				<source>Stagiaire</source>
-				<target state="new">Stagiaire</target>
+				<target state="final">Stagiaire</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
 					<context context-type="linenumber">49</context>
@@ -532,7 +532,7 @@
 			</trans-unit>
 			<trans-unit id="ca1ff42c38eb2564d6dee0d827b5210664d3c3d1" datatype="html">
 				<source>Développement ÉlectronJS</source>
-				<target state="new">Développement ÉlectronJS</target>
+				<target state="final">Développement ÉlectronJS</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
 					<context context-type="linenumber">50</context>
@@ -540,7 +540,7 @@
 			</trans-unit>
 			<trans-unit id="d77bc74e8515e3f804489850e2ab0e6ef22c90f6" datatype="html">
 				<source>Utilisation d'une Blockchain</source>
-				<target state="new">Utilisation d'une Blockchain</target>
+				<target state="final">Utilisation d'une Blockchain</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
 					<context context-type="linenumber">51</context>
@@ -548,7 +548,7 @@
 			</trans-unit>
 			<trans-unit id="009e14b970d2c2a351eaaa1d736b58645da95d64" datatype="html">
 				<source>Élaboration de spécifications fonctionnelles</source>
-				<target state="new">Élaboration de spécifications fonctionnelles</target>
+				<target state="final">Élaboration de spécifications fonctionnelles</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
 					<context context-type="linenumber">53,54</context>
@@ -556,7 +556,7 @@
 			</trans-unit>
 			<trans-unit id="3c2af50f541aa111da3e2cfe4a8402faaefcd4e0" datatype="html">
 				<source> Élaboration d'un Bilan Scientifique &amp; Technique </source>
-				<target state="new"> Élaboration d'un Bilan Scientifique &amp; Technique </target>
+				<target state="final"> Élaboration d'un Bilan Scientifique &amp; Technique </target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
 					<context context-type="linenumber">56,57</context>
@@ -564,7 +564,7 @@
 			</trans-unit>
 			<trans-unit id="f331d3f23b9da0dbc49d45d3a7aed412b77e87c8" datatype="html">
 				<source> Développement TypeScript &amp; API NestJS </source>
-				<target state="new"> Développement TypeScript &amp; API NestJS </target>
+				<target state="final"> Développement TypeScript &amp; API NestJS </target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
 					<context context-type="linenumber">59,60</context>
@@ -572,7 +572,7 @@
 			</trans-unit>
 			<trans-unit id="bfef3f0004b3c6f54c7f0799a84d55c704288122" datatype="html">
 				<source>Tests unitaires Jest</source>
-				<target state="new">Tests unitaires Jest</target>
+				<target state="final">Tests unitaires Jest</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
 					<context context-type="linenumber">61</context>
@@ -580,7 +580,7 @@
 			</trans-unit>
 			<trans-unit id="006824bd8d4f3881d3d5b00e2947fcd32d33bfc7" datatype="html">
 				<source>Juin à Août 2019</source>
-				<target state="new">Juin à Août 2019</target>
+				<target state="final">Juin à Août 2019</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
 					<context context-type="linenumber">71</context>
@@ -588,7 +588,7 @@
 			</trans-unit>
 			<trans-unit id="8c4695f9c805d6253654d0847efa10ed3f2d8c69" datatype="html">
 				<source>Analyse de la version du framework de l'ERP (ExtJS)</source>
-				<target state="new">Analyse de la version du framework de l'ERP (ExtJS)</target>
+				<target state="final">Analyse de la version du framework de l'ERP (ExtJS)</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
 					<context context-type="linenumber">82,83</context>
@@ -599,7 +599,7 @@
 					Estimation d'un temps et des changements à effectuer pour passer à une version plus récente du
 					framework
 				</source>
-				<target state="new">
+				<target state="final">
 					Estimation d'un temps et des changements à effectuer pour passer à une version plus récente du
 					framework
 				</target>
@@ -610,7 +610,7 @@
 			</trans-unit>
 			<trans-unit id="2058cc4870e82a0ecd5e002b39158f2927324512" datatype="html">
 				<source>Développement de plusieurs fonctionnalités sur l'ERP</source>
-				<target state="new">Développement de plusieurs fonctionnalités sur l'ERP</target>
+				<target state="final">Développement de plusieurs fonctionnalités sur l'ERP</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
 					<context context-type="linenumber">89,90</context>
@@ -618,7 +618,7 @@
 			</trans-unit>
 			<trans-unit id="ac6a6c68b9cda39f09a00bf40be28356281c83cc" datatype="html">
 				<source>Août 2018</source>
-				<target state="new">Août 2018</target>
+				<target state="final">Août 2018</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
 					<context context-type="linenumber">100</context>
@@ -632,7 +632,7 @@
 			</trans-unit>
 			<trans-unit id="df313912ab1054d453e25e5cec4e4da55f8e6c49" datatype="html">
 				<source>Vacataire</source>
-				<target state="new">Vacataire</target>
+				<target state="final">Vacataire</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
 					<context context-type="linenumber">109</context>
@@ -640,7 +640,7 @@
 			</trans-unit>
 			<trans-unit id="455f1372ee59fa04eb3b0e6d339e6a5da8863683" datatype="html">
 				<source>Analyse des besoins d'un client</source>
-				<target state="new">Analyse des besoins d'un client</target>
+				<target state="final">Analyse des besoins d'un client</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
 					<context context-type="linenumber">110</context>
@@ -648,7 +648,7 @@
 			</trans-unit>
 			<trans-unit id="ef26e473df609243e3e81030a5e7e21cb5bc132d" datatype="html">
 				<source>Développement de T.A.GEDOFIS</source>
-				<target state="new">Développement de T.A.GEDOFIS</target>
+				<target state="final">Développement de T.A.GEDOFIS</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
 					<context context-type="linenumber">111</context>
@@ -656,7 +656,7 @@
 			</trans-unit>
 			<trans-unit id="5973ca24c8e0058d88a74c3fa6482dc6231198e5" datatype="html">
 				<source>Java SE, Swing, Exportation CSV et Excel</source>
-				<target state="new">Java SE, Swing, Exportation CSV et Excel</target>
+				<target state="final">Java SE, Swing, Exportation CSV et Excel</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
 					<context context-type="linenumber">113,114</context>
@@ -664,7 +664,7 @@
 			</trans-unit>
 			<trans-unit id="cb64b4e587090c9ab1432d3ec910f408390e939a" datatype="html">
 				<source>Recherche de dossiers (taxes d'aménagement) manquants</source>
-				<target state="new">Recherche de dossiers (taxes d'aménagement) manquants</target>
+				<target state="final">Recherche de dossiers (taxes d'aménagement) manquants</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
 					<context context-type="linenumber">116,117</context>
@@ -672,7 +672,7 @@
 			</trans-unit>
 			<trans-unit id="f646ba0780556ff19cfb80d1070c33b5eb5851f9" datatype="html">
 				<source>Génération de tableaux croisés</source>
-				<target state="new">Génération de tableaux croisés</target>
+				<target state="final">Génération de tableaux croisés</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
 					<context context-type="linenumber">118</context>
@@ -680,7 +680,7 @@
 			</trans-unit>
 			<trans-unit id="f778831465762aa11d56262f2b7b9615f8451206" datatype="html">
 				<source>Février, Avril et Août 2017</source>
-				<target state="new">Février, Avril et Août 2017</target>
+				<target state="final">Février, Avril et Août 2017</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
 					<context context-type="linenumber">131</context>
@@ -688,7 +688,7 @@
 			</trans-unit>
 			<trans-unit id="3d0a8eb4bd684c8ae1a7ba50eb3601c62d3fcf43" datatype="html">
 				<source>Formateur BAFA</source>
-				<target state="new">Formateur BAFA</target>
+				<target state="final">Formateur BAFA</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
 					<context context-type="linenumber">140</context>
@@ -696,7 +696,7 @@
 			</trans-unit>
 			<trans-unit id="0dcfd18cf92fd1f307cb9cc29fd8f1b479135964" datatype="html">
 				<source>Plusieurs sessions d'approfondissement</source>
-				<target state="new">Plusieurs sessions d'approfondissement</target>
+				<target state="final">Plusieurs sessions d'approfondissement</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
 					<context context-type="linenumber">142,143</context>
@@ -704,7 +704,7 @@
 			</trans-unit>
 			<trans-unit id="c63a691abd52c630002af17302deb35dee872fed" datatype="html">
 				<source>Une session de base</source>
-				<target state="new">Une session de base</target>
+				<target state="final">Une session de base</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
 					<context context-type="linenumber">144</context>
@@ -712,7 +712,7 @@
 			</trans-unit>
 			<trans-unit id="08c57b3d439b038c55db22e50a7e5fb9f754d4f7" datatype="html">
 				<source>Élaboration de séances de formation avec fil rouge</source>
-				<target state="new">Élaboration de séances de formation avec fil rouge</target>
+				<target state="final">Élaboration de séances de formation avec fil rouge</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
 					<context context-type="linenumber">146,147</context>
@@ -720,7 +720,7 @@
 			</trans-unit>
 			<trans-unit id="e57fdf4a8ce2555ded11c8d8744afe0834106159" datatype="html">
 				<source>Juillet 2016 et 2017</source>
-				<target state="new">Juillet 2016 et 2017</target>
+				<target state="final">Juillet 2016 et 2017</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
 					<context context-type="linenumber">160</context>
@@ -728,7 +728,7 @@
 			</trans-unit>
 			<trans-unit id="eb0c4c45c16c69104b91e02d4c466d7293b8d6a7" datatype="html">
 				<source>Animateur BAFA</source>
-				<target state="new">Animateur BAFA</target>
+				<target state="final">Animateur BAFA</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
 					<context context-type="linenumber">169</context>
@@ -736,7 +736,7 @@
 			</trans-unit>
 			<trans-unit id="a95143ea71987d7f1cc44e799fc445d3cf52643f" datatype="html">
 				<source>Organisation d'activités</source>
-				<target state="new">Organisation d'activités</target>
+				<target state="final">Organisation d'activités</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
 					<context context-type="linenumber">170</context>
@@ -744,7 +744,7 @@
 			</trans-unit>
 			<trans-unit id="781f0dc5435432010b233e4d607f1ac4267f4c28" datatype="html">
 				<source>Juin 2016</source>
-				<target state="new">Juin 2016</target>
+				<target state="final">Juin 2016</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
 					<context context-type="linenumber">183</context>
@@ -752,7 +752,7 @@
 			</trans-unit>
 			<trans-unit id="cf30278ead6435431c1abe02b3e9f7c2bfca0260" datatype="html">
 				<source>Découverte de la mise à jour des serveurs</source>
-				<target state="new">Découverte de la mise à jour des serveurs</target>
+				<target state="final">Découverte de la mise à jour des serveurs</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
 					<context context-type="linenumber">194,195</context>
@@ -760,7 +760,7 @@
 			</trans-unit>
 			<trans-unit id="67e935ab774a29d5c04f3030716adc9c43858e8d" datatype="html">
 				<source>Installation de la téléphonie IP au niveau des switchs et bureaux</source>
-				<target state="new">Installation de la téléphonie IP au niveau des switchs et bureaux</target>
+				<target state="final">Installation de la téléphonie IP au niveau des switchs et bureaux</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
 					<context context-type="linenumber">197,198</context>
@@ -768,7 +768,7 @@
 			</trans-unit>
 			<trans-unit id="2a8cb535f381096e7e8c4f4cdb12dc922c095700" datatype="html">
 				<source>Séries</source>
-				<target state="new">Séries</target>
+				<target state="final">Séries</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/interests/interests.component.html</context>
 					<context context-type="linenumber">29</context>
@@ -776,7 +776,7 @@
 			</trans-unit>
 			<trans-unit id="88aec31714d96d2b3bce3e2340d1d3f3a0b5e06c" datatype="html">
 				<source>Basketball</source>
-				<target state="new">Basketball</target>
+				<target state="final">Basketball</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/interests/interests.component.html</context>
 					<context context-type="linenumber">52</context>
@@ -784,7 +784,7 @@
 			</trans-unit>
 			<trans-unit id="59d889be7fc7901a04b6fa6062c47f6764661690" datatype="html">
 				<source>Voyages</source>
-				<target state="new">Voyages</target>
+				<target state="final">Voyages</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/interests/interests.component.html</context>
 					<context context-type="linenumber">75</context>
@@ -792,7 +792,7 @@
 			</trans-unit>
 			<trans-unit id="fec48f4f429e9b62c411a391d996bbe37b8ba0ad" datatype="html">
 				<source>Jeux vidéo</source>
-				<target state="new">Jeux vidéo</target>
+				<target state="final">Jeux vidéo</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/interests/interests.component.html</context>
 					<context context-type="linenumber">98</context>
@@ -800,7 +800,7 @@
 			</trans-unit>
 			<trans-unit id="d9a8f210d744d98462b7c140b0913888ed498b09" datatype="html">
 				<source>Films</source>
-				<target state="new">Films</target>
+				<target state="final">Films</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/interests/interests.component.html</context>
 					<context context-type="linenumber">121</context>
@@ -808,7 +808,7 @@
 			</trans-unit>
 			<trans-unit id="functionalities" datatype="html">
 				<source>Fonctionnalités</source>
-				<target state="new">Fonctionnalités</target>
+				<target state="final">Fonctionnalités</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/docto-patients-dialog/docto-patients-dialog.component.html
@@ -866,7 +866,7 @@
 			</trans-unit>
 			<trans-unit id="5dc5d26de64ffabd566d748fd70e23d13c8bad0a" datatype="html">
 				<source>Gestion des patients d'une clinique</source>
-				<target state="new">Gestion des patients d'une clinique</target>
+				<target state="final">Gestion des patients d'une clinique</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/docto-patients-dialog/docto-patients-dialog.component.html
@@ -878,7 +878,7 @@
 				<source>
 					Ordonnancement des rendez-vous en fonction des raisons et de la disponibilité des médécins
 				</source>
-				<target state="new">
+				<target state="final">
 					Ordonnancement des rendez-vous en fonction des raisons et de la disponibilité des médécins
 				</target>
 				<context-group purpose="location">
@@ -890,7 +890,7 @@
 			</trans-unit>
 			<trans-unit id="d73525e8689bf43f0a7090f9a33f669e44aefb79" datatype="html">
 				<source>Gestion des médécins</source>
-				<target state="new">Gestion des médécins</target>
+				<target state="final">Gestion des médécins</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/docto-patients-dialog/docto-patients-dialog.component.html
@@ -900,7 +900,7 @@
 			</trans-unit>
 			<trans-unit id="592a8c75d817b7573326590c9a46f0f30b8b091d" datatype="html">
 				<source>Ajout de rendez-vous</source>
-				<target state="new">Ajout de rendez-vous</target>
+				<target state="final">Ajout de rendez-vous</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/docto-patients-dialog/docto-patients-dialog.component.html
@@ -910,7 +910,7 @@
 			</trans-unit>
 			<trans-unit id="context" datatype="html">
 				<source>Contexte</source>
-				<target state="new">Contexte</target>
+				<target state="final">Contexte</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/docto-patients-dialog/docto-patients-dialog.component.html
@@ -968,7 +968,7 @@
 			</trans-unit>
 			<trans-unit id="7f86950e86d0c9f573356492ac32e3800caf482c" datatype="html">
 				<source>Développement C++ et Qt</source>
-				<target state="new">Développement C++ et Qt</target>
+				<target state="final">Développement C++ et Qt</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/docto-patients-dialog/docto-patients-dialog.component.html
@@ -978,7 +978,7 @@
 			</trans-unit>
 			<trans-unit id="4e2375bef44875151e666d6d98eebb7c24c6a5e0" datatype="html">
 				<source>Validation d'un cours de plateforme logicielle C++</source>
-				<target state="new">Validation d'un cours de plateforme logicielle C++</target>
+				<target state="final">Validation d'un cours de plateforme logicielle C++</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/docto-patients-dialog/docto-patients-dialog.component.html
@@ -988,7 +988,7 @@
 			</trans-unit>
 			<trans-unit id="d69e4da0c4901d6a644de359cfc05ee53927a2e0" datatype="html">
 				<source>Janvier à Mars 2019</source>
-				<target state="new">Janvier à Mars 2019</target>
+				<target state="final">Janvier à Mars 2019</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/docto-patients-dialog/docto-patients-dialog.component.html
@@ -998,7 +998,7 @@
 			</trans-unit>
 			<trans-unit id="dce1e492430d9deabf6525e91f4f8de5a88af70f" datatype="html">
 				<source>Plateforme logicielle C++</source>
-				<target state="new">Plateforme logicielle C++</target>
+				<target state="final">Plateforme logicielle C++</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/docto-patients-dialog/docto-patients-dialog.component.html
@@ -1008,7 +1008,7 @@
 			</trans-unit>
 			<trans-unit id="closedialog" datatype="html">
 				<source>Fermer le projet</source>
-				<target state="new">Fermer le projet</target>
+				<target state="final">Fermer le projet</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/docto-patients-dialog/docto-patients-dialog.component.html
@@ -1066,7 +1066,7 @@
 			</trans-unit>
 			<trans-unit id="c0c3100608f2fef728694b93eaf182260dded5e7" datatype="html">
 				<source>Gestion d'une flotte de camions</source>
-				<target state="new">Gestion d'une flotte de camions</target>
+				<target state="final">Gestion d'une flotte de camions</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/flotte-camions-jeedialog/flotte-camions-jeedialog.component.html
@@ -1082,7 +1082,7 @@
 			</trans-unit>
 			<trans-unit id="9d27b649cd22c9ee90cbf336409385b5244f29f1" datatype="html">
 				<source>Création de commandes</source>
-				<target state="new">Création de commandes</target>
+				<target state="final">Création de commandes</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/flotte-camions-jeedialog/flotte-camions-jeedialog.component.html
@@ -1098,7 +1098,7 @@
 			</trans-unit>
 			<trans-unit id="658bd129942f7eb0813fb0e46807c95e6b553f39" datatype="html">
 				<source>CRUD sur les entités</source>
-				<target state="new">CRUD sur les entités</target>
+				<target state="final">CRUD sur les entités</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/flotte-camions-jeedialog/flotte-camions-jeedialog.component.html
@@ -1114,7 +1114,7 @@
 			</trans-unit>
 			<trans-unit id="c98a5f7e2e4653bdabfb4339b02551d277438f08" datatype="html">
 				<source>Plusieurs livraisons pour une commande</source>
-				<target state="new">Plusieurs livraisons pour une commande</target>
+				<target state="final">Plusieurs livraisons pour une commande</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/flotte-camions-jeedialog/flotte-camions-jeedialog.component.html
@@ -1130,7 +1130,7 @@
 			</trans-unit>
 			<trans-unit id="80923ddd6a106ed2a55f441dac8279146be51508" datatype="html">
 				<source>Prise en compte du type de la marchandise</source>
-				<target state="new">Prise en compte du type de la marchandise</target>
+				<target state="final">Prise en compte du type de la marchandise</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/flotte-camions-jeedialog/flotte-camions-jeedialog.component.html
@@ -1146,7 +1146,7 @@
 			</trans-unit>
 			<trans-unit id="77f4f207cfe3b686f0699d263cc80a29feeba96f" datatype="html">
 				<source>Livraisons créées par un opérateur</source>
-				<target state="new">Livraisons créées par un opérateur</target>
+				<target state="final">Livraisons créées par un opérateur</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/flotte-camions-jeedialog/flotte-camions-jeedialog.component.html
@@ -1162,7 +1162,7 @@
 			</trans-unit>
 			<trans-unit id="99b80c0d78162e01703916c40c7deea45154ccad" datatype="html">
 				<source>Développement JEE</source>
-				<target state="new">Développement JEE</target>
+				<target state="final">Développement JEE</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/flotte-camions-jeedialog/flotte-camions-jeedialog.component.html
@@ -1172,7 +1172,7 @@
 			</trans-unit>
 			<trans-unit id="a232fb186e159a52dcb982765b5ca600a4b88535" datatype="html">
 				<source>Applications d'entreprise (nombreuses classes)</source>
-				<target state="new">Applications d'entreprise (nombreuses classes)</target>
+				<target state="final">Applications d'entreprise (nombreuses classes)</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/flotte-camions-jeedialog/flotte-camions-jeedialog.component.html
@@ -1188,7 +1188,7 @@
 			</trans-unit>
 			<trans-unit id="ead8c6c102cef891d39df9583f7c93a874f85fcc" datatype="html">
 				<source>Spécifications fonctionnelles et techniques</source>
-				<target state="new">Spécifications fonctionnelles et techniques</target>
+				<target state="final">Spécifications fonctionnelles et techniques</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/flotte-camions-jeedialog/flotte-camions-jeedialog.component.html
@@ -1210,7 +1210,7 @@
 			</trans-unit>
 			<trans-unit id="8d194603baf06d13071dd9ffb0024c77a516040e" datatype="html">
 				<source>Septembre à Novembre 2019</source>
-				<target state="new">Septembre à Novembre 2019</target>
+				<target state="final">Septembre à Novembre 2019</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/flotte-camions-jeedialog/flotte-camions-jeedialog.component.html
@@ -1220,7 +1220,7 @@
 			</trans-unit>
 			<trans-unit id="663b74045cb1208d449426687efbf0128afe48ec" datatype="html">
 				<source>Applications d'entreprise</source>
-				<target state="new">Applications d'entreprise</target>
+				<target state="final">Applications d'entreprise</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/flotte-camions-jeedialog/flotte-camions-jeedialog.component.html
@@ -1236,7 +1236,7 @@
 			</trans-unit>
 			<trans-unit id="eec5b69bd6e488cbb9d742b09cf99232b0debbec" datatype="html">
 				<source>Développement C#/.NET</source>
-				<target state="new">Développement C#/.NET</target>
+				<target state="final">Développement C#/.NET</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/flotte-camions-net-dialog/flotte-camions-net-dialog.component.html
@@ -1246,7 +1246,7 @@
 			</trans-unit>
 			<trans-unit id="ecc78cb60100b5511af90410b1ad17b4a8973a97" datatype="html">
 				<source>Novembre à Décembre 2019</source>
-				<target state="new">Novembre à Décembre 2019</target>
+				<target state="final">Novembre à Décembre 2019</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/flotte-camions-net-dialog/flotte-camions-net-dialog.component.html
@@ -1256,7 +1256,7 @@
 			</trans-unit>
 			<trans-unit id="b0be89535ccd484c7426e6da66beb58e86e3bfb9" datatype="html">
 				<source>Jeu vidéo Beat Them All (BTA)</source>
-				<target state="new">Jeu vidéo Beat Them All (BTA)</target>
+				<target state="final">Jeu vidéo Beat Them All (BTA)</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/for-the-berry-dialog/for-the-berry-dialog.component.html
@@ -1266,7 +1266,7 @@
 			</trans-unit>
 			<trans-unit id="a1028861061283a0ae6bb8368dee23f657800674" datatype="html">
 				<source>Jouable à 4 joueurs</source>
-				<target state="new">Jouable à 4 joueurs</target>
+				<target state="final">Jouable à 4 joueurs</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/for-the-berry-dialog/for-the-berry-dialog.component.html
@@ -1276,7 +1276,7 @@
 			</trans-unit>
 			<trans-unit id="98c40049609ab31c57c09840d749e12ebdcb4546" datatype="html">
 				<source>Éliminer les ennemis pour avancer dans le jeu</source>
-				<target state="new">Éliminer les ennemis pour avancer dans le jeu</target>
+				<target state="final">Éliminer les ennemis pour avancer dans le jeu</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/for-the-berry-dialog/for-the-berry-dialog.component.html
@@ -1286,7 +1286,7 @@
 			</trans-unit>
 			<trans-unit id="c703fc58c72a98fccc05b0aef63df5b67e5d00c4" datatype="html">
 				<source>Utilisation de plusieurs types d'armes : épée, arc, bâton</source>
-				<target state="new">Utilisation de plusieurs types d'armes : épée, arc, bâton</target>
+				<target state="final">Utilisation de plusieurs types d'armes : épée, arc, bâton</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/for-the-berry-dialog/for-the-berry-dialog.component.html
@@ -1299,7 +1299,7 @@
 					Création du jeu de A à Z : histoire, comportements des ennemis, incrustation des personnages et des
 					armes
 				</source>
-				<target state="new">
+				<target state="final">
 					Création du jeu de A à Z : histoire, comportements des ennemis, incrustation des personnages et des
 					armes
 				</target>
@@ -1312,7 +1312,7 @@
 			</trans-unit>
 			<trans-unit id="8bf337ae5797b1b9b36a9545d15f658d0592ecf8" datatype="html">
 				<source>Développement C#</source>
-				<target state="new">Développement C#</target>
+				<target state="final">Développement C#</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/for-the-berry-dialog/for-the-berry-dialog.component.html
@@ -1322,7 +1322,7 @@
 			</trans-unit>
 			<trans-unit id="ce0f547a23260d6c23c7b502afcd581e438deb57" datatype="html">
 				<source>Utilisation du moteur de jeux Unity</source>
-				<target state="new">Utilisation du moteur de jeux Unity</target>
+				<target state="final">Utilisation du moteur de jeux Unity</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/for-the-berry-dialog/for-the-berry-dialog.component.html
@@ -1332,7 +1332,7 @@
 			</trans-unit>
 			<trans-unit id="e511ce488ea8935cf6494adb482659cbde52ef3a" datatype="html">
 				<source>Versionning Perforce, Animations avec Maximo</source>
-				<target state="new">Versionning Perforce, Animations avec Maximo</target>
+				<target state="final">Versionning Perforce, Animations avec Maximo</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/for-the-berry-dialog/for-the-berry-dialog.component.html
@@ -1342,7 +1342,7 @@
 			</trans-unit>
 			<trans-unit id="1868526c3ccc75f9eb4d048d4b00591aaaad01a6" datatype="html">
 				<source>Janvier à Avril 2020</source>
-				<target state="new">Janvier à Avril 2020</target>
+				<target state="final">Janvier à Avril 2020</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/for-the-berry-dialog/for-the-berry-dialog.component.html
@@ -1352,7 +1352,7 @@
 			</trans-unit>
 			<trans-unit id="5e64c40a75f0a6bc205ddec051fa40f7a16d49b6" datatype="html">
 				<source>Laboratoire des jeux vidéo</source>
-				<target state="new">Laboratoire des jeux vidéo</target>
+				<target state="final">Laboratoire des jeux vidéo</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/for-the-berry-dialog/for-the-berry-dialog.component.html
@@ -1362,7 +1362,7 @@
 			</trans-unit>
 			<trans-unit id="dddf9258a9e3fe9635d0ec1a818fa7736a83b18e" datatype="html">
 				<source>Gestion des Équipements de Protection Individuelle (EPI)</source>
-				<target state="new">Gestion des Équipements de Protection Individuelle (EPI)</target>
+				<target state="final">Gestion des Équipements de Protection Individuelle (EPI)</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/gestion-epidialog/gestion-epidialog.component.html
@@ -1372,7 +1372,7 @@
 			</trans-unit>
 			<trans-unit id="9a719afa5fe63ad9a409084baade4bdc0ae68bd6" datatype="html">
 				<source>Impression PDF des vérifications des EPIs</source>
-				<target state="new">Impression PDF des vérifications des EPIs</target>
+				<target state="final">Impression PDF des vérifications des EPIs</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/gestion-epidialog/gestion-epidialog.component.html
@@ -1382,7 +1382,7 @@
 			</trans-unit>
 			<trans-unit id="ae6bb11439a3b38fd4320f7fa6af56700de20cd6" datatype="html">
 				<source>Suivi du cycle de vie des EPIs (tableaux)</source>
-				<target state="new">Suivi du cycle de vie des EPIs (tableaux)</target>
+				<target state="final">Suivi du cycle de vie des EPIs (tableaux)</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/gestion-epidialog/gestion-epidialog.component.html
@@ -1392,7 +1392,7 @@
 			</trans-unit>
 			<trans-unit id="7594aed9c2cc7af08b878ce82e3ac1cc4a29e606" datatype="html">
 				<source>Pour une formation d'élaguage d'un lycée agricole</source>
-				<target state="new">Pour une formation d'élaguage d'un lycée agricole</target>
+				<target state="final">Pour une formation d'élaguage d'un lycée agricole</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/gestion-epidialog/gestion-epidialog.component.html
@@ -1402,7 +1402,7 @@
 			</trans-unit>
 			<trans-unit id="fe45a01892c5ef6ce8e6058e454da83e96cec3b1" datatype="html">
 				<source>Gestion des vérificateurs</source>
-				<target state="new">Gestion des vérificateurs</target>
+				<target state="final">Gestion des vérificateurs</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/gestion-epidialog/gestion-epidialog.component.html
@@ -1412,7 +1412,7 @@
 			</trans-unit>
 			<trans-unit id="38df0a0cb822566284d9808b71fcc0029fcf99d9" datatype="html">
 				<source>Gestion des EPIs</source>
-				<target state="new">Gestion des EPIs</target>
+				<target state="final">Gestion des EPIs</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/gestion-epidialog/gestion-epidialog.component.html
@@ -1422,7 +1422,7 @@
 			</trans-unit>
 			<trans-unit id="0bf98a10713f288f11d838ec6aed7676a20b5c2f" datatype="html">
 				<source>Améliorer la vérification et le suivi de la vérification des EPIs</source>
-				<target state="new">Améliorer la vérification et le suivi de la vérification des EPIs</target>
+				<target state="final">Améliorer la vérification et le suivi de la vérification des EPIs</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/gestion-epidialog/gestion-epidialog.component.html
@@ -1432,7 +1432,7 @@
 			</trans-unit>
 			<trans-unit id="0bf1926354b59aee9f3cb84e1d8890146bb692cb" datatype="html">
 				<source>Développement web HTML, CSS, JS, PHP</source>
-				<target state="new">Développement web HTML, CSS, JS, PHP</target>
+				<target state="final">Développement web HTML, CSS, JS, PHP</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/gestion-epidialog/gestion-epidialog.component.html
@@ -1442,7 +1442,7 @@
 			</trans-unit>
 			<trans-unit id="0971bdf6cea52e9ef2b9f2b9d83bad56c3eed2ed" datatype="html">
 				<source>Base de données SQL</source>
-				<target state="new">Base de données SQL</target>
+				<target state="final">Base de données SQL</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/gestion-epidialog/gestion-epidialog.component.html
@@ -1452,7 +1452,7 @@
 			</trans-unit>
 			<trans-unit id="6078ed49373f56a96f4da5295f8fae578f3eb180" datatype="html">
 				<source>Méthodologie Scrum</source>
-				<target state="new">Méthodologie Scrum</target>
+				<target state="final">Méthodologie Scrum</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/gestion-epidialog/gestion-epidialog.component.html
@@ -1462,7 +1462,7 @@
 			</trans-unit>
 			<trans-unit id="67c4d3f044d78bc7d5a4824d2615e445daa7f390" datatype="html">
 				<source>Co-gestion du projet</source>
-				<target state="new">Co-gestion du projet</target>
+				<target state="final">Co-gestion du projet</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/gestion-epidialog/gestion-epidialog.component.html
@@ -1472,7 +1472,7 @@
 			</trans-unit>
 			<trans-unit id="7de0b8af7dc70bedde12c2bf5e28e4ea67ab3fe9" datatype="html">
 				<source>Janvier à Mai 2019</source>
-				<target state="new">Janvier à Mai 2019</target>
+				<target state="final">Janvier à Mai 2019</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/gestion-epidialog/gestion-epidialog.component.html
@@ -1482,7 +1482,7 @@
 			</trans-unit>
 			<trans-unit id="41dda87779eccb830a6a8ee83285f2b1bbeb0d02" datatype="html">
 				<source>Lycée agricole des Fondettes</source>
-				<target state="new">Lycée agricole des Fondettes</target>
+				<target state="final">Lycée agricole des Fondettes</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/gestion-epidialog/gestion-epidialog.component.html
@@ -1492,7 +1492,7 @@
 			</trans-unit>
 			<trans-unit id="ad72c4b40491195e30315d21a8ddf576cc15b327" datatype="html">
 				<source>Gestion du pointage dans une entreprise</source>
-				<target state="new">Gestion du pointage dans une entreprise</target>
+				<target state="final">Gestion du pointage dans une entreprise</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/pointeuse-dialog/pointeuse-dialog.component.html
@@ -1502,7 +1502,7 @@
 			</trans-unit>
 			<trans-unit id="cd4f4d20576396ae531e4a59ca237e221a1ab981" datatype="html">
 				<source>Gestion des employés et managers</source>
-				<target state="new">Gestion des employés et managers</target>
+				<target state="final">Gestion des employés et managers</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/pointeuse-dialog/pointeuse-dialog.component.html
@@ -1512,7 +1512,7 @@
 			</trans-unit>
 			<trans-unit id="87640bc6654b5dd36131dfdb3b724df5fa918ebf" datatype="html">
 				<source>Pointage à travers plusieurs pointeuses</source>
-				<target state="new">Pointage à travers plusieurs pointeuses</target>
+				<target state="final">Pointage à travers plusieurs pointeuses</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/pointeuse-dialog/pointeuse-dialog.component.html
@@ -1522,7 +1522,7 @@
 			</trans-unit>
 			<trans-unit id="69456c5764727c1cab7c1e6fd067b0f88415385e" datatype="html">
 				<source>Enregistrement des pointages en hors ligne</source>
-				<target state="new">Enregistrement des pointages en hors ligne</target>
+				<target state="final">Enregistrement des pointages en hors ligne</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/pointeuse-dialog/pointeuse-dialog.component.html
@@ -1532,7 +1532,7 @@
 			</trans-unit>
 			<trans-unit id="8f7a43f6ca54c43a707949d87f1191fc160f9da0" datatype="html">
 				<source>Développement Java et Swing pour l'UI</source>
-				<target state="new">Développement Java et Swing pour l'UI</target>
+				<target state="final">Développement Java et Swing pour l'UI</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/pointeuse-dialog/pointeuse-dialog.component.html
@@ -1554,7 +1554,7 @@
 			</trans-unit>
 			<trans-unit id="115803eb77b95766c4ee76fd846ba2c89bbf5677" datatype="html">
 				<source>Janvier à Juin 2018</source>
-				<target state="new">Janvier à Juin 2018</target>
+				<target state="final">Janvier à Juin 2018</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/pointeuse-dialog/pointeuse-dialog.component.html
@@ -1564,7 +1564,7 @@
 			</trans-unit>
 			<trans-unit id="dde9735522d4a77f579360a463d1de5ab9b3b124" datatype="html">
 				<source>Programmation Java orientée objet</source>
-				<target state="new">Programmation Java orientée objet</target>
+				<target state="final">Programmation Java orientée objet</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/pointeuse-dialog/pointeuse-dialog.component.html
@@ -1574,7 +1574,7 @@
 			</trans-unit>
 			<trans-unit id="aeb63a30658c8bbfb0be4c564ac4bd21f4d08fe5" datatype="html">
 				<source>Java, Swing, MVC, Planification</source>
-				<target state="new">Java, Swing, MVC, Planification</target>
+				<target state="final">Java, Swing, MVC, Planification</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/projects/projects.component.html</context>
 					<context context-type="linenumber">118,119</context>
@@ -1582,7 +1582,7 @@
 			</trans-unit>
 			<trans-unit id="de7a098359f3ea0e5286f66def626cd3890acf6d" datatype="html">
 				<source>Inscription conventionnelle ou via Google et Facebook</source>
-				<target state="new">Inscription conventionnelle ou via Google et Facebook</target>
+				<target state="final">Inscription conventionnelle ou via Google et Facebook</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/share-your-fit-dialog/share-your-fit-dialog.component.html
@@ -1592,7 +1592,7 @@
 			</trans-unit>
 			<trans-unit id="08a02601e8b1dcc3c39e49a5bf2671a1b2107aeb" datatype="html">
 				<source>Visualiser des entraînements liés à une machine</source>
-				<target state="new">Visualiser des entraînements liés à une machine</target>
+				<target state="final">Visualiser des entraînements liés à une machine</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/share-your-fit-dialog/share-your-fit-dialog.component.html
@@ -1604,7 +1604,7 @@
 				<source>
 					Scanner le QR Code d'une machine pour visualiser les entraînements possibles pour cette machine
 				</source>
-				<target state="new">
+				<target state="final">
 					Scanner le QR Code d'une machine pour visualiser les entraînements possibles pour cette machine
 				</target>
 				<context-group purpose="location">
@@ -1616,7 +1616,7 @@
 			</trans-unit>
 			<trans-unit id="d170f8a27fc220ba6d8572e0b8a98766eadeb294" datatype="html">
 				<source>Recherche via des tags pour trouver des entraînements spécifiques et la machine liée</source>
-				<target state="new">
+				<target state="final">
 					Recherche via des tags pour trouver des entraînements spécifiques et la machine liée
 				</target>
 				<context-group purpose="location">
@@ -1628,7 +1628,7 @@
 			</trans-unit>
 			<trans-unit id="54d36829845e4cf5fe711f614b7084af9786f965" datatype="html">
 				<source>Développement Android (Java)</source>
-				<target state="new">Développement Android (Java)</target>
+				<target state="final">Développement Android (Java)</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/share-your-fit-dialog/share-your-fit-dialog.component.html
@@ -1638,7 +1638,7 @@
 			</trans-unit>
 			<trans-unit id="50225eed25dad2a4235b3b87df46c87ca172b486" datatype="html">
 				<source>Avril 2020</source>
-				<target state="new">Avril 2020</target>
+				<target state="final">Avril 2020</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/share-your-fit-dialog/share-your-fit-dialog.component.html
@@ -1648,7 +1648,7 @@
 			</trans-unit>
 			<trans-unit id="487dee150447027ade23f8c1aba27fcdbf256cb3" datatype="html">
 				<source>Plateformes mobiles</source>
-				<target state="new">Plateformes mobiles</target>
+				<target state="final">Plateformes mobiles</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/share-your-fit-dialog/share-your-fit-dialog.component.html
@@ -1658,7 +1658,7 @@
 			</trans-unit>
 			<trans-unit id="cfffd81ab4d837005b923af8c5b5f5135972a8cf" datatype="html">
 				<source>Lecture d'un fichier Excel / CSV</source>
-				<target state="new">Lecture d'un fichier Excel / CSV</target>
+				<target state="final">Lecture d'un fichier Excel / CSV</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/student-list-dialog/student-list-dialog.component.html
@@ -1668,7 +1668,7 @@
 			</trans-unit>
 			<trans-unit id="850f95515dd8877bea5c30658f4ef6db55d14e99" datatype="html">
 				<source>Génération de listes d'étudiants</source>
-				<target state="new">Génération de listes d'étudiants</target>
+				<target state="final">Génération de listes d'étudiants</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/student-list-dialog/student-list-dialog.component.html
@@ -1678,7 +1678,7 @@
 			</trans-unit>
 			<trans-unit id="490de0361f6462fa77f7660c4f5b69eca3923ed1" datatype="html">
 				<source>Prise en compte des attributs passés dans le fichier Excel</source>
-				<target state="new">Prise en compte des attributs passés dans le fichier Excel</target>
+				<target state="final">Prise en compte des attributs passés dans le fichier Excel</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/student-list-dialog/student-list-dialog.component.html
@@ -1688,7 +1688,7 @@
 			</trans-unit>
 			<trans-unit id="09206fbefce4ac703cfe86f32119877210c0bd84" datatype="html">
 				<source>Plusieurs choix de génération</source>
-				<target state="new">Plusieurs choix de génération</target>
+				<target state="final">Plusieurs choix de génération</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/student-list-dialog/student-list-dialog.component.html
@@ -1698,7 +1698,7 @@
 			</trans-unit>
 			<trans-unit id="e2de8c3122020689ba3b183e0f41115f28872567" datatype="html">
 				<source>Enregistrement de templates</source>
-				<target state="new">Enregistrement de templates</target>
+				<target state="final">Enregistrement de templates</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/student-list-dialog/student-list-dialog.component.html
@@ -1708,7 +1708,7 @@
 			</trans-unit>
 			<trans-unit id="2b6bc76cf550d1402f74929df2b788a03e2dbc5b" datatype="html">
 				<source>Planification, spécifications techniques et fonctionnelles</source>
-				<target state="new">Planification, spécifications techniques et fonctionnelles</target>
+				<target state="final">Planification, spécifications techniques et fonctionnelles</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/student-list-dialog/student-list-dialog.component.html
@@ -1718,7 +1718,7 @@
 			</trans-unit>
 			<trans-unit id="65b492d27d910499f1f120a241399c358017ca58" datatype="html">
 				<source>Septembre à Décembre 2018</source>
-				<target state="new">Septembre à Décembre 2018</target>
+				<target state="final">Septembre à Décembre 2018</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/student-list-dialog/student-list-dialog.component.html
@@ -1728,7 +1728,7 @@
 			</trans-unit>
 			<trans-unit id="b97f7fc7a1ac2a22e9938686c05098200da3d764" datatype="html">
 				<source>Enseignant chercheur</source>
-				<target state="new">Enseignant chercheur</target>
+				<target state="final">Enseignant chercheur</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/student-list-dialog/student-list-dialog.component.html
@@ -1738,7 +1738,7 @@
 			</trans-unit>
 			<trans-unit id="a63e81c974275164d2e1e2ecb851de4166086851" datatype="html">
 				<source>Lecture de dossiers windows contenant des fichiers CSV</source>
-				<target state="new">Lecture de dossiers windows contenant des fichiers CSV</target>
+				<target state="final">Lecture de dossiers windows contenant des fichiers CSV</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/tagedofisdialog/tagedofisdialog.component.html
@@ -1748,7 +1748,7 @@
 			</trans-unit>
 			<trans-unit id="1210d89201300ce7eac34c30d1aaeaa63f436285" datatype="html">
 				<source>Recherche de dossiers manquants (taxes d'aménagement)</source>
-				<target state="new">Recherche de dossiers manquants (taxes d'aménagement)</target>
+				<target state="final">Recherche de dossiers manquants (taxes d'aménagement)</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/tagedofisdialog/tagedofisdialog.component.html
@@ -1758,7 +1758,7 @@
 			</trans-unit>
 			<trans-unit id="73874ed008da9225c1a14804306df6aca6f69b35" datatype="html">
 				<source>Consultation et exportation de tableaux croisés en CSV et Excel</source>
-				<target state="new">Consultation et exportation de tableaux croisés en CSV et Excel</target>
+				<target state="final">Consultation et exportation de tableaux croisés en CSV et Excel</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/tagedofisdialog/tagedofisdialog.component.html
@@ -1770,7 +1770,7 @@
 				<source>
 					Filtrage des recherches et consultations par année ou groupe d'années, commune, type de taxe
 				</source>
-				<target state="new">
+				<target state="final">
 					Filtrage des recherches et consultations par année ou groupe d'années, commune, type de taxe
 				</target>
 				<context-group purpose="location">
@@ -1782,7 +1782,7 @@
 			</trans-unit>
 			<trans-unit id="74cf9c04ddb3f25069512bac3964c4f7177b08c7" datatype="html">
 				<source>Analyse des besoins client</source>
-				<target state="new">Analyse des besoins client</target>
+				<target state="final">Analyse des besoins client</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/tagedofisdialog/tagedofisdialog.component.html
@@ -1792,7 +1792,7 @@
 			</trans-unit>
 			<trans-unit id="658ae2e9382b1146d1d527cf198b9ea29e319112" datatype="html">
 				<source>Plusieurs itérations pour convenir aux besoins et à leur évolution</source>
-				<target state="new">Plusieurs itérations pour convenir aux besoins et à leur évolution</target>
+				<target state="final">Plusieurs itérations pour convenir aux besoins et à leur évolution</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">
 						src/app/projects/tagedofisdialog/tagedofisdialog.component.html
@@ -1802,7 +1802,7 @@
 			</trans-unit>
 			<trans-unit id="54a98afae45bff5ad05deaf9f403d43aeca658f3" datatype="html">
 				<source>Programmation</source>
-				<target state="new">Programmation</target>
+				<target state="final">Programmation</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/skills/skills.component.html</context>
 					<context context-type="linenumber">10</context>
@@ -1810,7 +1810,7 @@
 			</trans-unit>
 			<trans-unit id="4b95ca1519df09b58e90c1b128d6b374a3766ef0" datatype="html">
 				<source>Outils</source>
-				<target state="new">Outils</target>
+				<target state="final">Outils</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/skills/skills.component.html</context>
 					<context context-type="linenumber">283</context>

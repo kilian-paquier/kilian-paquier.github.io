@@ -6,9 +6,10 @@
 		"ngh": "ngh",
 		"start": "ng serve",
 		"build": "ng build --prod && ng build --configuration=en",
-		"deploy": "npm run build && ngh --branch=gh-pages --cname=kilian-paquier.fr",
+		"deploy": "ngh --branch=gh-pages --cname=kilian-paquier.fr",
 		"format": "prettier --write . --config .prettierrc",
-		"translation": "ng extract-i18n --output-path src/locale --progress=true --ivy"
+		"translation": "ng extract-i18n --output-path src/locale --progress=true --ivy && ng run portfolio:xliffmerge",
+		"start-en": "ng serve --configuration=en"
 	},
 	"private": true,
 	"dependencies": {
@@ -29,6 +30,7 @@
 		"@fortawesome/free-brands-svg-icons": "^5.15.2",
 		"@fortawesome/free-regular-svg-icons": "^5.15.2",
 		"@fortawesome/free-solid-svg-icons": "^5.15.2",
+		"@ngx-i18nsupport/tooling": "^8.0.3",
 		"@nicky-lenaers/ngx-scroll-to": "^9.0.0",
 		"@types/jquery": "^3.5.5",
 		"bootstrap": "^4.6.0",
@@ -48,6 +50,7 @@
 		"@angular/cli": "^11.2.4",
 		"@angular/compiler-cli": "^11.2.5",
 		"@angular/localize": "^11.2.5",
+		"@ngx-i18nsupport/ngx-i18nsupport": "^1.1.6",
 		"@types/node": "^14.14.34",
 		"codelyzer": "^6.0.1",
 		"protractor": "~7.0.0",
