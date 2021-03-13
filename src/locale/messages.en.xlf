@@ -158,18 +158,18 @@
 				<source> Élaboration d&apos;un Bilan Scientifique &amp; Technique </source>
 				<target>Formulation of a Scientific and Technical Review</target>
 				<context-group purpose="location">
-				  <context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
-				  <context context-type="linenumber">29,30</context>
+					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
+					<context context-type="linenumber">29,30</context>
 				</context-group>
-			  </trans-unit>
-			  <trans-unit id="f331d3f23b9da0dbc49d45d3a7aed412b77e87c8" datatype="html">
+			</trans-unit>
+			<trans-unit id="f331d3f23b9da0dbc49d45d3a7aed412b77e87c8" datatype="html">
 				<source> Développement TypeScript &amp; API NestJS </source>
 				<target>TypeScript development &amp; NestJS API</target>
 				<context-group purpose="location">
-				  <context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
-				  <context context-type="linenumber">32,33</context>
+					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
+					<context context-type="linenumber">32,33</context>
 				</context-group>
-			  </trans-unit>
+			</trans-unit>
 			<trans-unit id="006824bd8d4f3881d3d5b00e2947fcd32d33bfc7" datatype="html">
 				<source>Juin à Août 2019</source>
 				<target>June to August 2019</target>

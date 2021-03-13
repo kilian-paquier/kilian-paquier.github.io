@@ -9,12 +9,39 @@
 			<div class="col-12 col-lg-6 mb-3 wow fadeInLeft">
 				<mat-card>
 					<mat-card-header>
+						<mat-card-title class="text-left">Sopra Steria</mat-card-title>
+						<mat-card-subtitle class="text-left ml-3" i18n>Mars 2021 à Aujourd'hui</mat-card-subtitle>
+					</mat-card-header>
+					<img mat-card-image class="experience-image" src="../../assets/images/soprasteria.jpg" />
+					<mat-card-content>
+						<mat-expansion-panel (opened)="closeOthersPanels(0)">
+							<mat-expansion-panel-header>
+								<mat-panel-title i18n="@@knowmore">En savoir plus</mat-panel-title>
+							</mat-expansion-panel-header>
+							<ul class="text-left list-group list-group-flush">
+								<li class="list-group-item bg-transparent" i18n="@@intern">Ingénieur</li>
+								<li class="list-group-item bg-transparent" i18n>Développement Angular, Java</li>
+								<li class="list-group-item bg-transparent" i18n>Tests unitaires Jasmine & JUnit</li>
+								<li class="list-group-item bg-transparent" i18n>
+									Élaboration de spécifications et documentations
+								</li>
+								<li class="list-group-item bg-transparent" i18n>
+									Fonctionnement en méthodologie Agile (planning poker, grooming, daily, kanban)
+								</li>
+							</ul>
+						</mat-expansion-panel>
+					</mat-card-content>
+				</mat-card>
+			</div>
+			<div class="col-12 col-lg-6 mb-3 wow fadeInRight">
+				<mat-card>
+					<mat-card-header>
 						<mat-card-title class="text-left">ALTEN</mat-card-title>
 						<mat-card-subtitle class="text-left ml-3" i18n>Août 2020 à Février 2021</mat-card-subtitle>
 					</mat-card-header>
 					<img mat-card-image class="experience-image" src="../../assets/images/alten.png" />
 					<mat-card-content>
-						<mat-expansion-panel (opened)="closeOthersPanels(0)">
+						<mat-expansion-panel (opened)="closeOthersPanels(1)">
 							<mat-expansion-panel-header>
 								<mat-panel-title i18n="@@knowmore">En savoir plus</mat-panel-title>
 							</mat-expansion-panel-header>
@@ -31,12 +58,13 @@
 								<li class="list-group-item bg-transparent" i18n>
 									Développement TypeScript & API NestJS
 								</li>
+								<li class="list-group-item bg-transparent" i18n>Tests unitaires Jest</li>
 							</ul>
 						</mat-expansion-panel>
 					</mat-card-content>
 				</mat-card>
 			</div>
-			<div class="col-12 col-lg-6 mb-3 wow fadeInRight">
+			<div class="col-12 col-lg-6 mb-3 wow fadeInLeft" data-wow-delay="0.1s">
 				<mat-card>
 					<mat-card-header>
 						<mat-card-title class="text-left">Eurosys - CHEOPS</mat-card-title>
@@ -44,7 +72,7 @@
 					</mat-card-header>
 					<img mat-card-image class="experience-image" src="../../assets/images/logo-eurosys.jpg" />
 					<mat-card-content>
-						<mat-expansion-panel (opened)="closeOthersPanels(1)">
+						<mat-expansion-panel (opened)="closeOthersPanels(2)">
 							<mat-expansion-panel-header>
 								<mat-panel-title i18n="@@knowmore">En savoir plus</mat-panel-title>
 							</mat-expansion-panel-header>
@@ -65,7 +93,7 @@
 					</mat-card-content>
 				</mat-card>
 			</div>
-			<div class="col-12 col-lg-6 mb-3 wow fadeInLeft" data-wow-delay="0.1s">
+			<div class="col-12 col-lg-6 mb-3 wow fadeInRight" data-wow-delay="0.1s">
 				<mat-card>
 					<mat-card-header>
 						<mat-card-title class="text-left">DDT*</mat-card-title>
@@ -73,7 +101,7 @@
 					</mat-card-header>
 					<img mat-card-image class="experience-image" src="../../assets/images/ddt.jpg" />
 					<mat-card-content>
-						<mat-expansion-panel (opened)="closeOthersPanels(2)">
+						<mat-expansion-panel (opened)="closeOthersPanels(3)">
 							<mat-expansion-panel-header>
 								<mat-panel-title i18n="@@knowmore">En savoir plus</mat-panel-title>
 							</mat-expansion-panel-header>
@@ -96,7 +124,7 @@
 					</mat-card-content>
 				</mat-card>
 			</div>
-			<div class="col-12 col-lg-6 mb-3 wow fadeInRight" data-wow-delay="0.1s">
+			<div class="col-12 col-lg-6 mb-3 wow fadeInLeft" data-wow-delay="0.2s">
 				<mat-card>
 					<mat-card-header>
 						<mat-card-title class="text-left">UFCV*</mat-card-title>
@@ -104,7 +132,7 @@
 					</mat-card-header>
 					<img mat-card-image class="experience-image" src="../../assets/images/logoufcv-hd.jpg" />
 					<mat-card-content>
-						<mat-expansion-panel (opened)="closeOthersPanels(3)">
+						<mat-expansion-panel (opened)="closeOthersPanels(4)">
 							<mat-expansion-panel-header>
 								<mat-panel-title i18n="@@knowmore">En savoir plus</mat-panel-title>
 							</mat-expansion-panel-header>
@@ -125,7 +153,7 @@
 					</mat-card-content>
 				</mat-card>
 			</div>
-			<div class="col-12 col-lg-6 mb-3 mb-lg-0 wow fadeInLeft" data-wow-delay="0.2s">
+			<div class="col-12 col-lg-6 mb-3 mb-lg-0 wow fadeInRight" data-wow-delay="0.2s">
 				<mat-card>
 					<mat-card-header>
 						<mat-card-title class="text-left">CGCV*</mat-card-title>
@@ -133,7 +161,7 @@
 					</mat-card-header>
 					<img mat-card-image class="experience-image" src="../../assets/images/cgcv.jpeg" />
 					<mat-card-content>
-						<mat-expansion-panel (opened)="closeOthersPanels(4)">
+						<mat-expansion-panel (opened)="closeOthersPanels(5)">
 							<mat-expansion-panel-header>
 								<mat-panel-title i18n="@@knowmore">En savoir plus</mat-panel-title>
 							</mat-expansion-panel-header>
@@ -148,7 +176,7 @@
 					</mat-card-content>
 				</mat-card>
 			</div>
-			<div class="col-12 col-lg-6 wow fadeInRight" data-wow-delay="0.2s">
+			<div class="col-12 col-lg-6 wow fadeInLeft" data-wow-delay="0.3s">
 				<mat-card>
 					<mat-card-header>
 						<mat-card-title class="text-left">DREAL*</mat-card-title>
@@ -156,7 +184,7 @@
 					</mat-card-header>
 					<img mat-card-image class="experience-image" src="../../assets/images/dreal.png" />
 					<mat-card-content>
-						<mat-expansion-panel (opened)="closeOthersPanels(5)">
+						<mat-expansion-panel (opened)="closeOthersPanels(6)">
 							<mat-expansion-panel-header>
 								<mat-panel-title i18n="@@knowmore">En savoir plus</mat-panel-title>
 							</mat-expansion-panel-header>
