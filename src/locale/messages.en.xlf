@@ -10,6 +10,14 @@
 					<context context-type="linenumber">6</context>
 				</context-group>
 			</trans-unit>
+			<trans-unit id="df376043ed8ce2a1adae2fb669f68b72eda129bc" datatype="html">
+				<source>Ingénieur développement</source>
+				<target>Development engineer</target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/about/about.component.html</context>
+					<context context-type="linenumber">5</context>
+				</context-group>
+			</trans-unit>
 			<trans-unit id="53c791780896b392cbd52949c5a2846ad45e5182" datatype="html">
 				<source>Expériences</source>
 				<target>Experiences</target>
@@ -230,7 +238,6 @@
 			<trans-unit id="ef26e473df609243e3e81030a5e7e21cb5bc132d" datatype="html">
 				<source>Développement de T.A.GEDOFIS</source>
 				<target>Development of T.A.GEDOFIS</target>
-				<target />
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
 					<context context-type="linenumber">77</context>
@@ -444,9 +451,9 @@
 					<context context-type="linenumber">41,42</context>
 				</context-group>
 			</trans-unit>
-			<trans-unit id="ae23e9bd0fac11f403dd99f10d0df4f2f8c4171d" datatype="html">
-				<source>Août 2019 - Aujourd&apos;hui</source>
-				<target>August 2019 - Today</target>
+			<trans-unit id="081d6bd637471c52ed8c90ded5f24f4cfab8d8e3" datatype="html">
+				<source>Août 2019 - Février 2021</source>
+				<target>August 2019 - February 2021</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/education/education.component.html</context>
 					<context context-type="linenumber">20</context>
@@ -500,12 +507,68 @@
 					<context context-type="linenumber">35,37</context>
 				</context-group>
 			</trans-unit>
-			<trans-unit id="2cf9b291c306703fdc0b0ada4cf2697589d21869" datatype="html">
-				<source>Septembre 2017 - Aujourd&apos;hui</source>
-				<target>September 2017 - Today</target>
+			<trans-unit id="f9ef5b6b05e939125d824b857593b7688c5c5808" datatype="html">
+				<source>Septembre 2017 - Août 2019</source>
+				<target>September 2017 - August 2019</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/education/education.component.html</context>
 					<context context-type="linenumber">52</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="engineer" datatype="html">
+				<source>Ingénieur</source>
+				<target>Engineer</target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
+					<context context-type="linenumber">22</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="5d4178b27b2f38666ed2fbc293abd60d6706196d" datatype="html">
+				<source>Développement Angular, Java</source>
+				<target>Angular, Java development</target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
+					<context context-type="linenumber">23</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="2bf28dfa641dcfee824f0ebb1555b4b60c2e89a3" datatype="html">
+				<source>Tests unitaires Jasmine &amp; JUnit</source>
+				<target>Unit testing Jasmine &amp; JUnit</target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
+					<context context-type="linenumber">24</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="ccfec3dd612bc4b015ec9bafe81275bf93010f8d" datatype="html">
+				<source>Élaboration de spécifications et documentations</source>
+				<target>Formulation of specifications and documentations</target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
+					<context context-type="linenumber">26,27</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="bfef3f0004b3c6f54c7f0799a84d55c704288122" datatype="html">
+				<source>Tests unitaires Jest</source>
+				<target>Unit testing Jest</target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
+					<context context-type="linenumber">61</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="7fab40ab732f3f36a8a6cef2799eaedbc785047b" datatype="html">
+				<source>Fonctionnement en méthodologie Agile (planning poker, grooming, daily, kanban)</source>
+				<target>Working in agile methodology (planning poker, grooming, daily, kanban)</target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
+					<context context-type="linenumber">29,30</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="640300af0ecc71d815a36bfcb5674eb9c8167416" datatype="html">
+				<source>Mars 2021 à Aujourd&apos;hui</source>
+				<target>Since march 2021</target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
+					<context context-type="linenumber">13</context>
 				</context-group>
 			</trans-unit>
 			<trans-unit id="a703ef752bd7a9dd9e60961451da4e4fd243ff1a" datatype="html">
@@ -639,11 +702,24 @@
 					<context context-type="linenumber">32,34</context>
 				</context-group>
 			</trans-unit>
-			<trans-unit id="39a678c660d36298e19f8d1b3d5a1fd49692275c" datatype="html">
+			<trans-unit id="a4607fb5686e85ad786a1c50444ffc812024eda3" datatype="html">
 				<source
-				> Passionné par l&apos;informatique depuis la classe de 4e (où j&apos;ai pu suivre un cours de HTML et CSS sur le Site du Zéro), ma principale qualité se porte sur le souci du détail car il est important pour moi de fournir des applications complètes qui facilitent l&apos;expérience utilisateur (en prenant encompte le ressenti des utilisateurs finaux à chaque démonstration). </source>
+				> Bienvenue sur mon portfolio et bonne lecture ! Je suis ingénieur développement titulaire d&apos;un double diplôme ingénieur informatique (avec Polytech Tours) et maîtrise informatique (Université du Québec à Chicoutimi) </source>
 				<target>
-					Passionate about computer science since the 8th grade in the USA or the year 9 in the UK (where i
+					Welcome on my portfolio and have a great reading ! I'm a development engineer with a computer
+					science engineering diploma (with Polytech Tours) and a computer science master (with the University
+					of Quebec at Chicoutimi)
+				</target>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/about/about.component.html</context>
+					<context context-type="linenumber">32,35</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="cb1d0dce57dd4364813fecda3836a95b50c627f5" datatype="html">
+				<source
+				> Passionné par l&apos;informatique depuis la classe de 4e (où j&apos;ai pu suivre un cours de HTML et CSS sur le Site du Zéro), ma principale qualité se porte sur le souci du détail car il est important pour moi de fournir des applications complètes qui facilitent l&apos;expérience utilisateur (en prenant en compte le ressenti des utilisateurs finaux à chaque démonstration). </source>
+				<target>
+					Interested by computer science since the 8th grade in the USA or the year 9 in the UK (where i
 					attended a course in HTML/CSS on the website "Site du Zéro"), my main quality is my attention to
 					detail because it is important for me to produce complete applications which facilitate the user
 					experience (in taking into account the perception of the final users at every application
@@ -651,7 +727,7 @@
 				</target>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/about/about.component.html</context>
-					<context context-type="linenumber">39,43</context>
+					<context context-type="linenumber">40,44</context>
 				</context-group>
 			</trans-unit>
 			<trans-unit id="1abf1249edbb18526619a955386c0887f585a801" datatype="html">

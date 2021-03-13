@@ -2,64 +2,8 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
 	<file source-language="fr" datatype="plaintext" original="ng2.template">
 		<body>
-			<trans-unit id="about" datatype="html">
-				<source>À propos</source>
-				<context-group purpose="location">
-					<context context-type="sourcefile">src/app/app.component.html</context>
-					<context context-type="linenumber">6</context>
-				</context-group>
-			</trans-unit>
-			<trans-unit id="53c791780896b392cbd52949c5a2846ad45e5182" datatype="html">
-				<source>Expériences</source>
-				<context-group purpose="location">
-					<context context-type="sourcefile">src/app/app.component.html</context>
-					<context context-type="linenumber">10</context>
-				</context-group>
-			</trans-unit>
-			<trans-unit id="education" datatype="html">
-				<source>Formations</source>
-				<context-group purpose="location">
-					<context context-type="sourcefile">src/app/app.component.html</context>
-					<context context-type="linenumber">14</context>
-				</context-group>
-			</trans-unit>
-			<trans-unit id="skills" datatype="html">
-				<source>Compétences</source>
-				<context-group purpose="location">
-					<context context-type="sourcefile">src/app/app.component.html</context>
-					<context context-type="linenumber">18</context>
-				</context-group>
-			</trans-unit>
-			<trans-unit id="projects" datatype="html">
-				<source>Projets</source>
-				<context-group purpose="location">
-					<context context-type="sourcefile">src/app/app.component.html</context>
-					<context context-type="linenumber">22</context>
-				</context-group>
-			</trans-unit>
-			<trans-unit id="interests" datatype="html">
-				<source>Centres d&apos;intérêts</source>
-				<context-group purpose="location">
-					<context context-type="sourcefile">src/app/app.component.html</context>
-					<context context-type="linenumber">26</context>
-				</context-group>
-			</trans-unit>
-			<trans-unit id="contact" datatype="html">
-				<source>Contactez-moi</source>
-				<context-group purpose="location">
-					<context context-type="sourcefile">src/app/app.component.html</context>
-					<context context-type="linenumber">30</context>
-				</context-group>
-			</trans-unit>
-			<trans-unit id="49637bb41fa270c47c6f220fef8490fefa7bb720" datatype="html">
-				<source>/en</source>
-				<context-group purpose="location">
-					<context context-type="sourcefile">src/app/app.component.html</context>
-					<context context-type="linenumber">43</context>
-				</context-group>
-			</trans-unit>
-			<trans-unit id="11d2590ff278b4dfeb71eebfa36f57a0f7f71259" datatype="html">
-				<source>Stagiaire Consultant Innovation</source>
+			<trans-unit id="df376043ed8ce2a1adae2fb669f68b72eda129bc" datatype="html">
+				<source>Ingénieur développement</source>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/about/about.component.html</context>
 					<context context-type="linenumber">5</context>
@@ -79,27 +23,107 @@
 					<context context-type="linenumber">16,17</context>
 				</context-group>
 			</trans-unit>
-			<trans-unit id="4f389a74a7578d5ba325d319be6d4aa07b9bb9ec" datatype="html">
-				<source
-				> Bienvenue sur mon portfolio et bonne lecture ! Je suis étudiant en double diplôme ingénieur informatique et maîtrise informatique (avec Polytech Tours et l&apos;Université du Québec à Chicoutimi). </source>
+			<trans-unit id="about" datatype="html">
+				<source>À propos</source>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/about/about.component.html</context>
-					<context context-type="linenumber">32,34</context>
+					<context context-type="linenumber">26</context>
+				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/app.component.html</context>
+					<context context-type="linenumber">6</context>
 				</context-group>
 			</trans-unit>
-			<trans-unit id="39a678c660d36298e19f8d1b3d5a1fd49692275c" datatype="html">
+			<trans-unit id="a4607fb5686e85ad786a1c50444ffc812024eda3" datatype="html">
 				<source
-				> Passionné par l&apos;informatique depuis la classe de 4e (où j&apos;ai pu suivre un cours de HTML et CSS sur le Site du Zéro), ma principale qualité se porte sur le souci du détail car il est important pour moi de fournir des applications complètes qui facilitent l&apos;expérience utilisateur (en prenant encompte le ressenti des utilisateurs finaux à chaque démonstration). </source>
+				> Bienvenue sur mon portfolio et bonne lecture ! Je suis ingénieur développement titulaire d&apos;un double diplôme ingénieur informatique (avec Polytech Tours) et maîtrise informatique (Université du Québec à Chicoutimi) </source>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/about/about.component.html</context>
-					<context context-type="linenumber">39,43</context>
+					<context context-type="linenumber">32,35</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="cb1d0dce57dd4364813fecda3836a95b50c627f5" datatype="html">
+				<source
+				> Passionné par l&apos;informatique depuis la classe de 4e (où j&apos;ai pu suivre un cours de HTML et CSS sur le Site du Zéro), ma principale qualité se porte sur le souci du détail car il est important pour moi de fournir des applications complètes qui facilitent l&apos;expérience utilisateur (en prenant en compte le ressenti des utilisateurs finaux à chaque démonstration). </source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/about/about.component.html</context>
+					<context context-type="linenumber">40,44</context>
 				</context-group>
 			</trans-unit>
 			<trans-unit id="1abf1249edbb18526619a955386c0887f585a801" datatype="html">
 				<source>ans</source>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/about/about.component.html</context>
-					<context context-type="linenumber">46</context>
+					<context context-type="linenumber">47</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="53c791780896b392cbd52949c5a2846ad45e5182" datatype="html">
+				<source>Expériences</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/app.component.html</context>
+					<context context-type="linenumber">10</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="education" datatype="html">
+				<source>Formations</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/app.component.html</context>
+					<context context-type="linenumber">14</context>
+				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/education/education.component.html</context>
+					<context context-type="linenumber">5</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="skills" datatype="html">
+				<source>Compétences</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/app.component.html</context>
+					<context context-type="linenumber">18</context>
+				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/skills/skills.component.html</context>
+					<context context-type="linenumber">5</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="projects" datatype="html">
+				<source>Projets</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/app.component.html</context>
+					<context context-type="linenumber">22</context>
+				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/projects/projects.component.html</context>
+					<context context-type="linenumber">5</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="interests" datatype="html">
+				<source>Centres d&apos;intérêts</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/app.component.html</context>
+					<context context-type="linenumber">26</context>
+				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/interests/interests.component.html</context>
+					<context context-type="linenumber">5</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="contact" datatype="html">
+				<source>Contactez-moi</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/app.component.html</context>
+					<context context-type="linenumber">30</context>
+				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/contact/contact.component.html</context>
+					<context context-type="linenumber">5</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="49637bb41fa270c47c6f220fef8490fefa7bb720" datatype="html">
+				<source>/en</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/app.component.html</context>
+					<context context-type="linenumber">43</context>
 				</context-group>
 			</trans-unit>
 			<trans-unit id="75a8926bddab539c66b7b683cc29d33706c2b11a" datatype="html">
@@ -109,11 +133,33 @@
 					<context context-type="linenumber">16</context>
 				</context-group>
 			</trans-unit>
+			<trans-unit id="required" datatype="html">
+				<source>Champ obligatoire</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/contact/contact.component.html</context>
+					<context context-type="linenumber">24,25</context>
+				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/contact/contact.component.html</context>
+					<context context-type="linenumber">38,39</context>
+				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/contact/contact.component.html</context>
+					<context context-type="linenumber">71,72</context>
+				</context-group>
+			</trans-unit>
 			<trans-unit id="f20d0571a424df74b64eadff282d637f1b5f3948" datatype="html">
 				<source>Votre adresse mail</source>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/contact/contact.component.html</context>
 					<context context-type="linenumber">30</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="24be839273806e7db0770ae31176e37004a8a604" datatype="html">
+				<source> Ceci n&apos;est pas une adresse mail </source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/contact/contact.component.html</context>
+					<context context-type="linenumber">41,42</context>
 				</context-group>
 			</trans-unit>
 			<trans-unit id="bfa6821283883699371e2352f26800d546d4e624" datatype="html">
@@ -137,22 +183,8 @@
 					<context context-type="linenumber">87</context>
 				</context-group>
 			</trans-unit>
-			<trans-unit id="required" datatype="html">
-				<source>Champ obligatoire</source>
-				<context-group purpose="location">
-					<context context-type="sourcefile">src/app/contact/contact.component.html</context>
-					<context context-type="linenumber">24,25</context>
-				</context-group>
-			</trans-unit>
-			<trans-unit id="24be839273806e7db0770ae31176e37004a8a604" datatype="html">
-				<source> Ceci n&apos;est pas une adresse mail </source>
-				<context-group purpose="location">
-					<context context-type="sourcefile">src/app/contact/contact.component.html</context>
-					<context context-type="linenumber">41,42</context>
-				</context-group>
-			</trans-unit>
-			<trans-unit id="ae23e9bd0fac11f403dd99f10d0df4f2f8c4171d" datatype="html">
-				<source>Août 2019 - Aujourd&apos;hui</source>
+			<trans-unit id="081d6bd637471c52ed8c90ded5f24f4cfab8d8e3" datatype="html">
+				<source>Août 2019 - Février 2021</source>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/education/education.component.html</context>
 					<context context-type="linenumber">20</context>
@@ -196,8 +228,8 @@
 					<context context-type="linenumber">35,37</context>
 				</context-group>
 			</trans-unit>
-			<trans-unit id="2cf9b291c306703fdc0b0ada4cf2697589d21869" datatype="html">
-				<source>Septembre 2017 - Aujourd&apos;hui</source>
+			<trans-unit id="f9ef5b6b05e939125d824b857593b7688c5c5808" datatype="html">
+				<source>Septembre 2017 - Août 2019</source>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/education/education.component.html</context>
 					<context context-type="linenumber">52</context>
@@ -290,8 +322,8 @@
 					<context context-type="linenumber">5</context>
 				</context-group>
 			</trans-unit>
-			<trans-unit id="536d6cbafb526e6e5d92c6b79999dc41ee87a76b" datatype="html">
-				<source>Août 2020 à Février 2021</source>
+			<trans-unit id="640300af0ecc71d815a36bfcb5674eb9c8167416" datatype="html">
+				<source>Mars 2021 à Aujourd&apos;hui</source>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
 					<context context-type="linenumber">13</context>
@@ -303,61 +335,178 @@
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
 					<context context-type="linenumber">19</context>
 				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
+					<context context-type="linenumber">46</context>
+				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
+					<context context-type="linenumber">77</context>
+				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
+					<context context-type="linenumber">106</context>
+				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
+					<context context-type="linenumber">137</context>
+				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
+					<context context-type="linenumber">166</context>
+				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
+					<context context-type="linenumber">189</context>
+				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/projects/projects.component.html</context>
+					<context context-type="linenumber">18,19</context>
+				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/projects/projects.component.html</context>
+					<context context-type="linenumber">37,38</context>
+				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/projects/projects.component.html</context>
+					<context context-type="linenumber">56,57</context>
+				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/projects/projects.component.html</context>
+					<context context-type="linenumber">75,76</context>
+				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/projects/projects.component.html</context>
+					<context context-type="linenumber">89,90</context>
+				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/projects/projects.component.html</context>
+					<context context-type="linenumber">108,109</context>
+				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/projects/projects.component.html</context>
+					<context context-type="linenumber">124,125</context>
+				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/projects/projects.component.html</context>
+					<context context-type="linenumber">138,139</context>
+				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/projects/projects.component.html</context>
+					<context context-type="linenumber">152,153</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="engineer" datatype="html">
+				<source>Ingénieur</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
+					<context context-type="linenumber">22</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="5d4178b27b2f38666ed2fbc293abd60d6706196d" datatype="html">
+				<source>Développement Angular, Java</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
+					<context context-type="linenumber">23</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="2bf28dfa641dcfee824f0ebb1555b4b60c2e89a3" datatype="html">
+				<source>Tests unitaires Jasmine &amp; JUnit</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
+					<context context-type="linenumber">24</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="ccfec3dd612bc4b015ec9bafe81275bf93010f8d" datatype="html">
+				<source>Élaboration de spécifications et documentations</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
+					<context context-type="linenumber">26,27</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="7fab40ab732f3f36a8a6cef2799eaedbc785047b" datatype="html">
+				<source>Fonctionnement en méthodologie Agile (planning poker, grooming, daily, kanban)</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
+					<context context-type="linenumber">29,30</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="536d6cbafb526e6e5d92c6b79999dc41ee87a76b" datatype="html">
+				<source>Août 2020 à Février 2021</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
+					<context context-type="linenumber">40</context>
+				</context-group>
 			</trans-unit>
 			<trans-unit id="intern" datatype="html">
 				<source>Stagiaire</source>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
-					<context context-type="linenumber">22</context>
+					<context context-type="linenumber">49</context>
+				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
+					<context context-type="linenumber">80</context>
+				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
+					<context context-type="linenumber">192</context>
 				</context-group>
 			</trans-unit>
 			<trans-unit id="ca1ff42c38eb2564d6dee0d827b5210664d3c3d1" datatype="html">
 				<source>Développement ÉlectronJS</source>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
-					<context context-type="linenumber">23</context>
+					<context context-type="linenumber">50</context>
 				</context-group>
 			</trans-unit>
 			<trans-unit id="d77bc74e8515e3f804489850e2ab0e6ef22c90f6" datatype="html">
 				<source>Utilisation d&apos;une Blockchain</source>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
-					<context context-type="linenumber">24</context>
+					<context context-type="linenumber">51</context>
 				</context-group>
 			</trans-unit>
 			<trans-unit id="009e14b970d2c2a351eaaa1d736b58645da95d64" datatype="html">
 				<source>Élaboration de spécifications fonctionnelles</source>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
-					<context context-type="linenumber">26,27</context>
+					<context context-type="linenumber">53,54</context>
 				</context-group>
 			</trans-unit>
 			<trans-unit id="3c2af50f541aa111da3e2cfe4a8402faaefcd4e0" datatype="html">
 				<source> Élaboration d&apos;un Bilan Scientifique &amp; Technique </source>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
-					<context context-type="linenumber">29,30</context>
+					<context context-type="linenumber">56,57</context>
 				</context-group>
 			</trans-unit>
 			<trans-unit id="f331d3f23b9da0dbc49d45d3a7aed412b77e87c8" datatype="html">
 				<source> Développement TypeScript &amp; API NestJS </source>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
-					<context context-type="linenumber">32,33</context>
+					<context context-type="linenumber">59,60</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="bfef3f0004b3c6f54c7f0799a84d55c704288122" datatype="html">
+				<source>Tests unitaires Jest</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
+					<context context-type="linenumber">61</context>
 				</context-group>
 			</trans-unit>
 			<trans-unit id="006824bd8d4f3881d3d5b00e2947fcd32d33bfc7" datatype="html">
 				<source>Juin à Août 2019</source>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
-					<context context-type="linenumber">43</context>
+					<context context-type="linenumber">71</context>
 				</context-group>
 			</trans-unit>
 			<trans-unit id="8c4695f9c805d6253654d0847efa10ed3f2d8c69" datatype="html">
 				<source> Analyse de la version du framework de l&apos;ERP (ExtJS) </source>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
-					<context context-type="linenumber">54,55</context>
+					<context context-type="linenumber">82,83</context>
 				</context-group>
 			</trans-unit>
 			<trans-unit id="512cc845c6f29bcf86e9129a2a70dde23caaa1d7" datatype="html">
@@ -365,140 +514,146 @@
 				> Estimation d&apos;un temps et des changements à effectuer pour passer à une version plus récente du framework </source>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
-					<context context-type="linenumber">57,59</context>
+					<context context-type="linenumber">85,87</context>
 				</context-group>
 			</trans-unit>
 			<trans-unit id="2058cc4870e82a0ecd5e002b39158f2927324512" datatype="html">
 				<source> Développement de plusieurs fonctionnalités sur l&apos;ERP </source>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
-					<context context-type="linenumber">61,62</context>
+					<context context-type="linenumber">89,90</context>
 				</context-group>
 			</trans-unit>
 			<trans-unit id="ac6a6c68b9cda39f09a00bf40be28356281c83cc" datatype="html">
 				<source>Août 2018</source>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
-					<context context-type="linenumber">72</context>
+					<context context-type="linenumber">100</context>
+				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">
+						src/app/projects/tagedofisdialog/tagedofisdialog.component.html
+					</context>
+					<context context-type="linenumber">55</context>
 				</context-group>
 			</trans-unit>
 			<trans-unit id="df313912ab1054d453e25e5cec4e4da55f8e6c49" datatype="html">
 				<source>Vacataire</source>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
-					<context context-type="linenumber">81</context>
+					<context context-type="linenumber">109</context>
 				</context-group>
 			</trans-unit>
 			<trans-unit id="455f1372ee59fa04eb3b0e6d339e6a5da8863683" datatype="html">
 				<source>Analyse des besoins d&apos;un client</source>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
-					<context context-type="linenumber">82</context>
+					<context context-type="linenumber">110</context>
 				</context-group>
 			</trans-unit>
 			<trans-unit id="ef26e473df609243e3e81030a5e7e21cb5bc132d" datatype="html">
 				<source>Développement de T.A.GEDOFIS</source>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
-					<context context-type="linenumber">83</context>
+					<context context-type="linenumber">111</context>
 				</context-group>
 			</trans-unit>
 			<trans-unit id="5973ca24c8e0058d88a74c3fa6482dc6231198e5" datatype="html">
 				<source>Java SE, Swing, Exportation CSV et Excel</source>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
-					<context context-type="linenumber">85,86</context>
+					<context context-type="linenumber">113,114</context>
 				</context-group>
 			</trans-unit>
 			<trans-unit id="cb64b4e587090c9ab1432d3ec910f408390e939a" datatype="html">
 				<source> Recherche de dossiers (taxes d&apos;aménagement) manquants </source>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
-					<context context-type="linenumber">88,89</context>
+					<context context-type="linenumber">116,117</context>
 				</context-group>
 			</trans-unit>
 			<trans-unit id="f646ba0780556ff19cfb80d1070c33b5eb5851f9" datatype="html">
 				<source>Génération de tableaux croisés</source>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
-					<context context-type="linenumber">90</context>
+					<context context-type="linenumber">118</context>
 				</context-group>
 			</trans-unit>
 			<trans-unit id="f778831465762aa11d56262f2b7b9615f8451206" datatype="html">
 				<source>Février, Avril et Août 2017</source>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
-					<context context-type="linenumber">103</context>
+					<context context-type="linenumber">131</context>
 				</context-group>
 			</trans-unit>
 			<trans-unit id="3d0a8eb4bd684c8ae1a7ba50eb3601c62d3fcf43" datatype="html">
 				<source>Formateur BAFA</source>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
-					<context context-type="linenumber">112</context>
+					<context context-type="linenumber">140</context>
 				</context-group>
 			</trans-unit>
 			<trans-unit id="0dcfd18cf92fd1f307cb9cc29fd8f1b479135964" datatype="html">
 				<source> Plusieurs sessions d&apos;approfondissement </source>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
-					<context context-type="linenumber">114,115</context>
+					<context context-type="linenumber">142,143</context>
 				</context-group>
 			</trans-unit>
 			<trans-unit id="c63a691abd52c630002af17302deb35dee872fed" datatype="html">
 				<source>Une session de base</source>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
-					<context context-type="linenumber">116</context>
+					<context context-type="linenumber">144</context>
 				</context-group>
 			</trans-unit>
 			<trans-unit id="08c57b3d439b038c55db22e50a7e5fb9f754d4f7" datatype="html">
 				<source>Élaboration de séances de formation avec fil rouge</source>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
-					<context context-type="linenumber">118,119</context>
+					<context context-type="linenumber">146,147</context>
 				</context-group>
 			</trans-unit>
 			<trans-unit id="e57fdf4a8ce2555ded11c8d8744afe0834106159" datatype="html">
 				<source>Juillet 2016 et 2017</source>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
-					<context context-type="linenumber">132</context>
+					<context context-type="linenumber">160</context>
 				</context-group>
 			</trans-unit>
 			<trans-unit id="eb0c4c45c16c69104b91e02d4c466d7293b8d6a7" datatype="html">
 				<source>Animateur BAFA</source>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
-					<context context-type="linenumber">141</context>
+					<context context-type="linenumber">169</context>
 				</context-group>
 			</trans-unit>
 			<trans-unit id="a95143ea71987d7f1cc44e799fc445d3cf52643f" datatype="html">
 				<source>Organisation d&apos;activités</source>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
-					<context context-type="linenumber">142</context>
+					<context context-type="linenumber">170</context>
 				</context-group>
 			</trans-unit>
 			<trans-unit id="781f0dc5435432010b233e4d607f1ac4267f4c28" datatype="html">
 				<source>Juin 2016</source>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
-					<context context-type="linenumber">155</context>
+					<context context-type="linenumber">183</context>
 				</context-group>
 			</trans-unit>
 			<trans-unit id="cf30278ead6435431c1abe02b3e9f7c2bfca0260" datatype="html">
 				<source>Découverte de la mise à jour des serveurs</source>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
-					<context context-type="linenumber">166,167</context>
+					<context context-type="linenumber">194,195</context>
 				</context-group>
 			</trans-unit>
 			<trans-unit id="67e935ab774a29d5c04f3030716adc9c43858e8d" datatype="html">
 				<source>Installation de la téléphonie IP au niveau des switchs et bureaux</source>
 				<context-group purpose="location">
 					<context context-type="sourcefile">src/app/experiences/experiences.component.html</context>
-					<context context-type="linenumber">169,170</context>
+					<context context-type="linenumber">197,198</context>
 				</context-group>
 			</trans-unit>
 			<trans-unit id="2a8cb535f381096e7e8c4f4cdb12dc922c095700" datatype="html">
@@ -536,13 +691,6 @@
 					<context context-type="linenumber">121</context>
 				</context-group>
 			</trans-unit>
-			<trans-unit id="aeb63a30658c8bbfb0be4c564ac4bd21f4d08fe5" datatype="html">
-				<source>Java, Swing, MVC, Planification</source>
-				<context-group purpose="location">
-					<context context-type="sourcefile">src/app/projects/projects.component.html</context>
-					<context context-type="linenumber">118,119</context>
-				</context-group>
-			</trans-unit>
 			<trans-unit id="functionalities" datatype="html">
 				<source>Fonctionnalités</source>
 				<context-group purpose="location">
@@ -550,6 +698,54 @@
 						src/app/projects/docto-patients-dialog/docto-patients-dialog.component.html
 					</context>
 					<context context-type="linenumber">22</context>
+				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">
+						src/app/projects/flotte-camions-jeedialog/flotte-camions-jeedialog.component.html
+					</context>
+					<context context-type="linenumber">29</context>
+				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">
+						src/app/projects/flotte-camions-net-dialog/flotte-camions-net-dialog.component.html
+					</context>
+					<context context-type="linenumber">30</context>
+				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">
+						src/app/projects/for-the-berry-dialog/for-the-berry-dialog.component.html
+					</context>
+					<context context-type="linenumber">25</context>
+				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">
+						src/app/projects/gestion-epidialog/gestion-epidialog.component.html
+					</context>
+					<context context-type="linenumber">28</context>
+				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">
+						src/app/projects/pointeuse-dialog/pointeuse-dialog.component.html
+					</context>
+					<context context-type="linenumber">23</context>
+				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">
+						src/app/projects/share-your-fit-dialog/share-your-fit-dialog.component.html
+					</context>
+					<context context-type="linenumber">24</context>
+				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">
+						src/app/projects/student-list-dialog/student-list-dialog.component.html
+					</context>
+					<context context-type="linenumber">22</context>
+				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">
+						src/app/projects/tagedofisdialog/tagedofisdialog.component.html
+					</context>
+					<context context-type="linenumber">23</context>
 				</context-group>
 			</trans-unit>
 			<trans-unit id="5dc5d26de64ffabd566d748fd70e23d13c8bad0a" datatype="html">
@@ -598,6 +794,54 @@
 					</context>
 					<context context-type="linenumber">33</context>
 				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">
+						src/app/projects/flotte-camions-jeedialog/flotte-camions-jeedialog.component.html
+					</context>
+					<context context-type="linenumber">40</context>
+				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">
+						src/app/projects/flotte-camions-net-dialog/flotte-camions-net-dialog.component.html
+					</context>
+					<context context-type="linenumber">41</context>
+				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">
+						src/app/projects/for-the-berry-dialog/for-the-berry-dialog.component.html
+					</context>
+					<context context-type="linenumber">38</context>
+				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">
+						src/app/projects/gestion-epidialog/gestion-epidialog.component.html
+					</context>
+					<context context-type="linenumber">39</context>
+				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">
+						src/app/projects/pointeuse-dialog/pointeuse-dialog.component.html
+					</context>
+					<context context-type="linenumber">32</context>
+				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">
+						src/app/projects/share-your-fit-dialog/share-your-fit-dialog.component.html
+					</context>
+					<context context-type="linenumber">37</context>
+				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">
+						src/app/projects/student-list-dialog/student-list-dialog.component.html
+					</context>
+					<context context-type="linenumber">32</context>
+				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">
+						src/app/projects/tagedofisdialog/tagedofisdialog.component.html
+					</context>
+					<context context-type="linenumber">36</context>
+				</context-group>
 			</trans-unit>
 			<trans-unit id="7f86950e86d0c9f573356492ac32e3800caf482c" datatype="html">
 				<source>Développement C++ et Qt</source>
@@ -643,6 +887,54 @@
 					</context>
 					<context context-type="linenumber">66</context>
 				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">
+						src/app/projects/flotte-camions-jeedialog/flotte-camions-jeedialog.component.html
+					</context>
+					<context context-type="linenumber">75</context>
+				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">
+						src/app/projects/flotte-camions-net-dialog/flotte-camions-net-dialog.component.html
+					</context>
+					<context context-type="linenumber">76</context>
+				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">
+						src/app/projects/for-the-berry-dialog/for-the-berry-dialog.component.html
+					</context>
+					<context context-type="linenumber">75</context>
+				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">
+						src/app/projects/gestion-epidialog/gestion-epidialog.component.html
+					</context>
+					<context context-type="linenumber">80</context>
+				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">
+						src/app/projects/pointeuse-dialog/pointeuse-dialog.component.html
+					</context>
+					<context context-type="linenumber">60</context>
+				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">
+						src/app/projects/share-your-fit-dialog/share-your-fit-dialog.component.html
+					</context>
+					<context context-type="linenumber">70</context>
+				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">
+						src/app/projects/student-list-dialog/student-list-dialog.component.html
+					</context>
+					<context context-type="linenumber">65</context>
+				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">
+						src/app/projects/tagedofisdialog/tagedofisdialog.component.html
+					</context>
+					<context context-type="linenumber">68</context>
+				</context-group>
 			</trans-unit>
 			<trans-unit id="c0c3100608f2fef728694b93eaf182260dded5e7" datatype="html">
 				<source>Gestion d&apos;une flotte de camions</source>
@@ -651,6 +943,12 @@
 						src/app/projects/flotte-camions-jeedialog/flotte-camions-jeedialog.component.html
 					</context>
 					<context context-type="linenumber">31</context>
+				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">
+						src/app/projects/flotte-camions-net-dialog/flotte-camions-net-dialog.component.html
+					</context>
+					<context context-type="linenumber">32</context>
 				</context-group>
 			</trans-unit>
 			<trans-unit id="9d27b649cd22c9ee90cbf336409385b5244f29f1" datatype="html">
@@ -661,6 +959,12 @@
 					</context>
 					<context context-type="linenumber">32</context>
 				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">
+						src/app/projects/flotte-camions-net-dialog/flotte-camions-net-dialog.component.html
+					</context>
+					<context context-type="linenumber">33</context>
+				</context-group>
 			</trans-unit>
 			<trans-unit id="658bd129942f7eb0813fb0e46807c95e6b553f39" datatype="html">
 				<source>CRUD sur les entités</source>
@@ -669,6 +973,12 @@
 						src/app/projects/flotte-camions-jeedialog/flotte-camions-jeedialog.component.html
 					</context>
 					<context context-type="linenumber">33</context>
+				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">
+						src/app/projects/flotte-camions-net-dialog/flotte-camions-net-dialog.component.html
+					</context>
+					<context context-type="linenumber">34</context>
 				</context-group>
 			</trans-unit>
 			<trans-unit id="c98a5f7e2e4653bdabfb4339b02551d277438f08" datatype="html">
@@ -679,6 +989,12 @@
 					</context>
 					<context context-type="linenumber">34</context>
 				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">
+						src/app/projects/flotte-camions-net-dialog/flotte-camions-net-dialog.component.html
+					</context>
+					<context context-type="linenumber">35</context>
+				</context-group>
 			</trans-unit>
 			<trans-unit id="80923ddd6a106ed2a55f441dac8279146be51508" datatype="html">
 				<source>Prise en compte du type de la marchandise</source>
@@ -688,6 +1004,12 @@
 					</context>
 					<context context-type="linenumber">35</context>
 				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">
+						src/app/projects/flotte-camions-net-dialog/flotte-camions-net-dialog.component.html
+					</context>
+					<context context-type="linenumber">36</context>
+				</context-group>
 			</trans-unit>
 			<trans-unit id="77f4f207cfe3b686f0699d263cc80a29feeba96f" datatype="html">
 				<source>Livraisons créées par un opérateur</source>
@@ -696,6 +1018,12 @@
 						src/app/projects/flotte-camions-jeedialog/flotte-camions-jeedialog.component.html
 					</context>
 					<context context-type="linenumber">36</context>
+				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">
+						src/app/projects/flotte-camions-net-dialog/flotte-camions-net-dialog.component.html
+					</context>
+					<context context-type="linenumber">37</context>
 				</context-group>
 			</trans-unit>
 			<trans-unit id="99b80c0d78162e01703916c40c7deea45154ccad" datatype="html">
@@ -715,6 +1043,12 @@
 					</context>
 					<context context-type="linenumber">44</context>
 				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">
+						src/app/projects/flotte-camions-net-dialog/flotte-camions-net-dialog.component.html
+					</context>
+					<context context-type="linenumber">44</context>
+				</context-group>
 			</trans-unit>
 			<trans-unit id="ead8c6c102cef891d39df9583f7c93a874f85fcc" datatype="html">
 				<source>Spécifications fonctionnelles et techniques</source>
@@ -723,6 +1057,18 @@
 						src/app/projects/flotte-camions-jeedialog/flotte-camions-jeedialog.component.html
 					</context>
 					<context context-type="linenumber">46</context>
+				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">
+						src/app/projects/flotte-camions-net-dialog/flotte-camions-net-dialog.component.html
+					</context>
+					<context context-type="linenumber">47</context>
+				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">
+						src/app/projects/gestion-epidialog/gestion-epidialog.component.html
+					</context>
+					<context context-type="linenumber">50</context>
 				</context-group>
 			</trans-unit>
 			<trans-unit id="8d194603baf06d13071dd9ffb0024c77a516040e" datatype="html">
@@ -741,6 +1087,12 @@
 						src/app/projects/flotte-camions-jeedialog/flotte-camions-jeedialog.component.html
 					</context>
 					<context context-type="linenumber">62</context>
+				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">
+						src/app/projects/flotte-camions-net-dialog/flotte-camions-net-dialog.component.html
+					</context>
+					<context context-type="linenumber">63</context>
 				</context-group>
 			</trans-unit>
 			<trans-unit id="eec5b69bd6e488cbb9d742b09cf99232b0debbec" datatype="html">
@@ -1015,6 +1367,18 @@
 					</context>
 					<context context-type="linenumber">35</context>
 				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">
+						src/app/projects/student-list-dialog/student-list-dialog.component.html
+					</context>
+					<context context-type="linenumber">35</context>
+				</context-group>
+				<context-group purpose="location">
+					<context context-type="sourcefile">
+						src/app/projects/tagedofisdialog/tagedofisdialog.component.html
+					</context>
+					<context context-type="linenumber">39</context>
+				</context-group>
 			</trans-unit>
 			<trans-unit id="115803eb77b95766c4ee76fd846ba2c89bbf5677" datatype="html">
 				<source>Janvier à Juin 2018</source>
@@ -1032,6 +1396,13 @@
 						src/app/projects/pointeuse-dialog/pointeuse-dialog.component.html
 					</context>
 					<context context-type="linenumber">51</context>
+				</context-group>
+			</trans-unit>
+			<trans-unit id="aeb63a30658c8bbfb0be4c564ac4bd21f4d08fe5" datatype="html">
+				<source>Java, Swing, MVC, Planification</source>
+				<context-group purpose="location">
+					<context context-type="sourcefile">src/app/projects/projects.component.html</context>
+					<context context-type="linenumber">118,119</context>
 				</context-group>
 			</trans-unit>
 			<trans-unit id="de7a098359f3ea0e5286f66def626cd3890acf6d" datatype="html">
